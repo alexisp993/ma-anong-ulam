@@ -1,0 +1,42 @@
+{
+  "name": "ma-anong-ulam-recipe-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recipe import pipeline for Ma, Anong Ulam? — normalizes, costs, validates, and seeds the MVP recipe dataset.",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "normalize": "tsx scripts/normalize-recipes.ts",
+    "costs": "tsx scripts/generate-costs.ts",
+    "validate": "tsx scripts/validate-recipes.ts",
+    "seed": "tsx scripts/seed-recipes.ts",
+    "pipeline": "npm run normalize && npm run costs && npm run validate && npm run seed"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "bcryptjs": "^3.0.3",
+    "next": "^15.5.21",
+    "next-auth": "^5.0.0-beta.32",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.21",
+    "postcss": "^8.5.23",
+    "prisma": "^6.1.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "zod": "^3.24.1"
+  }
+}

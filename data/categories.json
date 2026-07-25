@@ -1,0 +1,34 @@
+[
+  {
+    "id": "category_001",
+    "name": "Beef"
+  },
+  {
+    "id": "category_002",
+    "name": "Chicken"
+  },
+  {
+    "id": "category_003",
+    "name": "Egg"
+  },
+  {
+    "id": "category_004",
+    "name": "Noodles"
+  },
+  {
+    "id": "category_005",
+    "name": "Others"
+  },
+  {
+    "id": "category_006",
+    "name": "Pork"
+  },
+  {
+    "id": "category_007",
+    "name": "Seafood"
+  },
+  {
+    "id": "category_008",
+    "name": "Vegetables"
+  }
+]

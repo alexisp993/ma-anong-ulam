@@ -1,0 +1,2395 @@
+[
+  {
+    "id": "recipe_001",
+    "name": "Chicken Adobo",
+    "description": "Classic Filipino chicken braised in soy sauce, vinegar, garlic, and bay leaves.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 203.33,
+    "prepTime": 10,
+    "cookTime": 50,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-adobo.jpg",
+    "instructions": [
+      "Crush the garlic using a mortar and pestle.",
+      "Combine chicken, soy sauce, and crushed garlic in a bowl; mix well and marinate for at least 1 hour.",
+      "Separate the chicken from the garlic and marinade; set aside.",
+      "Heat a pot and add 3 tablespoons of cooking oil.",
+      "Pan-fry the marinated chicken for 2 minutes per side, then remove and set aside.",
+      "Add the remaining oil to the pot and saute the reserved garlic until it starts to brown.",
+      "Return the chicken to the pot.",
+      "Add the remaining marinade, peppercorns, and bay leaves.",
+      "Pour in the water and bring to a boil.",
+      "Cover and simmer for 30 minutes until the chicken is tender.",
+      "Add the vinegar, let it boil without stirring, then simmer for 15 minutes.",
+      "Add sugar and salt to taste; stir and remove from heat.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 4.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 10,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_002",
+    "name": "Chicken Tinola",
+    "description": "Warm ginger-garlic chicken soup with green papaya and malunggay leaves.",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "estimatedCost": 344.1,
+    "prepTime": 10,
+    "cookTime": 60,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-tinola.jpg",
+    "instructions": [
+      "Heat cooking oil in a pot. Saute garlic, onion, and ginger until the onion softens.",
+      "Add chicken and saute for 2 minutes until light brown.",
+      "Pour in the fish sauce and stir.",
+      "Add rice wash and bring to a boil. Simmer for 10 minutes.",
+      "Add water as needed and return to a boil.",
+      "Add green papaya wedges and simmer for 15 to 20 minutes until tender.",
+      "Season with ground black pepper.",
+      "Turn off the heat and add the hot pepper leaves and malunggay leaves. Cover for 2 minutes.",
+      "Transfer to a serving bowl and serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1.36,
+        "unit": "kg"
+      },
+      {
+        "name": "Green Papaya",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Malunggay Leaves",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Hot Pepper Leaves",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Rice Wash",
+        "quantity": 0.95,
+        "unit": "L"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.95,
+        "unit": "L"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_003",
+    "name": "Pork Menudo",
+    "description": "Hearty pork stew with liver, potatoes, carrots, and hotdogs in tomato sauce.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 385.25,
+    "prepTime": 10,
+    "cookTime": 60,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pork-menudo.jpg",
+    "instructions": [
+      "Combine pork, soy sauce, and lemon; marinate for at least 1 hour.",
+      "Heat oil in a pan and saute garlic and onion until softened.",
+      "Add marinated pork and cook for 5 to 7 minutes until lightly browned.",
+      "Pour in tomato sauce and water; add bay leaves.",
+      "Bring to a boil, then lower heat and simmer for 30 minutes to 1 hour, adding water as needed.",
+      "Add liver and hotdogs; cook for 5 minutes.",
+      "Add potatoes, carrots, sugar, salt, and pepper; stir and cook for 8 to 12 minutes.",
+      "Transfer to a serving plate and serve with warm rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Pig Liver",
+        "quantity": 0.11,
+        "unit": "kg"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 0.5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Hotdogs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_004",
+    "name": "Beef Caldereta",
+    "description": "Rich beef stew simmered in tomato sauce with potatoes, carrots, and bell peppers.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 989.75,
+    "prepTime": 10,
+    "cookTime": 120,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/beef-caldereta.jpg",
+    "instructions": [
+      "Heat oil in a pot and fry the carrots for 2 minutes, then remove and set aside.",
+      "Fry the potatoes until the outer part turns light brown, then remove and set aside.",
+      "Using the remaining oil, saute garlic, onion, and thyme until the onion caramelizes.",
+      "Add beef short ribs and cook until the outer part turns light brown.",
+      "Pour in tomato sauce and red wine, then add soy sauce and water.",
+      "Cover the pot and cook on low heat until the beef is completely tender.",
+      "Add liver spread and bell peppers; cook for 3 minutes.",
+      "Add carrots and potatoes; cook for 3 minutes.",
+      "Add olives and season with salt and pepper to taste.",
+      "Transfer to a serving plate and serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Short Ribs",
+        "quantity": 1.81,
+        "unit": "kg"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Red Wine",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Manzanilla Olives",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Thyme",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 12,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Liver Spread",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_005",
+    "name": "Pinakbet Tagalog",
+    "description": "Mixed native vegetables sauteed with pork and shrimp paste, a Filipino everyday classic.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 311.7,
+    "prepTime": 5,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pinakbet-tagalog.jpg",
+    "instructions": [
+      "Heat cooking oil in a pot; saute onion and garlic until softened, then add ginger.",
+      "Add half the lechon kawali and saute for 1 minute.",
+      "Pour in water and bring to a boil.",
+      "Cover and simmer for 20 minutes over medium heat.",
+      "Add tomato and bagoong alamang; stir, cover, and cook for 3 minutes.",
+      "Add kalabasa and kamote; cook for 7 minutes.",
+      "Add sitaw, okra, ampalaya, and eggplant; stir, cover, and cook for 5 minutes.",
+      "Season with black pepper and add the remaining lechon kawali; cook for 1 minute.",
+      "Transfer to a serving plate and serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Lechon Kawali",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Sitaw",
+        "quantity": 12,
+        "unit": "pcs"
+      },
+      {
+        "name": "Kalabasa",
+        "quantity": 0.5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Okra",
+        "quantity": 12,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggplant",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ampalaya",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Kamote",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 2.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_006",
+    "name": "Bicol Express",
+    "description": "Spicy pork belly simmered in coconut milk with shrimp paste and chili peppers.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 498.8,
+    "prepTime": 5,
+    "cookTime": 55,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/bicol-express.jpg",
+    "instructions": [
+      "Combine pork, ginger, garlic, onion, Thai chili pepper, Serrano pepper, shrimp paste, and coconut milk in a pan. Mix well, cover, and bring to a boil.",
+      "Reduce heat to low, cover, and simmer for 50 minutes, stirring occasionally and adding water as needed.",
+      "Add the remaining coconut cream and additional shrimp paste if desired.",
+      "Continue cooking on low heat until the sauce thickens.",
+      "Transfer to a serving plate and serve with warm rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Coconut Cream",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Serrano Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_007",
+    "name": "Kare-Kare",
+    "description": "Oxtail and vegetables simmered in a rich peanut sauce, served with shrimp paste.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 695.9,
+    "prepTime": 10,
+    "cookTime": 150,
+    "servings": 6,
+    "difficulty": "Hard",
+    "imageUrl": "/images/recipes/kare-kare.jpg",
+    "instructions": [
+      "Boil water in a large pot; add oxtail and onions, simmering for 2.5 to 3 hours until tender.",
+      "Add ground peanuts, peanut butter, and the annatto-soaked water; simmer for 5 to 7 minutes.",
+      "Stir in the toasted ground rice and simmer for 5 additional minutes.",
+      "In a separate pan, saute garlic, then cook the banana flower, eggplant, and string beans for 5 minutes.",
+      "Transfer the sauteed vegetables to the main pot.",
+      "Add the pechay and season with salt and pepper.",
+      "Serve hot with steamed rice and shrimp paste on the side."
+    ],
+    "ingredients": [
+      {
+        "name": "Oxtail",
+        "quantity": 1.36,
+        "unit": "kg"
+      },
+      {
+        "name": "Banana Flower Bud",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Pechay",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Eggplant",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Peanuts",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Peanut Butter",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "L"
+      },
+      {
+        "name": "Annatto Seeds",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Toasted Ground Rice",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_008",
+    "name": "Sisig",
+    "description": "Sizzling chopped pork and chicken liver seasoned with onions and mayonnaise.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 368.13,
+    "prepTime": 10,
+    "cookTime": 90,
+    "servings": 4,
+    "difficulty": "Hard",
+    "imageUrl": "/images/recipes/sisig.jpg",
+    "instructions": [
+      "Boil water in a pot; add pork belly and pig face. Cover and boil for 1 hour on medium heat. Drain and cool.",
+      "Grill the boiled meats for 5 minutes per side, then chop into small pieces.",
+      "Heat oil in a pan; saute onion for 1 minute.",
+      "Add chicken liver; saute until cooked through, mashing while cooking.",
+      "Add the minced meat and chicharon; stir until evenly distributed.",
+      "Add chili flakes, onion powder, and black pepper.",
+      "Pour in the liquid seasoning; stir.",
+      "Add mayonnaise; stir and cook for 3 minutes.",
+      "Heat a metal plate with butter; transfer the sisig and cook until sizzling.",
+      "Serve with calamansi or lime and white rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 0.68,
+        "unit": "kg"
+      },
+      {
+        "name": "Pig Face",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Chicken Liver",
+        "quantity": 113.4,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicharon",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Liquid Seasoning",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion Powder",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Chili Flakes",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Butter",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1.89,
+        "unit": "L"
+      }
+    ]
+  },
+  {
+    "id": "recipe_009",
+    "name": "Nilagang Baka",
+    "description": "Comforting boiled beef soup with potatoes, saba bananas, and leafy greens.",
+    "category": "Beef",
+    "mealStyle": "Soup",
+    "estimatedCost": 665.3,
+    "prepTime": 10,
+    "cookTime": 72,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/nilagang-baka.jpg",
+    "instructions": [
+      "Combine water and beef broth in a large pot; bring to a boil.",
+      "Add onion, star anise, and celery; reduce heat to medium, cover, and boil for 20 minutes.",
+      "Remove the aromatics using a strainer or skimmer; discard.",
+      "Add beef and simmer for 60 to 90 minutes until tender, adding water as needed.",
+      "Add saba bananas and potatoes; cook for 10 minutes.",
+      "Add bok choy and cabbage; season with salt and pepper.",
+      "Cover the pot with heat off; let the vegetables cook for 2 to 5 minutes.",
+      "Transfer to a serving bowl and serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Beef Broth",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Star Anise",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Celery",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Saba Banana",
+        "quantity": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bok Choy",
+        "quantity": 2,
+        "unit": "bundle"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_010",
+    "name": "Pancit Canton",
+    "description": "Stir-fried flour noodles with pork, shrimp, and vegetables, a Filipino party staple.",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "estimatedCost": 250.25,
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pancit-canton.jpg",
+    "instructions": [
+      "Blanch the snap peas, carrots, and cabbage for 35 to 50 seconds, then transfer to an ice bath and drain.",
+      "Heat oil in a wok over medium-high heat.",
+      "Saute onion and garlic until fragrant and softened.",
+      "Add pork and sausage; cook for 2 minutes until lightly browned.",
+      "Pour in soy sauce and oyster sauce; stir to coat.",
+      "Add chicken broth and water; season with salt and pepper.",
+      "Bring to a boil, reduce heat, cover, and simmer for 5 to 10 minutes until the pork is tender.",
+      "Add shrimp and parsley; cook for 3 minutes until the shrimp turns pink.",
+      "Add the flour noodles; gently toss until they absorb the liquid.",
+      "Stir in the blanched vegetables; cook for 1 to 2 minutes.",
+      "Transfer to a serving plate and serve immediately."
+    ],
+    "ingredients": [
+      {
+        "name": "Pancit Canton Noodles",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Pork",
+        "quantity": 113.4,
+        "unit": "g"
+      },
+      {
+        "name": "Chinese Sausage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 8,
+        "unit": "pcs"
+      },
+      {
+        "name": "Snap Peas",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Parsley",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_011",
+    "name": "Filipino Style Spaghetti",
+    "description": "Sweet-style spaghetti with ground pork, hotdogs, and cheese, a favorite for kids.",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "estimatedCost": 441.58,
+    "prepTime": 10,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/filipino-style-spaghetti.jpg",
+    "instructions": [
+      "Cook the spaghetti noodles according to package directions; drain and set aside.",
+      "Heat oil in a pan; saute minced onion and garlic until the onion turns translucent.",
+      "Add ground pork and brown until a light brown color develops.",
+      "Stir in the minced luncheon meat and sliced hotdogs; cook for 2 to 3 minutes.",
+      "Pour in the spaghetti sauce and beef broth; stir well and bring to a boil.",
+      "Reduce heat, cover, and simmer for 30 minutes to meld the flavors.",
+      "Season with salt and pepper to taste.",
+      "Pour the sauce over the cooked noodles and top with shredded cheddar cheese.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Spaghetti Noodles",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Luncheon Meat",
+        "quantity": 170.1,
+        "unit": "g"
+      },
+      {
+        "name": "Hotdogs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Spaghetti Sauce",
+        "quantity": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "Cheddar Cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Beef Broth",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_012",
+    "name": "Ginataang Gulay",
+    "description": "Squash and string beans simmered in coconut milk with pork and shrimp.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 293.98,
+    "prepTime": 5,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-gulay.jpg",
+    "instructions": [
+      "Boil water in a saucepan, add pork, cover, and cook on low to medium heat for 20 minutes.",
+      "Remove the pork from the saucepan and set aside; reserve the cooking water.",
+      "Heat oil in a pan and saute onion and garlic until the onion softens.",
+      "Add the boiled pork and saute for 1 minute.",
+      "Pour in the coconut milk and reserved water, then bring to a boil.",
+      "Add kalabasa, cover, and cook for 3 minutes.",
+      "Add shrimp and sitaw, cover, and continue cooking for 5 to 7 minutes.",
+      "Season with salt and transfer to a serving plate."
+    ],
+    "ingredients": [
+      {
+        "name": "Kalabasa",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Sitaw",
+        "quantity": 15,
+        "unit": "pcs"
+      },
+      {
+        "name": "Pork Belly",
+        "quantity": 170.1,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 12,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Water",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_013",
+    "name": "Chicken Afritada",
+    "description": "Chicken braised in tomato sauce with potatoes, carrots, and bell pepper, a comforting everyday Filipino stew.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 263.1,
+    "prepTime": 10,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-afritada.jpg",
+    "instructions": [
+      "Marinate the chicken in soy sauce for 15 minutes.",
+      "Heat cooking oil in a pot and pan-fry the chicken pieces for 2 minutes per side, then set aside.",
+      "Using the same oil, saute garlic and onion until fragrant.",
+      "Return the chicken to the pot and pour in the remaining marinade and tomato sauce.",
+      "Add water and bay leaves; bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender.",
+      "Add potatoes and carrots; cook for 10 minutes.",
+      "Add bell peppers; season with salt and pepper and cook for 5 more minutes.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_014",
+    "name": "Sinigang na Manok",
+    "description": "Chicken simmered in a sour tamarind broth with vegetables, a comforting everyday Filipino soup.",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "estimatedCost": 436.95,
+    "prepTime": 10,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/sinigang-na-manok.jpg",
+    "instructions": [
+      "Combine chicken and water in a pot; bring to a boil, skimming off any scum.",
+      "Add onion and tomatoes; simmer for 10 minutes until the chicken is nearly tender.",
+      "Stir in the sinigang mix and season with fish sauce.",
+      "Add the daikon radish; cook for 8 minutes.",
+      "Add string beans and long green chili; cook for 5 minutes.",
+      "Add the kangkong last and simmer for 2 minutes until just wilted.",
+      "Season with salt to taste.",
+      "Transfer to a serving bowl and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 1.89,
+        "unit": "L"
+      },
+      {
+        "name": "Tamarind Soup Mix",
+        "quantity": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Daikon Radish",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Long Green Chili",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_015",
+    "name": "Filipino Fried Chicken",
+    "description": "Crispy fried chicken marinated in calamansi and soy sauce, a Filipino household favorite.",
+    "category": "Chicken",
+    "mealStyle": "Dry",
+    "estimatedCost": 270.45,
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/filipino-fried-chicken.jpg",
+    "instructions": [
+      "Combine chicken, soy sauce, calamansi juice, and garlic in a bowl; marinate for at least 1 hour.",
+      "Drain the chicken, reserving the marinade.",
+      "Season the flour with salt and pepper.",
+      "Dredge each piece of marinated chicken in the seasoned flour, shaking off the excess.",
+      "Heat cooking oil in a deep pan over medium heat.",
+      "Fry the chicken in batches for 10 to 12 minutes per side until golden brown and cooked through.",
+      "Drain on paper towels.",
+      "Serve hot with rice and spiced vinegar."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Flour",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_016",
+    "name": "Sinigang na Baboy",
+    "description": "Pork ribs simmered in a sour tamarind broth with mixed vegetables.",
+    "category": "Pork",
+    "mealStyle": "Soup",
+    "estimatedCost": 355.95,
+    "prepTime": 10,
+    "cookTime": 60,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/sinigang-na-baboy.jpg",
+    "instructions": [
+      "Combine pork and water in a pot; bring to a boil, skimming off any scum.",
+      "Add onion and tomatoes; cover and simmer for 40 minutes until the pork is tender.",
+      "Stir in the sinigang mix and season with fish sauce.",
+      "Add the daikon radish and eggplant; cook for 8 minutes.",
+      "Add the okra; cook for 5 minutes.",
+      "Add the kangkong last and simmer for 2 minutes until just wilted.",
+      "Season with salt to taste.",
+      "Transfer to a serving bowl and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 1.89,
+        "unit": "L"
+      },
+      {
+        "name": "Tamarind Soup Mix",
+        "quantity": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Daikon Radish",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggplant",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Okra",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_017",
+    "name": "Filipino Pork BBQ Skewers",
+    "description": "Sweet and savory grilled pork skewers marinated in soy sauce, banana ketchup, and calamansi.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 290,
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/filipino-pork-bbq.jpg",
+    "instructions": [
+      "Combine pork, soy sauce, banana ketchup, brown sugar, calamansi juice, garlic, and pepper in a bowl; mix well.",
+      "Cover and marinate in the refrigerator for at least 3 hours, or overnight for best results.",
+      "Thread the marinated pork onto bamboo skewers.",
+      "Preheat a grill over medium heat.",
+      "Grill the skewers for 4 to 5 minutes per side, basting with the remaining marinade, until cooked through and lightly charred.",
+      "Serve hot with steamed rice and spiced vinegar."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Banana Ketchup",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_018",
+    "name": "Lechon Kawali",
+    "description": "Deep-fried pork belly boiled until tender then fried until the skin turns golden and crackling.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 401.95,
+    "prepTime": 10,
+    "cookTime": 75,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/lechon-kawali.jpg",
+    "instructions": [
+      "Combine pork belly, bay leaves, peppercorns, water, and salt in a pot.",
+      "Bring to a boil, then cover and simmer for 45 minutes until the pork is fork-tender.",
+      "Remove the pork from the pot and let it air dry for at least 20 minutes.",
+      "Heat cooking oil in a deep pan over medium-high heat.",
+      "Carefully lower the pork into the hot oil and fry for 8 to 10 minutes per side until golden brown and crisp.",
+      "Drain on a wire rack and let rest for 5 minutes.",
+      "Chop into serving pieces and serve with lechon sauce or spiced vinegar."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1.89,
+        "unit": "L"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_019",
+    "name": "Bistek Tagalog",
+    "description": "Thin beef slices marinated in calamansi and soy sauce, pan-seared and topped with sweet onion rings.",
+    "category": "Beef",
+    "mealStyle": "Dry",
+    "estimatedCost": 225.6,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/bistek-tagalog.jpg",
+    "instructions": [
+      "Combine beef, soy sauce, and calamansi juice in a bowl; marinate for at least 30 minutes.",
+      "Drain the beef, reserving the marinade.",
+      "Heat 1 tablespoon of cooking oil in a pan; saute the onion rings for 1 minute until slightly softened, then set aside.",
+      "Add the remaining oil to the pan and saute garlic until light brown.",
+      "Add the marinated beef and cook for 2 minutes per side.",
+      "Pour in the reserved marinade and water; simmer for 5 minutes until the beef is tender.",
+      "Season with pepper and top with the sauteed onion rings.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_020",
+    "name": "Laing",
+    "description": "Dried taro leaves slow-cooked in coconut milk with pork and shrimp paste.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 311.95,
+    "prepTime": 10,
+    "cookTime": 45,
+    "servings": 4,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/laing.jpg",
+    "instructions": [
+      "Combine coconut milk, pork belly, shrimp paste, ginger, onion, and garlic in a pot; bring to a boil.",
+      "Cover and simmer for 15 minutes, stirring occasionally.",
+      "Add the dried taro leaves on top without stirring; let them soak up the coconut milk for 20 minutes.",
+      "Once the leaves have softened, gently stir to combine.",
+      "Add the coconut cream and thai chili pepper; continue cooking for 10 minutes until the sauce thickens.",
+      "Season with salt to taste.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Coconut Cream",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Pork Belly",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Taro Leaves",
+        "quantity": 2,
+        "unit": "bundle"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_021",
+    "name": "Chopsuey",
+    "description": "Stir-fried mixed vegetables with chicken and shrimp in a light savory sauce.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 336.75,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chopsuey.jpg",
+    "instructions": [
+      "Heat cooking oil in a wok; saute garlic and onion until fragrant.",
+      "Add chicken and cook for 3 minutes until lightly browned.",
+      "Add shrimp and cook for 2 minutes until pink.",
+      "Pour in chicken broth and oyster sauce; bring to a simmer.",
+      "Add carrot and cauliflower; cook for 3 minutes.",
+      "Add bell peppers, snap peas, and cabbage; cook for 3 minutes until vegetables are crisp-tender.",
+      "Season with pepper.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cauliflower",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Snap Peas",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_022",
+    "name": "Ginisang Munggo",
+    "description": "Mung beans simmered until soft with pork, kalabasa, and malunggay leaves.",
+    "category": "Vegetables",
+    "mealStyle": "Soup",
+    "estimatedCost": 143.85,
+    "prepTime": 10,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-munggo.jpg",
+    "instructions": [
+      "Boil the mung beans in water for 20 minutes until soft; set aside.",
+      "Heat cooking oil in a pot; saute garlic, onion, and tomatoes until softened.",
+      "Add pork and cook for 5 minutes until lightly browned.",
+      "Pour in the boiled mung beans with its cooking liquid; bring to a boil.",
+      "Add kalabasa and simmer for 8 minutes until tender.",
+      "Season with fish sauce and pepper.",
+      "Stir in the malunggay leaves and cook for 1 minute.",
+      "Transfer to a serving bowl and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Mung Beans",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Pork",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Malunggay Leaves",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_023",
+    "name": "Ginataang Hipon",
+    "description": "Shrimp simmered in coconut milk with ginger, garlic, and chili peppers.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 332.08,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-hipon.jpg",
+    "instructions": [
+      "Heat a pan over medium heat; saute garlic, ginger, and onion until fragrant.",
+      "Pour in the coconut milk; bring to a gentle simmer.",
+      "Cook for 10 minutes, stirring occasionally, until the coconut milk reduces slightly.",
+      "Add the shrimp and long green chili; cook for 3 to 4 minutes until the shrimp turns pink.",
+      "Season with fish sauce and pepper.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Long Green Chili",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_024",
+    "name": "Sinigang na Hipon",
+    "description": "Shrimp in a sour tamarind broth with radish, string beans, and kangkong.",
+    "category": "Seafood",
+    "mealStyle": "Soup",
+    "estimatedCost": 500.05,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/sinigang-na-hipon.jpg",
+    "instructions": [
+      "Combine water, onion, and tomatoes in a pot; bring to a boil.",
+      "Add the daikon radish; cook for 8 minutes.",
+      "Stir in the sinigang mix.",
+      "Add the string beans; cook for 5 minutes.",
+      "Add the shrimp; cook for 3 minutes until pink.",
+      "Add the kangkong last and simmer for 2 minutes until just wilted.",
+      "Season with salt to taste.",
+      "Transfer to a serving bowl and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 1.89,
+        "unit": "L"
+      },
+      {
+        "name": "Tamarind Soup Mix",
+        "quantity": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "Daikon Radish",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_025",
+    "name": "Inihaw na Bangus",
+    "description": "Whole milkfish stuffed with tomatoes and onions, grilled until smoky and tender.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 299.7,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/inihaw-na-bangus.jpg",
+    "instructions": [
+      "Combine tomatoes, onion, and ginger in a bowl; season with salt and pepper.",
+      "Stuff the mixture into the cavity of each cleaned milkfish.",
+      "Season the outside of the fish with salt.",
+      "Preheat a grill over medium heat.",
+      "Grill the fish for 8 to 10 minutes per side until the skin is lightly charred and the flesh is cooked through.",
+      "Combine calamansi juice and soy sauce in a small bowl for dipping.",
+      "Serve hot with the dipping sauce and warm rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Milkfish",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_026",
+    "name": "Tortang Talong",
+    "description": "Grilled eggplant dipped in beaten egg and pan-fried until golden.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 77.23,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tortang-talong.jpg",
+    "instructions": [
+      "Grill the eggplants directly over an open flame, turning occasionally, until the skin is charred and the flesh is soft.",
+      "Let the eggplants cool, then peel off the charred skin, keeping the stems intact.",
+      "Flatten each eggplant gently with a fork.",
+      "Beat the eggs in a bowl; season with salt and pepper.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Dip each flattened eggplant into the beaten egg, coating well.",
+      "Fry for 2 to 3 minutes per side until golden brown.",
+      "Serve hot with rice and ketchup or soy sauce with calamansi."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggplant",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_027",
+    "name": "Tortang Giniling",
+    "description": "Ground pork sauteed with vegetables, folded into a hearty egg omelet.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 133.03,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tortang-giniling.jpg",
+    "instructions": [
+      "Heat cooking oil in a pan; saute garlic, onion, and tomato until softened.",
+      "Add ground pork and cook for 5 minutes until browned.",
+      "Stir in carrot; cook for 3 minutes until slightly tender.",
+      "Season with salt and pepper; remove from heat and let cool slightly.",
+      "Beat the eggs in a bowl and mix in the cooked ground pork mixture.",
+      "Heat a lightly oiled pan over medium heat.",
+      "Pour in the egg mixture and cook for 3 to 4 minutes per side until set and golden.",
+      "Slice and serve hot with rice and banana ketchup."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Pork",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 2,
+        "unit": "clove"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_028",
+    "name": "Pancit Bihon",
+    "description": "Rice noodles stir-fried with pork, vegetables, and soy sauce, a Filipino party staple.",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "estimatedCost": 573.15,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pancit-bihon.jpg",
+    "instructions": [
+      "Soak the rice noodles in water for 10 minutes until pliable; drain well.",
+      "Heat cooking oil in a wok; saute garlic and onion until fragrant.",
+      "Add pork and cook for 3 minutes until lightly browned.",
+      "Pour in chicken broth and soy sauce; bring to a boil.",
+      "Add carrot, cabbage, and string beans; simmer for 5 minutes.",
+      "Add shrimp; cook for 2 minutes until pink.",
+      "Add the soaked rice noodles; toss gently until they absorb the liquid.",
+      "Season with salt and cook for 2 more minutes.",
+      "Transfer to a serving plate and serve hot with calamansi."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice Noodles",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Pork",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_029",
+    "name": "Pancit Palabok",
+    "description": "Rice noodles topped with a rich shrimp and annatto sauce, chicharon, and boiled egg.",
+    "category": "Noodles",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 303.55,
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pancit-palabok.jpg",
+    "instructions": [
+      "Soak the rice noodles in water until softened; drain and briefly blanch in boiling water, then set aside.",
+      "Heat cooking oil in a pan; saute garlic and onion until fragrant.",
+      "Pour in chicken broth and annatto seeds; simmer for 5 minutes, then strain out the seeds.",
+      "Add shrimp and cook for 2 minutes until pink; remove and set aside for topping.",
+      "Dissolve cornstarch in a little water and stir into the sauce; cook until thickened.",
+      "Season the sauce with fish sauce.",
+      "Arrange the noodles on a serving platter and pour the sauce over them.",
+      "Top with the cooked shrimp, crumbled chicharon, and sliced hard-boiled eggs.",
+      "Serve immediately with calamansi."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice Noodles",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "Annatto Seeds",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicharon",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_030",
+    "name": "Lumpiang Shanghai",
+    "description": "Crispy fried spring rolls filled with seasoned ground pork and vegetables.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 284.5,
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/lumpiang-shanghai.jpg",
+    "instructions": [
+      "Combine ground pork, carrot, onion, garlic, and egg in a bowl.",
+      "Season with salt and pepper; mix well until evenly combined.",
+      "Lay a spring roll wrapper on a flat surface and spoon a small amount of filling near one edge.",
+      "Roll tightly, folding in the sides, and seal the edge with a bit of water.",
+      "Repeat with the remaining wrappers and filling.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Fry the rolls in batches for 3 to 4 minutes, turning occasionally, until golden brown and crisp.",
+      "Drain on paper towels and slice diagonally.",
+      "Serve hot with sweet and sour sauce or banana ketchup."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Pork",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 2,
+        "unit": "clove"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Spring Roll Wrapper",
+        "quantity": 30,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      }
+    ]
+  }
+]

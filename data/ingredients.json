@@ -1,0 +1,578 @@
+[
+  {
+    "id": "ingredient_001",
+    "name": "Chicken",
+    "category": "Poultry",
+    "estimatedCost": 180
+  },
+  {
+    "id": "ingredient_002",
+    "name": "Soy Sauce",
+    "category": "Condiment",
+    "estimatedCost": 90
+  },
+  {
+    "id": "ingredient_003",
+    "name": "Vinegar",
+    "category": "Condiment",
+    "estimatedCost": 50
+  },
+  {
+    "id": "ingredient_004",
+    "name": "Garlic",
+    "category": "Vegetable",
+    "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_005",
+    "name": "Bay Leaves",
+    "category": "Spice",
+    "estimatedCost": 1
+  },
+  {
+    "id": "ingredient_006",
+    "name": "Peppercorns",
+    "category": "Spice",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_007",
+    "name": "Water",
+    "category": "Pantry",
+    "estimatedCost": 0
+  },
+  {
+    "id": "ingredient_008",
+    "name": "Cooking Oil",
+    "category": "Pantry",
+    "estimatedCost": 110
+  },
+  {
+    "id": "ingredient_009",
+    "name": "Sugar",
+    "category": "Pantry",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_010",
+    "name": "Salt",
+    "category": "Condiment",
+    "estimatedCost": 10
+  },
+  {
+    "id": "ingredient_011",
+    "name": "Green Papaya",
+    "category": "Vegetable",
+    "estimatedCost": 25
+  },
+  {
+    "id": "ingredient_012",
+    "name": "Malunggay Leaves",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_013",
+    "name": "Hot Pepper Leaves",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_014",
+    "name": "Onion",
+    "category": "Vegetable",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_015",
+    "name": "Ginger",
+    "category": "Vegetable",
+    "estimatedCost": 3
+  },
+  {
+    "id": "ingredient_016",
+    "name": "Rice Wash",
+    "category": "Pantry",
+    "estimatedCost": 0
+  },
+  {
+    "id": "ingredient_017",
+    "name": "Fish Sauce",
+    "category": "Condiment",
+    "estimatedCost": 170
+  },
+  {
+    "id": "ingredient_018",
+    "name": "Ground Black Pepper",
+    "category": "Spice",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_019",
+    "name": "Pork",
+    "category": "Pork",
+    "estimatedCost": 280
+  },
+  {
+    "id": "ingredient_020",
+    "name": "Pig Liver",
+    "category": "Pork",
+    "estimatedCost": 220
+  },
+  {
+    "id": "ingredient_021",
+    "name": "Potatoes",
+    "category": "Vegetable",
+    "estimatedCost": 12
+  },
+  {
+    "id": "ingredient_022",
+    "name": "Carrot",
+    "category": "Vegetable",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_023",
+    "name": "Lemon",
+    "category": "Fruit",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_024",
+    "name": "Tomato Sauce",
+    "category": "Canned Good",
+    "estimatedCost": 25
+  },
+  {
+    "id": "ingredient_025",
+    "name": "Hotdogs",
+    "category": "Processed Meat",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_026",
+    "name": "Beef Short Ribs",
+    "category": "Beef",
+    "estimatedCost": 380
+  },
+  {
+    "id": "ingredient_027",
+    "name": "Red Wine",
+    "category": "Pantry",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_028",
+    "name": "Manzanilla Olives",
+    "category": "Canned Good",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_029",
+    "name": "Bell Pepper",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_030",
+    "name": "Thyme",
+    "category": "Spice",
+    "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_031",
+    "name": "Liver Spread",
+    "category": "Canned Good",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_032",
+    "name": "Lechon Kawali",
+    "category": "Pork",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_033",
+    "name": "Sitaw",
+    "category": "Vegetable",
+    "estimatedCost": 3
+  },
+  {
+    "id": "ingredient_034",
+    "name": "Kalabasa",
+    "category": "Vegetable",
+    "estimatedCost": 40
+  },
+  {
+    "id": "ingredient_035",
+    "name": "Okra",
+    "category": "Vegetable",
+    "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_036",
+    "name": "Eggplant",
+    "category": "Vegetable",
+    "estimatedCost": 10
+  },
+  {
+    "id": "ingredient_037",
+    "name": "Ampalaya",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_038",
+    "name": "Kamote",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_039",
+    "name": "Tomatoes",
+    "category": "Vegetable",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_040",
+    "name": "Shrimp Paste",
+    "category": "Condiment",
+    "estimatedCost": 350
+  },
+  {
+    "id": "ingredient_041",
+    "name": "Pork Belly",
+    "category": "Pork",
+    "estimatedCost": 320
+  },
+  {
+    "id": "ingredient_042",
+    "name": "Coconut Milk",
+    "category": "Pantry",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_043",
+    "name": "Coconut Cream",
+    "category": "Pantry",
+    "estimatedCost": 170
+  },
+  {
+    "id": "ingredient_044",
+    "name": "Thai Chili Pepper",
+    "category": "Vegetable",
+    "estimatedCost": 1
+  },
+  {
+    "id": "ingredient_045",
+    "name": "Serrano Pepper",
+    "category": "Vegetable",
+    "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_046",
+    "name": "Oxtail",
+    "category": "Beef",
+    "estimatedCost": 350
+  },
+  {
+    "id": "ingredient_047",
+    "name": "Banana Flower Bud",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_048",
+    "name": "Pechay",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_049",
+    "name": "String Beans",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_050",
+    "name": "Ground Peanuts",
+    "category": "Pantry",
+    "estimatedCost": 120
+  },
+  {
+    "id": "ingredient_051",
+    "name": "Peanut Butter",
+    "category": "Pantry",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_052",
+    "name": "Annatto Seeds",
+    "category": "Spice",
+    "estimatedCost": 50
+  },
+  {
+    "id": "ingredient_053",
+    "name": "Toasted Ground Rice",
+    "category": "Pantry",
+    "estimatedCost": 40
+  },
+  {
+    "id": "ingredient_054",
+    "name": "Pig Face",
+    "category": "Pork",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_055",
+    "name": "Chicken Liver",
+    "category": "Poultry",
+    "estimatedCost": 140
+  },
+  {
+    "id": "ingredient_056",
+    "name": "Chicharon",
+    "category": "Pork",
+    "estimatedCost": 170
+  },
+  {
+    "id": "ingredient_057",
+    "name": "Liquid Seasoning",
+    "category": "Condiment",
+    "estimatedCost": 250
+  },
+  {
+    "id": "ingredient_058",
+    "name": "Mayonnaise",
+    "category": "Condiment",
+    "estimatedCost": 190
+  },
+  {
+    "id": "ingredient_059",
+    "name": "Onion Powder",
+    "category": "Spice",
+    "estimatedCost": 100
+  },
+  {
+    "id": "ingredient_060",
+    "name": "Chili Flakes",
+    "category": "Spice",
+    "estimatedCost": 100
+  },
+  {
+    "id": "ingredient_061",
+    "name": "Butter",
+    "category": "Dairy",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_062",
+    "name": "Beef Sirloin",
+    "category": "Beef",
+    "estimatedCost": 420
+  },
+  {
+    "id": "ingredient_063",
+    "name": "Beef Broth",
+    "category": "Pantry",
+    "estimatedCost": 80
+  },
+  {
+    "id": "ingredient_064",
+    "name": "Star Anise",
+    "category": "Spice",
+    "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_065",
+    "name": "Celery",
+    "category": "Vegetable",
+    "estimatedCost": 5
+  },
+  {
+    "id": "ingredient_066",
+    "name": "Saba Banana",
+    "category": "Fruit",
+    "estimatedCost": 6
+  },
+  {
+    "id": "ingredient_067",
+    "name": "Bok Choy",
+    "category": "Vegetable",
+    "estimatedCost": 25
+  },
+  {
+    "id": "ingredient_068",
+    "name": "Cabbage",
+    "category": "Vegetable",
+    "estimatedCost": 40
+  },
+  {
+    "id": "ingredient_069",
+    "name": "Pancit Canton Noodles",
+    "category": "Grain",
+    "estimatedCost": 120
+  },
+  {
+    "id": "ingredient_070",
+    "name": "Chinese Sausage",
+    "category": "Processed Meat",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_071",
+    "name": "Shrimp",
+    "category": "Seafood",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_072",
+    "name": "Snap Peas",
+    "category": "Vegetable",
+    "estimatedCost": 1
+  },
+  {
+    "id": "ingredient_073",
+    "name": "Parsley",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_074",
+    "name": "Oyster Sauce",
+    "category": "Condiment",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_075",
+    "name": "Chicken Broth",
+    "category": "Pantry",
+    "estimatedCost": 80
+  },
+  {
+    "id": "ingredient_076",
+    "name": "Spaghetti Noodles",
+    "category": "Grain",
+    "estimatedCost": 90
+  },
+  {
+    "id": "ingredient_077",
+    "name": "Ground Pork",
+    "category": "Pork",
+    "estimatedCost": 260
+  },
+  {
+    "id": "ingredient_078",
+    "name": "Luncheon Meat",
+    "category": "Processed Meat",
+    "estimatedCost": 260
+  },
+  {
+    "id": "ingredient_079",
+    "name": "Spaghetti Sauce",
+    "category": "Canned Good",
+    "estimatedCost": 90
+  },
+  {
+    "id": "ingredient_080",
+    "name": "Cheddar Cheese",
+    "category": "Dairy",
+    "estimatedCost": 350
+  },
+  {
+    "id": "ingredient_081",
+    "name": "Tamarind Soup Mix",
+    "category": "Condiment",
+    "estimatedCost": 12
+  },
+  {
+    "id": "ingredient_082",
+    "name": "Daikon Radish",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_083",
+    "name": "Kangkong",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_084",
+    "name": "Long Green Chili",
+    "category": "Vegetable",
+    "estimatedCost": 1
+  },
+  {
+    "id": "ingredient_085",
+    "name": "Calamansi",
+    "category": "Fruit",
+    "estimatedCost": 1
+  },
+  {
+    "id": "ingredient_086",
+    "name": "Flour",
+    "category": "Pantry",
+    "estimatedCost": 25
+  },
+  {
+    "id": "ingredient_087",
+    "name": "Banana Ketchup",
+    "category": "Condiment",
+    "estimatedCost": 80
+  },
+  {
+    "id": "ingredient_088",
+    "name": "Brown Sugar",
+    "category": "Pantry",
+    "estimatedCost": 30
+  },
+  {
+    "id": "ingredient_089",
+    "name": "Taro Leaves",
+    "category": "Vegetable",
+    "estimatedCost": 45
+  },
+  {
+    "id": "ingredient_090",
+    "name": "Cauliflower",
+    "category": "Vegetable",
+    "estimatedCost": 60
+  },
+  {
+    "id": "ingredient_091",
+    "name": "Mung Beans",
+    "category": "Pantry",
+    "estimatedCost": 100
+  },
+  {
+    "id": "ingredient_092",
+    "name": "Milkfish",
+    "category": "Seafood",
+    "estimatedCost": 130
+  },
+  {
+    "id": "ingredient_093",
+    "name": "Eggs",
+    "category": "Egg",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_094",
+    "name": "Rice Noodles",
+    "category": "Grain",
+    "estimatedCost": 130
+  },
+  {
+    "id": "ingredient_095",
+    "name": "Cornstarch",
+    "category": "Pantry",
+    "estimatedCost": 30
+  },
+  {
+    "id": "ingredient_096",
+    "name": "Spring Roll Wrapper",
+    "category": "Pantry",
+    "estimatedCost": 2
+  }
+]

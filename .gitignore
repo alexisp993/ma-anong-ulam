@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env*.local
+*.log
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+.vercel
+
+# TypeScript
+*.tsbuildinfo

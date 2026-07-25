@@ -1,0 +1,168 @@
+// Transcribed directly from DATABASE_SCHEMA.md (Sections 2-5).
+// No fields, tables, or relationships beyond what is documented there.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(uuid()) @db.Uuid
+  email         String   @unique @db.VarChar(255)
+  passwordHash  String   @db.Text
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  favorites       Favorite[]
+  pantryItems     PantryItem[]
+  weeklyMealPlans WeeklyMealPlan[]
+  groceryLists    GroceryList[]
+
+  @@index([email])
+}
+
+model Recipe {
+  id             String   @id @default(uuid()) @db.Uuid
+  name           String   @db.VarChar(255)
+  description    String   @db.Text
+  category       String   @db.VarChar(100)
+  mealStyle      String   @db.VarChar(50)
+  estimatedCost  Decimal  @db.Decimal(10, 2)
+  prepTime       Int
+  cookTime       Int
+  servings       Int
+  difficulty     String   @db.VarChar(20)
+  imageUrl       String   @db.Text
+  instructions   String   @db.Text
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  recipeIngredients RecipeIngredient[]
+  favorites         Favorite[]
+  weeklyMeals       WeeklyMeal[]
+
+  @@index([name])
+  @@index([category])
+  @@index([mealStyle])
+}
+
+model Ingredient {
+  id            String   @id @default(uuid()) @db.Uuid
+  name          String   @db.VarChar(255)
+  category      String   @db.VarChar(100)
+  estimatedCost Decimal  @db.Decimal(10, 2)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  recipeIngredients RecipeIngredient[]
+  pantryItems       PantryItem[]
+  groceryListItems  GroceryListItem[]
+
+  @@index([name])
+  @@index([category])
+}
+
+model RecipeIngredient {
+  id           String  @id @default(uuid()) @db.Uuid
+  recipeId     String  @db.Uuid
+  ingredientId String  @db.Uuid
+  quantity     Decimal @db.Decimal(10, 2)
+  unit         String  @db.VarChar(50)
+
+  recipe     Recipe     @relation(fields: [recipeId], references: [id])
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id])
+}
+
+model Favorite {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  recipeId  String   @db.Uuid
+  createdAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipe Recipe @relation(fields: [recipeId], references: [id])
+
+  @@unique([userId, recipeId])
+  @@index([userId])
+  @@index([recipeId])
+}
+
+model PantryItem {
+  id           String   @id @default(uuid()) @db.Uuid
+  userId       String   @db.Uuid
+  ingredientId String   @db.Uuid
+  createdAt    DateTime @default(now())
+
+  user       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id])
+
+  @@unique([userId, ingredientId])
+  @@index([userId])
+  @@index([ingredientId])
+}
+
+model WeeklyMealPlan {
+  id           String   @id @default(uuid()) @db.Uuid
+  userId       String   @db.Uuid
+  weeklyBudget Decimal  @db.Decimal(10, 2)
+  familySize   Int
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  weeklyMeals  WeeklyMeal[]
+  groceryLists GroceryList[]
+
+  @@index([userId])
+}
+
+model WeeklyMeal {
+  id         String @id @default(uuid()) @db.Uuid
+  mealPlanId String @db.Uuid
+  dayOfWeek  String @db.VarChar(20)
+  mealType   String @db.VarChar(20)
+  recipeId   String @db.Uuid
+
+  mealPlan WeeklyMealPlan @relation(fields: [mealPlanId], references: [id], onDelete: Cascade)
+  recipe   Recipe         @relation(fields: [recipeId], references: [id])
+
+  @@unique([mealPlanId, dayOfWeek, mealType])
+  @@index([mealPlanId])
+  @@index([recipeId])
+}
+
+model GroceryList {
+  id              String   @id @default(uuid()) @db.Uuid
+  userId          String   @db.Uuid
+  mealPlanId      String   @db.Uuid
+  estimatedTotal  Decimal  @db.Decimal(10, 2)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user          User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mealPlan      WeeklyMealPlan    @relation(fields: [mealPlanId], references: [id], onDelete: Cascade)
+  groceryItems  GroceryListItem[]
+
+  @@index([userId])
+  @@index([mealPlanId])
+}
+
+model GroceryListItem {
+  id             String  @id @default(uuid()) @db.Uuid
+  groceryListId  String  @db.Uuid
+  ingredientId   String  @db.Uuid
+  quantity       Decimal @db.Decimal(10, 2)
+  unit           String  @db.VarChar(50)
+  estimatedCost  Decimal @db.Decimal(10, 2)
+  purchased      Boolean @default(false)
+
+  groceryList GroceryList @relation(fields: [groceryListId], references: [id], onDelete: Cascade)
+  ingredient  Ingredient  @relation(fields: [ingredientId], references: [id])
+
+  @@index([groceryListId])
+  @@index([ingredientId])
+}

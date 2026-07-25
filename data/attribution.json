@@ -1,0 +1,182 @@
+[
+  {
+    "recipeId": "recipe_001",
+    "recipeName": "Chicken Adobo",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/filipino-chicken-adobo-recipe/"
+  },
+  {
+    "recipeId": "recipe_002",
+    "recipeName": "Chicken Tinola",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/chicken-tinola-recipe/"
+  },
+  {
+    "recipeId": "recipe_003",
+    "recipeName": "Pork Menudo",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/pork-menudo-recipe/"
+  },
+  {
+    "recipeId": "recipe_004",
+    "recipeName": "Beef Caldereta",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/beef-caldereta-recipe/"
+  },
+  {
+    "recipeId": "recipe_005",
+    "recipeName": "Pinakbet Tagalog",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/pinakbet-tagalog-recipe/"
+  },
+  {
+    "recipeId": "recipe_006",
+    "recipeName": "Bicol Express",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/bicol-express-recipe/"
+  },
+  {
+    "recipeId": "recipe_007",
+    "recipeName": "Kare-Kare",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/kare-kare-recipe/"
+  },
+  {
+    "recipeId": "recipe_008",
+    "recipeName": "Sisig",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/sisig-recipe/"
+  },
+  {
+    "recipeId": "recipe_009",
+    "recipeName": "Nilagang Baka",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/nilagang-baka-recipe/"
+  },
+  {
+    "recipeId": "recipe_010",
+    "recipeName": "Pancit Canton",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/pancit-canton-recipe/"
+  },
+  {
+    "recipeId": "recipe_011",
+    "recipeName": "Filipino Style Spaghetti",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/filipino-style-spaghetti-recipe/"
+  },
+  {
+    "recipeId": "recipe_012",
+    "recipeName": "Ginataang Gulay",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/ginataang-gulay-recipe/"
+  },
+  {
+    "recipeId": "recipe_013",
+    "recipeName": "Chicken Afritada",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/chicken-afritada-recipe/"
+  },
+  {
+    "recipeId": "recipe_014",
+    "recipeName": "Sinigang na Manok",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_015",
+    "recipeName": "Filipino Fried Chicken",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/filipino-fried-chicken/"
+  },
+  {
+    "recipeId": "recipe_016",
+    "recipeName": "Sinigang na Baboy",
+    "source": "Panlasang Pinoy Meaty Recipes",
+    "sourceUrl": "https://www.panlasangpinoymeatrecipes.com/sinigang-na-baboy.htm"
+  },
+  {
+    "recipeId": "recipe_017",
+    "recipeName": "Filipino Pork BBQ Skewers",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/filipino-skewered-pork-bbq/"
+  },
+  {
+    "recipeId": "recipe_018",
+    "recipeName": "Lechon Kawali",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/lechon-kawali/"
+  },
+  {
+    "recipeId": "recipe_019",
+    "recipeName": "Bistek Tagalog",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/"
+  },
+  {
+    "recipeId": "recipe_020",
+    "recipeName": "Laing",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/laing-recipe/"
+  },
+  {
+    "recipeId": "recipe_021",
+    "recipeName": "Chopsuey",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/chopsuey/"
+  },
+  {
+    "recipeId": "recipe_022",
+    "recipeName": "Ginisang Munggo",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/ginisang-munggo-sauteed-mung-beans/"
+  },
+  {
+    "recipeId": "recipe_023",
+    "recipeName": "Ginataang Hipon",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/ginataang-hipon-recipe/"
+  },
+  {
+    "recipeId": "recipe_024",
+    "recipeName": "Sinigang na Hipon",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/filipino-food-sour-shrimp-soup-sinigang-na-hipon-recipe/"
+  },
+  {
+    "recipeId": "recipe_025",
+    "recipeName": "Inihaw na Bangus",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/inihaw-na-bangus-recipe/"
+  },
+  {
+    "recipeId": "recipe_026",
+    "recipeName": "Tortang Talong",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/filipino-vegetable-food-eggplant-omelet-tortang-talong-recipe/"
+  },
+  {
+    "recipeId": "recipe_027",
+    "recipeName": "Tortang Giniling",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/tortang-giniling-omelet-recipe/"
+  },
+  {
+    "recipeId": "recipe_028",
+    "recipeName": "Pancit Bihon",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/pancit-guisado/"
+  },
+  {
+    "recipeId": "recipe_029",
+    "recipeName": "Pancit Palabok",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/pancit-palabok-recipe/"
+  },
+  {
+    "recipeId": "recipe_030",
+    "recipeName": "Lumpiang Shanghai",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.com/how-to-cook-lumpiang-shanghai-lumpia-knr-pc/"
+  }
+]
