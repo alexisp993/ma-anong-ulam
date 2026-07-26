@@ -112,6 +112,22 @@ export const INGREDIENT_DICTIONARY: Record<string, IngredientInfo> = {
   "rice noodles": { canonical: "Rice Noodles", category: "Grain" },
   "cornstarch": { canonical: "Cornstarch", category: "Pantry" },
   "spring roll wrapper": { canonical: "Spring Roll Wrapper", category: "Pantry" },
+  "annatto powder": { canonical: "Annatto Seeds", category: "Spice" },
+  "pineapple chunks": { canonical: "Pineapple", category: "Fruit" },
+  "fermented black beans": { canonical: "Fermented Black Beans", category: "Condiment" },
+  "pork leg": { canonical: "Pork Leg", category: "Pork" },
+  "beef shank": { canonical: "Beef Shank", category: "Beef" },
+  "beef brisket": { canonical: "Beef Brisket", category: "Beef" },
+  "tilapia": { canonical: "Tilapia", category: "Seafood" },
+  "tuna": { canonical: "Tuna", category: "Seafood" },
+  "squid": { canonical: "Squid", category: "Seafood" },
+  "bean sprouts": { canonical: "Bean Sprouts", category: "Vegetable" },
+  "dried shrimp": { canonical: "Dried Shrimp", category: "Seafood" },
+  "elbow macaroni": { canonical: "Elbow Macaroni", category: "Grain" },
+  "evaporated milk": { canonical: "Evaporated Milk", category: "Dairy" },
+  "pig blood": { canonical: "Pig Blood", category: "Pork" },
+  "raisins": { canonical: "Raisins", category: "Fruit" },
+  "corn": { canonical: "Corn", category: "Vegetable" },
 };
 
 // Aliases for common Filipino ingredient terms, per task convention

@@ -2391,5 +2391,1609 @@
         "unit": "cup"
       }
     ]
+  },
+  {
+    "id": "recipe_031",
+    "name": "Chicken Inasal",
+    "description": "Grilled chicken marinated in vinegar, calamansi, and annatto oil, a Bacolod specialty.",
+    "category": "Chicken",
+    "mealStyle": "Dry",
+    "estimatedCost": 207.6,
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-inasal.jpg",
+    "instructions": [
+      "Combine vinegar, calamansi juice, garlic, ginger, brown sugar, and salt in a bowl to make the marinade.",
+      "Add the chicken and turn to coat; cover and marinate in the refrigerator for at least 2 hours, or overnight for best results.",
+      "Combine the cooking oil and annatto powder in a small bowl to make the basting oil; set aside.",
+      "Preheat a grill over medium heat.",
+      "Remove the chicken from the marinade and grill for 8 to 10 minutes per side, basting frequently with the annatto oil.",
+      "Continue grilling and basting until the chicken is cooked through and lightly charred.",
+      "Serve hot with rice and a calamansi-soy dipping sauce."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Annatto Seeds",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_032",
+    "name": "Adobong Puti",
+    "description": "A soy-sauce-free chicken adobo simmered in vinegar, garlic, and peppercorns for a brighter, tangier flavor.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 198.8,
+    "prepTime": 10,
+    "cookTime": 40,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/adobong-puti.jpg",
+    "instructions": [
+      "Heat cooking oil in a pot; saute half the garlic until fragrant.",
+      "Add the chicken and cook for 3 minutes per side until lightly browned.",
+      "Add the remaining garlic, bay leaves, and peppercorns.",
+      "Pour in the vinegar and water; bring to a boil without stirring.",
+      "Reduce heat, cover, and simmer for 25 minutes until the chicken is tender.",
+      "Season with salt and simmer uncovered for 5 more minutes to reduce the sauce slightly.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 10,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_033",
+    "name": "Sweet and Sour Chicken",
+    "description": "Crispy fried chicken tossed in a tangy pineapple and bell pepper sauce sweetened with banana ketchup.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 300.35,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/sweet-and-sour-chicken.jpg",
+    "instructions": [
+      "Season the chicken with salt and pepper, then dredge in flour.",
+      "Heat cooking oil in a pan and fry the chicken in batches for 8 to 10 minutes until golden and cooked through; drain and set aside.",
+      "In a separate pan, saute onion and bell peppers for 2 minutes.",
+      "Add the pineapple chunks, banana ketchup, and vinegar; bring to a simmer.",
+      "Dissolve the cornstarch in a little water and stir into the sauce along with the sugar; cook until thickened.",
+      "Add the fried chicken and toss to coat evenly in the sauce.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Flour",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Banana Ketchup",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_034",
+    "name": "Humba",
+    "description": "Visayan braised pork belly sweetened with brown sugar and fermented black beans.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 347.9,
+    "prepTime": 10,
+    "cookTime": 90,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/humba.jpg",
+    "instructions": [
+      "Heat cooking oil in a pot; saute garlic and onion until fragrant.",
+      "Add the pork belly and cook for 5 minutes until lightly browned on all sides.",
+      "Pour in the soy sauce, vinegar, and water; add the bay leaves and peppercorns.",
+      "Bring to a boil without stirring, then reduce heat, cover, and simmer for 1 hour until the pork is tender.",
+      "Stir in the brown sugar and fermented black beans.",
+      "Continue simmering uncovered for 20 minutes until the sauce thickens.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Fermented Black Beans",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_035",
+    "name": "Crispy Pata",
+    "description": "Whole pork leg boiled until tender then deep-fried until the skin turns golden and crackling.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 506.9,
+    "prepTime": 10,
+    "cookTime": 100,
+    "servings": 6,
+    "difficulty": "Hard",
+    "imageUrl": "/images/recipes/crispy-pata.jpg",
+    "instructions": [
+      "Combine the pork leg, bay leaves, peppercorns, garlic, water, and salt in a large pot.",
+      "Bring to a boil, then cover and simmer for 1 hour 30 minutes until the pork is fork-tender.",
+      "Remove the pork leg from the pot and let it air dry for at least 30 minutes.",
+      "Heat cooking oil in a large, deep pot over medium-high heat.",
+      "Carefully lower the pork leg into the hot oil and fry for 10 to 12 minutes per side until the skin is golden brown and crisp.",
+      "Drain on a wire rack and let rest for 5 minutes.",
+      "Chop into serving pieces and serve with a soy-vinegar dipping sauce."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Leg",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Water",
+        "quantity": 2.84,
+        "unit": "L"
+      },
+      {
+        "name": "Salt",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_036",
+    "name": "Igado",
+    "description": "An Ilocano stew of pork strips and liver braised in soy sauce and vinegar with bell peppers and carrots.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 231.55,
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/igado.jpg",
+    "instructions": [
+      "Heat cooking oil in a pan; saute garlic and onion until fragrant.",
+      "Add the pork and cook for 5 minutes until lightly browned.",
+      "Pour in the soy sauce and vinegar; add the bay leaves and bring to a boil without stirring.",
+      "Reduce heat, cover, and simmer for 20 minutes until the pork is tender, adding water as needed.",
+      "Add the liver and cook for 3 minutes.",
+      "Add the carrot and bell peppers; season with pepper and cook for 5 more minutes until the vegetables are tender.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Pig Liver",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_037",
+    "name": "Bulalo",
+    "description": "Beef shank and bone marrow slow-simmered into a clear, rich soup with corn and vegetables.",
+    "category": "Beef",
+    "mealStyle": "Soup",
+    "estimatedCost": 677.95,
+    "prepTime": 10,
+    "cookTime": 150,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/bulalo.jpg",
+    "instructions": [
+      "Combine the beef shank and water in a large pot; bring to a boil, skimming off any scum.",
+      "Add the onion, cover, and simmer for 2 hours until the beef is tender and the marrow has softened.",
+      "Add the corn and potatoes; cook for 15 minutes.",
+      "Season with fish sauce and salt.",
+      "Add the cabbage and pechay; simmer for 3 minutes until just wilted.",
+      "Transfer to a serving bowl and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Shank",
+        "quantity": 1.36,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 3.79,
+        "unit": "L"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Corn",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Pechay",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_038",
+    "name": "Beef Mechado",
+    "description": "Beef chunks braised in tomato sauce and soy sauce with potatoes and carrots.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 475.8,
+    "prepTime": 15,
+    "cookTime": 100,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/beef-mechado.jpg",
+    "instructions": [
+      "Combine the beef, soy sauce, and calamansi juice in a bowl; marinate for at least 30 minutes.",
+      "Heat cooking oil in a pot; saute garlic and onion until fragrant.",
+      "Drain the beef, reserving the marinade, and add to the pot; cook for 5 minutes until lightly browned.",
+      "Pour in the tomato sauce, reserved marinade, water, and bay leaves.",
+      "Bring to a boil, then reduce heat, cover, and simmer for 1 hour 15 minutes until the beef is tender.",
+      "Add the potatoes and carrots; season with pepper and cook for 15 minutes until the vegetables are tender.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_039",
+    "name": "Beef Pares",
+    "description": "Sweet braised beef brisket in a soy and star anise sauce, traditionally served with garlic rice and clear soup.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 406.33,
+    "prepTime": 15,
+    "cookTime": 90,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/beef-pares.jpg",
+    "instructions": [
+      "Combine the beef brisket and water in a pot; bring to a boil, skimming off any scum.",
+      "Add the onion, peppercorns, and fish sauce; cover and simmer for 45 minutes until the beef is tender, reserving the broth.",
+      "Drain the beef, keeping the broth aside for soup.",
+      "Heat cooking oil in a pan; saute garlic until golden.",
+      "Add the beef, soy sauce, brown sugar, and star anise; simmer for 20 minutes until the sauce thickens and coats the meat.",
+      "Serve hot with garlic fried rice and a bowl of the reserved broth on the side."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Brisket",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "quantity": 8,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Star Anise",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_040",
+    "name": "Beef Tapa",
+    "description": "Thin beef slices marinated in soy sauce and calamansi, pan-fried until caramelized.",
+    "category": "Beef",
+    "mealStyle": "Dry",
+    "estimatedCost": 212.5,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-tapa.jpg",
+    "instructions": [
+      "Combine the beef, soy sauce, calamansi juice, garlic, brown sugar, and pepper in a bowl.",
+      "Cover and marinate in the refrigerator for at least 2 hours, or overnight for best results.",
+      "Heat cooking oil in a pan over medium-high heat.",
+      "Add the beef along with the marinade and cook for 3 to 4 minutes per side until browned and the liquid has mostly evaporated.",
+      "Transfer to a serving plate and serve hot with fried rice and a fried egg."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_041",
+    "name": "Paksiw na Bangus",
+    "description": "Milkfish simmered in vinegar with ginger and long green chili for a tangy, savory finish.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 292.05,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/paksiw-na-bangus.jpg",
+    "instructions": [
+      "Arrange the milkfish slices in a single layer in a wide pot.",
+      "Add the ginger, garlic, and long green chili on top.",
+      "Pour in the vinegar and water; add the eggplant.",
+      "Bring to a boil without stirring, then cover and simmer for 15 minutes.",
+      "Season with salt and continue simmering for 5 more minutes until the sauce reduces slightly.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Milkfish",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Long Green Chili",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggplant",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_042",
+    "name": "Escabeche",
+    "description": "Whole fried fish smothered in a sweet and sour sauce with bell peppers and carrots.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 222.3,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/escabeche.jpg",
+    "instructions": [
+      "Season the tilapia with salt.",
+      "Heat cooking oil in a pan and fry the fish for 5 to 6 minutes per side until golden and crisp; drain and set aside.",
+      "In a separate pan, saute garlic, ginger, and onion until fragrant.",
+      "Add the carrot and bell peppers; cook for 2 minutes.",
+      "Pour in the vinegar and stir in the sugar and banana ketchup.",
+      "Dissolve the cornstarch in a little water and add to the sauce; cook until thickened.",
+      "Pour the sauce over the fried fish and serve immediately."
+    ],
+    "ingredients": [
+      {
+        "name": "Tilapia",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Banana Ketchup",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_043",
+    "name": "Kinilaw",
+    "description": "Fresh tuna cured in vinegar and calamansi with ginger, onion, and chili — no cooking required.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 183.55,
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/kinilaw.jpg",
+    "instructions": [
+      "Combine the tuna cubes with vinegar in a bowl; let sit for 2 minutes, then drain off the vinegar.",
+      "Add the calamansi juice, onion, ginger, and chili.",
+      "Season with salt and toss gently to combine.",
+      "Cover and refrigerate for 10 minutes before serving.",
+      "Serve chilled as a starter or side dish."
+    ],
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_044",
+    "name": "Adobong Pusit",
+    "description": "Squid braised adobo-style in its own ink for a rich, savory sauce.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 181.6,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/adobong-pusit.jpg",
+    "instructions": [
+      "Heat cooking oil in a pan; saute garlic, onion, and tomatoes until softened.",
+      "Add the squid and cook for 2 minutes.",
+      "Pour in the vinegar and let it boil without stirring for 2 minutes.",
+      "Add the soy sauce, bay leaves, and water; season with pepper.",
+      "Cover and simmer for 15 minutes until the squid is tender and the sauce has darkened.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Squid",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_045",
+    "name": "Lumpiang Togue",
+    "description": "Crispy fried spring rolls filled with bean sprouts, carrots, and ground pork.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 435.95,
+    "prepTime": 25,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/lumpiang-togue.jpg",
+    "instructions": [
+      "Heat a small amount of cooking oil in a pan; saute garlic and onion until fragrant.",
+      "Add the ground pork and cook for 5 minutes until lightly browned.",
+      "Add the carrot and string beans; cook for 3 minutes.",
+      "Stir in the bean sprouts and season with fish sauce and pepper; cook for 1 minute, then remove from heat and let cool.",
+      "Lay a spring roll wrapper on a flat surface and spoon a small amount of filling near one edge.",
+      "Roll tightly, folding in the sides, and seal the edge with a bit of water.",
+      "Repeat with the remaining wrappers and filling.",
+      "Heat the remaining cooking oil in a pan and fry the rolls in batches for 3 to 4 minutes until golden brown and crisp.",
+      "Drain on paper towels and serve with a spiced vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Bean Sprouts",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Spring Roll Wrapper",
+        "quantity": 30,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_046",
+    "name": "Ginisang Ampalaya",
+    "description": "Sauteed bitter gourd with tomatoes, egg, and dried shrimp for a classic everyday vegetable dish.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 95.98,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-ampalaya.jpg",
+    "instructions": [
+      "Sprinkle the sliced ampalaya with salt, let sit for 10 minutes, then rinse and squeeze out the excess liquid.",
+      "Heat cooking oil in a pan; saute garlic and onion until fragrant.",
+      "Add the tomatoes and dried shrimp; cook for 2 minutes until the tomatoes soften.",
+      "Add the ampalaya and cook for 5 minutes, stirring occasionally.",
+      "Beat the eggs and pour over the vegetables; stir gently until the eggs are just set.",
+      "Season with salt to taste.",
+      "Transfer to a serving plate and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Ampalaya",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Dried Shrimp",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_047",
+    "name": "Sopas",
+    "description": "Creamy chicken and macaroni soup with vegetables and evaporated milk.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 284.2,
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/sopas.jpg",
+    "instructions": [
+      "Heat cooking oil in a pot; saute garlic and onion until fragrant.",
+      "Add the shredded chicken and cook for 2 minutes.",
+      "Pour in the chicken broth; bring to a boil.",
+      "Add the carrot and celery; simmer for 5 minutes.",
+      "Add the elbow macaroni and cook for 10 minutes until tender, stirring occasionally.",
+      "Reduce heat to low and stir in the evaporated milk.",
+      "Season with salt and pepper; simmer for 2 minutes without boiling.",
+      "Transfer to a serving bowl and serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Elbow Macaroni",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 6,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Celery",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Evaporated Milk",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_048",
+    "name": "Pancit Molo",
+    "description": "A comforting soup of pork and shrimp dumplings in a rich chicken broth, an Ilonggo classic.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 415.85,
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pancit-molo.jpg",
+    "instructions": [
+      "Combine the ground pork, shrimp, half the onion, and half the garlic in a bowl; season with pepper.",
+      "Place a teaspoon of the filling onto each wrapper and fold into small dumplings, sealing the edges with a bit of water.",
+      "Heat cooking oil in a pot; saute the remaining garlic and onion until fragrant.",
+      "Add the shredded chicken and fish sauce; cook for 2 minutes.",
+      "Pour in the chicken broth and bring to a boil.",
+      "Drop in the dumplings and simmer gently for 10 minutes until they float and are cooked through.",
+      "Transfer to a serving bowl and serve hot, garnished with fried garlic if desired."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Pork",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 0.11,
+        "unit": "kg"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Spring Roll Wrapper",
+        "quantity": 40,
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 6,
+        "unit": "cup"
+      },
+      {
+        "name": "Chicken",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_049",
+    "name": "Tortang Itlog",
+    "description": "A simple everyday omelette of eggs, tomato, and onion, ready in minutes.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 51.58,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 3,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tortang-itlog.jpg",
+    "instructions": [
+      "Beat the eggs in a bowl.",
+      "Stir in the tomato and onion; season with salt and pepper.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Pour in the egg mixture and cook for 2 to 3 minutes per side until set and lightly golden.",
+      "Slice and serve hot with rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_050",
+    "name": "Dinuguan",
+    "description": "A savory pork stew simmered in vinegar and pig's blood, often called 'chocolate meat.'",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 199.35,
+    "prepTime": 15,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/dinuguan.jpg",
+    "instructions": [
+      "Heat cooking oil in a pot; saute garlic and onion until fragrant.",
+      "Add the pork belly and cook for 5 minutes until lightly browned.",
+      "Pour in the water, cover, and simmer for 25 minutes until the pork is tender.",
+      "Add the vinegar and long green chili; bring to a boil without stirring.",
+      "Stir in the pig blood gradually, simmering on low heat until the sauce thickens.",
+      "Season with salt to taste.",
+      "Transfer to a serving plate and serve hot with rice or puto."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "name": "Pig Blood",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Long Green Chili",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Water",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_051",
+    "name": "Longganisa",
+    "description": "Homemade sweet-garlicky Filipino breakfast sausage, pan-fried until caramelized.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 257.5,
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/longganisa.jpg",
+    "instructions": [
+      "Combine the ground pork, brown sugar, garlic, vinegar, salt, and pepper in a bowl; mix well.",
+      "Cover and let the mixture cure in the refrigerator for at least 4 hours, or overnight for best flavor.",
+      "Shape the mixture into small logs, about 2 inches long.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Add the sausages and cook for 8 to 10 minutes, turning occasionally, until browned and cooked through.",
+      "Serve hot with fried rice and a fried egg."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Pork",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_052",
+    "name": "Embutido",
+    "description": "A Filipino-style steamed meatloaf of ground pork, carrots, and raisins, studded with egg and sausage.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 357.7,
+    "prepTime": 25,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/embutido.jpg",
+    "instructions": [
+      "Combine the ground pork, carrot, raisins, banana ketchup, onion, salt, and pepper in a bowl; mix well.",
+      "Lay out a sheet of foil and spread a portion of the pork mixture into a rectangle.",
+      "Arrange sliced hard-boiled eggs and hotdogs down the center.",
+      "Roll the mixture into a log using the foil, twisting the ends to seal tightly.",
+      "Repeat with the remaining mixture to form additional logs.",
+      "Steam the logs for 45 minutes until firm and cooked through.",
+      "Let cool slightly, then slice and serve, or pan-fry the slices for a crisp exterior."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Pork",
+        "quantity": 0.91,
+        "unit": "kg"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Raisins",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Banana Ketchup",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Hotdogs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_053",
+    "name": "Ukoy",
+    "description": "Crispy shrimp and vegetable fritters, best served hot with a spiced vinegar dip.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 218.55,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ukoy.jpg",
+    "instructions": [
+      "Combine the flour, cornstarch, salt, and water in a bowl until smooth.",
+      "Stir in the bean sprouts and carrot.",
+      "Heat cooking oil in a pan over medium-high heat.",
+      "Scoop a portion of the batter into the pan and top with a few pieces of shrimp, pressing gently to adhere.",
+      "Fry for 2 to 3 minutes per side until golden brown and crisp.",
+      "Repeat with the remaining batter and shrimp.",
+      "Drain on paper towels and serve hot with a spiced vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": 0.23,
+        "unit": "kg"
+      },
+      {
+        "name": "Bean Sprouts",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Flour",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      }
+    ]
   }
 ]

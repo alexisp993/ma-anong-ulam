@@ -121,6 +121,24 @@ export const PRICING: Record<string, PricingEntry> = {
   "Banana Ketchup": { basis: "volume", ratePerMl: 0.08 },
   "Brown Sugar": { basis: "volume", ratePerMl: 0.03 },
   "Cornstarch": { basis: "volume", ratePerMl: 0.03 },
+
+  "Pork Leg": { basis: "count", countUnit: "pcs", ratePerUnit: 380 },
+  "Tilapia": { basis: "count", countUnit: "pcs", ratePerUnit: 90 },
+
+  "Beef Shank": { basis: "weight", ratePerGram: 0.38 },
+  "Beef Brisket": { basis: "weight", ratePerGram: 0.4 },
+  "Tuna": { basis: "weight", ratePerGram: 0.35 },
+  "Squid": { basis: "weight", ratePerGram: 0.3 },
+
+  "Pineapple": { basis: "volume", ratePerMl: 0.06 },
+  "Fermented Black Beans": { basis: "volume", ratePerMl: 0.3 },
+  "Bean Sprouts": { basis: "volume", ratePerMl: 0.02 },
+  "Dried Shrimp": { basis: "volume", ratePerMl: 0.5 },
+  "Elbow Macaroni": { basis: "volume", ratePerMl: 0.03 },
+  "Evaporated Milk": { basis: "volume", ratePerMl: 0.15 },
+  "Pig Blood": { basis: "volume", ratePerMl: 0.05 },
+  "Raisins": { basis: "volume", ratePerMl: 0.3 },
+  "Corn": { basis: "count", countUnit: "pcs", ratePerUnit: 20 },
 };
 
 // Shared cost calculation for one ingredient line (quantity + unit). Used by

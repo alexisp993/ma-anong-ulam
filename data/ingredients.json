@@ -574,5 +574,95 @@
     "name": "Spring Roll Wrapper",
     "category": "Pantry",
     "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_097",
+    "name": "Pineapple",
+    "category": "Fruit",
+    "estimatedCost": 60
+  },
+  {
+    "id": "ingredient_098",
+    "name": "Fermented Black Beans",
+    "category": "Condiment",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_099",
+    "name": "Pork Leg",
+    "category": "Pork",
+    "estimatedCost": 380
+  },
+  {
+    "id": "ingredient_100",
+    "name": "Beef Shank",
+    "category": "Beef",
+    "estimatedCost": 380
+  },
+  {
+    "id": "ingredient_101",
+    "name": "Corn",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_102",
+    "name": "Beef Brisket",
+    "category": "Beef",
+    "estimatedCost": 400
+  },
+  {
+    "id": "ingredient_103",
+    "name": "Tilapia",
+    "category": "Seafood",
+    "estimatedCost": 90
+  },
+  {
+    "id": "ingredient_104",
+    "name": "Tuna",
+    "category": "Seafood",
+    "estimatedCost": 350
+  },
+  {
+    "id": "ingredient_105",
+    "name": "Squid",
+    "category": "Seafood",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_106",
+    "name": "Bean Sprouts",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_107",
+    "name": "Dried Shrimp",
+    "category": "Seafood",
+    "estimatedCost": 500
+  },
+  {
+    "id": "ingredient_108",
+    "name": "Elbow Macaroni",
+    "category": "Grain",
+    "estimatedCost": 30
+  },
+  {
+    "id": "ingredient_109",
+    "name": "Evaporated Milk",
+    "category": "Dairy",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_110",
+    "name": "Pig Blood",
+    "category": "Pork",
+    "estimatedCost": 50
+  },
+  {
+    "id": "ingredient_111",
+    "name": "Raisins",
+    "category": "Fruit",
+    "estimatedCost": 300
   }
 ]

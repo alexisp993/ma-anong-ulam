@@ -178,5 +178,143 @@
     "recipeName": "Lumpiang Shanghai",
     "source": "Panlasang Pinoy",
     "sourceUrl": "https://panlasangpinoy.com/how-to-cook-lumpiang-shanghai-lumpia-knr-pc/"
+  },
+  {
+    "recipeId": "recipe_031",
+    "recipeName": "Chicken Inasal",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/chicken-inasal/"
+  },
+  {
+    "recipeId": "recipe_032",
+    "recipeName": "Adobong Puti",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/adobong-puti/"
+  },
+  {
+    "recipeId": "recipe_033",
+    "recipeName": "Sweet and Sour Chicken",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.net/recipes/sweet-sour-chicken/"
+  },
+  {
+    "recipeId": "recipe_034",
+    "recipeName": "Humba",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/pork-humba/"
+  },
+  {
+    "recipeId": "recipe_035",
+    "recipeName": "Crispy Pata",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/crispy-pata/"
+  },
+  {
+    "recipeId": "recipe_036",
+    "recipeName": "Igado",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/igado/"
+  },
+  {
+    "recipeId": "recipe_037",
+    "recipeName": "Bulalo",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/bulalo/"
+  },
+  {
+    "recipeId": "recipe_038",
+    "recipeName": "Beef Mechado",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/beef-mechado/"
+  },
+  {
+    "recipeId": "recipe_039",
+    "recipeName": "Beef Pares",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/beef-pares/"
+  },
+  {
+    "recipeId": "recipe_040",
+    "recipeName": "Beef Tapa",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/beef-tapa/"
+  },
+  {
+    "recipeId": "recipe_041",
+    "recipeName": "Paksiw na Bangus",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/paksiw-na-bangus/"
+  },
+  {
+    "recipeId": "recipe_042",
+    "recipeName": "Escabeche",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/escabeche-sweet-sour-fish/"
+  },
+  {
+    "recipeId": "recipe_043",
+    "recipeName": "Kinilaw",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/kinilaw/"
+  },
+  {
+    "recipeId": "recipe_044",
+    "recipeName": "Adobong Pusit",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/adobong-pusit/"
+  },
+  {
+    "recipeId": "recipe_045",
+    "recipeName": "Lumpiang Togue",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/lumpiang-togue/"
+  },
+  {
+    "recipeId": "recipe_046",
+    "recipeName": "Ginisang Ampalaya",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/ginisang-ampalaya/"
+  },
+  {
+    "recipeId": "recipe_047",
+    "recipeName": "Sopas",
+    "source": "Panlasang Pinoy",
+    "sourceUrl": "https://panlasangpinoy.net/recipes/sopas/"
+  },
+  {
+    "recipeId": "recipe_048",
+    "recipeName": "Pancit Molo",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/pancit-molo/"
+  },
+  {
+    "recipeId": "recipe_049",
+    "recipeName": "Tortang Itlog",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_050",
+    "recipeName": "Dinuguan",
+    "source": "Kawaling Pinoy",
+    "sourceUrl": "https://www.kawalingpinoy.com/dinuguan/"
+  },
+  {
+    "recipeId": "recipe_051",
+    "recipeName": "Longganisa",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/longanisa-recipe-filipino-sweet-sausage/"
+  },
+  {
+    "recipeId": "recipe_052",
+    "recipeName": "Embutido",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/embutido-recipe-filipino-ground-pork-meat-loaf/"
+  },
+  {
+    "recipeId": "recipe_053",
+    "recipeName": "Ukoy",
+    "source": "Foxy Folksy",
+    "sourceUrl": "https://www.foxyfolksy.com/ukoy-recipe-filipino-shrimp-fritters/"
   }
 ]
