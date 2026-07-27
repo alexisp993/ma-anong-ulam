@@ -1839,5 +1839,3488 @@
       "Repeat with the remaining batter and shrimp.",
       "Drain on paper towels and serve hot with a spiced vinegar dip."
     ]
+  },
+  {
+    "name": "Chicken Curry",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 35,
+    "description": "Chicken simmered in coconut milk and curry powder with potatoes, carrots, and bell pepper.",
+    "imageUrl": "/images/recipes/chicken-curry.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "2 tablespoons curry powder",
+      "1 cup coconut milk",
+      "2 pcs potatoes",
+      "1 pcs carrot",
+      "1 pcs bell pepper",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned on all sides.",
+      "Stir in the curry powder and cook for 1 minute until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 15 minutes.",
+      "Add the potatoes and carrot, and simmer for 10 minutes more.",
+      "Pour in the coconut milk and add the bell pepper.",
+      "Simmer uncovered for 5 minutes until the sauce thickens slightly, then serve."
+    ]
+  },
+  {
+    "name": "Garlic Butter Chicken",
+    "category": "Chicken",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Pan-seared chicken thighs finished in a rich garlic butter sauce.",
+    "imageUrl": "/images/recipes/garlic-butter-chicken.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "800 g chicken",
+      "4 tablespoons butter",
+      "8 clove garlic",
+      "2 tablespoons soy sauce",
+      "1 teaspoon ground black pepper",
+      "1 teaspoon salt",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Season the chicken with salt and pepper.",
+      "Heat oil in a pan and sear the chicken until golden and cooked through, then set aside.",
+      "In the same pan, melt the butter and saute the garlic until golden and fragrant.",
+      "Return the chicken to the pan and add the soy sauce.",
+      "Toss the chicken in the garlic butter sauce for 2 minutes.",
+      "Serve hot, spooning the garlic butter over the chicken."
+    ]
+  },
+  {
+    "name": "Chicken Pastel",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 35,
+    "description": "Creamy chicken stew with vegetables and hotdog slices in a savory milk-based sauce.",
+    "imageUrl": "/images/recipes/chicken-pastel.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "3 pcs hotdogs",
+      "1 pcs carrot",
+      "1 pcs potatoes",
+      "1/2 cup green peas",
+      "1 cup evaporated milk",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons soy sauce",
+      "2 tablespoons cooking oil",
+      "1 cup chicken broth",
+      "1 teaspoon salt"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion.",
+      "Add the chicken and soy sauce, then cook until lightly browned.",
+      "Pour in the chicken broth and simmer for 15 minutes until the chicken is tender.",
+      "Add the potatoes and carrot, and cook for 10 minutes.",
+      "Stir in the hotdog slices and green peas.",
+      "Pour in the evaporated milk and season with salt.",
+      "Simmer for 5 minutes until the sauce thickens, then serve."
+    ]
+  },
+  {
+    "name": "Chicken Pochero",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "Hearty chicken and vegetable stew in a tomato broth, sweetened with saba banana.",
+    "imageUrl": "/images/recipes/chicken-pochero.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "2 pcs saba banana",
+      "1 pcs cabbage",
+      "1 pcs potatoes",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the chicken and cook until lightly browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender.",
+      "Add the potatoes and saba banana, and simmer for 10 minutes.",
+      "Add the cabbage and simmer for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Chicken Sotanghon Soup",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Comforting glass noodle soup with shredded chicken, ginger, and malunggay leaves.",
+    "imageUrl": "/images/recipes/chicken-sotanghon-soup.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g chicken",
+      "100 g sotanghon noodles",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 pcs ginger",
+      "1 cup malunggay leaves",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "6 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender, then shred the meat.",
+      "Soak the sotanghon noodles in water until softened, then drain.",
+      "Add the noodles to the pot and simmer for 3 minutes.",
+      "Stir in the malunggay leaves and turn off the heat before serving."
+    ]
+  },
+  {
+    "name": "Chicken Binakol",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "Chicken soup simmered in coconut water with lemongrass and young coconut meat.",
+    "imageUrl": "/images/recipes/chicken-binakol.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "3 cup coconut water",
+      "2 pcs lemongrass",
+      "2 pcs ginger",
+      "1 pcs onion",
+      "1 cup malunggay leaves",
+      "2 tablespoons fish sauce",
+      "1 pcs thai chili pepper"
+    ],
+    "instructions": [
+      "Combine the chicken, coconut water, lemongrass, ginger, and onion in a pot.",
+      "Bring to a boil, then lower the heat and simmer for 20 minutes.",
+      "Season with fish sauce.",
+      "Add the chili pepper and simmer for 5 minutes more.",
+      "Stir in the malunggay leaves and turn off the heat.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Chicken Halang-Halang",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "Spicy Visayan chicken stew in coconut milk with turmeric and chili.",
+    "imageUrl": "/images/recipes/chicken-halang-halang.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "2 cup coconut milk",
+      "1 teaspoon turmeric powder",
+      "2 pcs lemongrass",
+      "2 pcs ginger",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 pcs thai chili pepper",
+      "2 tablespoons fish sauce",
+      "1 pcs kalabasa"
+    ],
+    "instructions": [
+      "Combine the chicken, garlic, onion, ginger, lemongrass, and turmeric powder in a pot with enough water to cover.",
+      "Bring to a boil, then simmer for 15 minutes.",
+      "Add the kalabasa and simmer for 10 minutes until tender.",
+      "Pour in the coconut milk and season with fish sauce.",
+      "Add the chili peppers and simmer for 5 minutes.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Honey Garlic Chicken",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Crispy pan-fried chicken pieces coated in a sticky honey garlic glaze.",
+    "imageUrl": "/images/recipes/honey-garlic-chicken.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g chicken",
+      "4 tablespoons honey",
+      "6 clove garlic",
+      "3 tablespoons soy sauce",
+      "1 tablespoon cornstarch",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Season the chicken lightly and dust with cornstarch.",
+      "Heat oil in a pan and fry the chicken until golden and cooked through, then set aside.",
+      "In the same pan, saute the garlic until fragrant.",
+      "Add the honey, soy sauce, and water, then simmer until slightly thickened.",
+      "Return the chicken to the pan and toss to coat in the sauce.",
+      "Cook for 2 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Orange Chicken (Filipino style)",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Crispy fried chicken bites tossed in a tangy-sweet orange sauce.",
+    "imageUrl": "/images/recipes/orange-chicken-filipino-style.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g chicken",
+      "1 pcs orange",
+      "3 tablespoons brown sugar",
+      "2 tablespoons soy sauce",
+      "1 tablespoon cornstarch",
+      "3 clove garlic",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Cut the chicken into bite-sized pieces and dust with cornstarch.",
+      "Heat oil in a pan and fry the chicken until golden and crisp, then set aside.",
+      "In a saucepan, combine the orange juice, brown sugar, soy sauce, garlic, and water.",
+      "Simmer the sauce until slightly thickened.",
+      "Toss the fried chicken in the sauce until well coated.",
+      "Serve immediately while the chicken is still crisp."
+    ]
+  },
+  {
+    "name": "Lemon Chicken",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Crispy fried chicken fillets glazed in a bright lemon sauce.",
+    "imageUrl": "/images/recipes/lemon-chicken.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g chicken",
+      "2 pcs lemon",
+      "3 tablespoons sugar",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch",
+      "3 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Season the chicken and dust with cornstarch.",
+      "Heat oil in a pan and fry the chicken until golden and cooked through, then set aside.",
+      "In a saucepan, combine the lemon juice, sugar, soy sauce, and water.",
+      "Simmer the sauce until slightly thickened.",
+      "Pour the sauce over the fried chicken just before serving."
+    ]
+  },
+  {
+    "name": "Soy Garlic Chicken",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Crispy fried chicken tossed in a savory soy garlic glaze with sesame seeds.",
+    "imageUrl": "/images/recipes/soy-garlic-chicken.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g chicken",
+      "4 tablespoons soy sauce",
+      "2 tablespoons brown sugar",
+      "6 clove garlic",
+      "1 teaspoon sesame oil",
+      "1 tablespoon sesame seeds",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and fry the chicken until golden and cooked through, then set aside.",
+      "In the same pan, saute the garlic until fragrant.",
+      "Add the soy sauce and brown sugar, then simmer until slightly thickened.",
+      "Return the chicken to the pan and toss to coat.",
+      "Drizzle with sesame oil and sprinkle with sesame seeds before serving."
+    ]
+  },
+  {
+    "name": "Chicken Teriyaki",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Pan-grilled chicken thighs glazed in a sweet and savory teriyaki sauce.",
+    "imageUrl": "/images/recipes/chicken-teriyaki.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g chicken",
+      "4 tablespoons soy sauce",
+      "3 tablespoons brown sugar",
+      "1 teaspoon sesame oil",
+      "3 clove garlic",
+      "2 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Combine the soy sauce, brown sugar, garlic, sesame oil, and water in a bowl to make the marinade.",
+      "Marinate the chicken for at least 20 minutes.",
+      "Heat oil in a pan and cook the chicken, reserving the marinade.",
+      "Once the chicken is browned on both sides, pour in the reserved marinade.",
+      "Simmer until the chicken is cooked through and the sauce thickens.",
+      "Slice and serve over rice."
+    ]
+  },
+  {
+    "name": "Chicken Tocino",
+    "category": "Chicken",
+    "mealStyle": "Dry",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 20,
+    "cookTime": 20,
+    "description": "Sweet cured chicken slices, pan-fried until caramelized at the edges.",
+    "imageUrl": "/images/recipes/chicken-tocino.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "800 g chicken",
+      "4 tablespoons sugar",
+      "2 tablespoons soy sauce",
+      "1/4 cup pineapple juice",
+      "1 teaspoon annatto seeds",
+      "1 teaspoon salt",
+      "3 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Combine the chicken, sugar, soy sauce, pineapple juice, annatto seeds, and salt in a bowl.",
+      "Marinate in the refrigerator for at least 4 hours, or overnight for best results.",
+      "Heat oil in a pan and add the marinated chicken along with the water.",
+      "Simmer until the water evaporates and the chicken is cooked through.",
+      "Continue cooking until the chicken caramelizes and browns slightly at the edges.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Chicken Hamonado",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "Chicken braised in a sweet pineapple and soy sauce until tender.",
+    "imageUrl": "/images/recipes/chicken-hamonado.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "1 cup pineapple juice",
+      "1/4 cup soy sauce",
+      "3 tablespoons brown sugar",
+      "5 clove garlic",
+      "1 pcs onion",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned.",
+      "Pour in the pineapple juice, soy sauce, brown sugar, and water.",
+      "Bring to a boil, then cover and simmer for 25 minutes until the chicken is tender.",
+      "Uncover and simmer until the sauce thickens slightly.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Chicken with Oyster Sauce",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Stir-fried chicken and vegetables coated in a savory oyster sauce glaze.",
+    "imageUrl": "/images/recipes/chicken-with-oyster-sauce.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g chicken",
+      "4 tablespoons oyster sauce",
+      "1 pcs bell pepper",
+      "1 pcs carrot",
+      "5 clove garlic",
+      "1 pcs onion",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned.",
+      "Add the carrot and cook for 3 minutes.",
+      "Stir in the oyster sauce, soy sauce, and water.",
+      "Simmer until the chicken is cooked through.",
+      "Add the bell pepper and cornstarch slurry, then cook until the sauce thickens.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Pork Adobo",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "Classic pork braised in soy sauce, vinegar, garlic, and bay leaves until tender.",
+    "imageUrl": "/images/recipes/pork-adobo.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork",
+      "1/3 cup soy sauce",
+      "1/3 cup vinegar",
+      "8 clove garlic",
+      "3 pcs bay leaves",
+      "1 teaspoon peppercorns",
+      "1 cup water",
+      "1 teaspoon sugar",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Combine the pork, soy sauce, and garlic in a pot and marinate for 15 minutes.",
+      "Add the water, bay leaves, and peppercorns, then bring to a boil.",
+      "Cover and simmer for 30 minutes until the pork is tender.",
+      "Add the vinegar and let it boil without stirring for 2 minutes.",
+      "Stir in the sugar and simmer uncovered until the sauce reduces slightly.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Pork Giniling",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Ground pork sauteed with potatoes, carrots, and tomato sauce.",
+    "imageUrl": "/images/recipes/pork-giniling.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g ground pork",
+      "1 pcs potatoes",
+      "1 pcs carrot",
+      "1 can tomato sauce",
+      "1 pcs onion",
+      "4 clove garlic",
+      "2 tablespoons soy sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned, breaking it apart as it cooks.",
+      "Stir in the soy sauce and tomato sauce.",
+      "Add the potatoes, carrot, and water.",
+      "Cover and simmer for 15 minutes until the vegetables are tender.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Pork Steak",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Pan-fried pork chops smothered in a soy sauce and onion gravy, Filipino bistek-style.",
+    "imageUrl": "/images/recipes/pork-steak.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g pork",
+      "1/3 cup soy sauce",
+      "1 pcs lemon",
+      "2 pcs onion",
+      "1 teaspoon ground black pepper",
+      "3 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Combine the pork, soy sauce, lemon juice, and pepper in a bowl and marinate for 20 minutes.",
+      "Heat oil in a pan and fry the pork until browned on both sides, reserving the marinade.",
+      "Remove the pork and set aside.",
+      "In the same pan, saute the onion until softened.",
+      "Return the pork to the pan along with the reserved marinade and water.",
+      "Simmer until the pork is tender and the sauce reduces, then serve."
+    ]
+  },
+  {
+    "name": "Pork Estofado",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "Pork braised in a sweet soy sauce with saba bananas and fried potatoes.",
+    "imageUrl": "/images/recipes/pork-estofado.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork belly",
+      "3 pcs saba banana",
+      "1 pcs potatoes",
+      "1/4 cup soy sauce",
+      "3 tablespoons brown sugar",
+      "5 clove garlic",
+      "1 pcs onion",
+      "2 pcs bay leaves",
+      "2 tablespoons cooking oil",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork belly and cook until lightly browned.",
+      "Pour in the soy sauce, brown sugar, water, and bay leaves.",
+      "Cover and simmer for 30 minutes until the pork is tender.",
+      "Fry the potatoes and saba banana separately until golden, then add to the pot.",
+      "Simmer for 5 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Pork Hamonado",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 35,
+    "description": "Pork belly braised in pineapple juice and soy sauce until sweet and tender.",
+    "imageUrl": "/images/recipes/pork-hamonado.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork belly",
+      "1 cup pineapple juice",
+      "1/4 cup soy sauce",
+      "3 tablespoons brown sugar",
+      "5 clove garlic",
+      "1 pcs onion",
+      "2 pcs bay leaves",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the pineapple juice, soy sauce, brown sugar, water, and bay leaves.",
+      "Bring to a boil, then cover and simmer for 30 minutes until the pork is tender.",
+      "Uncover and simmer until the sauce thickens slightly, then serve."
+    ]
+  },
+  {
+    "name": "Pork Asado",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "Pork strips braised in a sweet soy sauce marinade until fork-tender.",
+    "imageUrl": "/images/recipes/pork-asado.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork",
+      "1/3 cup soy sauce",
+      "3 tablespoons brown sugar",
+      "1 pcs lemon",
+      "6 clove garlic",
+      "1 pcs onion",
+      "2 pcs bay leaves",
+      "2 tablespoons cooking oil",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Combine the pork, soy sauce, lemon juice, and garlic in a bowl and marinate for 30 minutes.",
+      "Heat oil in a pot and saute the onion until softened.",
+      "Add the pork along with the marinade and cook until lightly browned.",
+      "Pour in the water, brown sugar, and bay leaves.",
+      "Cover and simmer for 30 minutes until the pork is tender and the sauce thickens.",
+      "Slice and serve with steamed rice."
+    ]
+  },
+  {
+    "name": "Fried Liempo",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Pork belly slices marinated in soy sauce and calamansi, then deep-fried until crisp.",
+    "imageUrl": "/images/recipes/fried-liempo.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork belly",
+      "3 tablespoons soy sauce",
+      "5 pcs calamansi",
+      "6 clove garlic",
+      "1 teaspoon ground black pepper",
+      "1 teaspoon salt",
+      "3 cups cooking oil"
+    ],
+    "instructions": [
+      "Combine the pork belly, soy sauce, calamansi juice, garlic, pepper, and salt in a bowl.",
+      "Marinate for at least 30 minutes.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Fry the pork belly until deeply golden and crisp, about 8 minutes per side.",
+      "Drain on paper towels, then slice and serve with a vinegar dip."
+    ]
+  },
+  {
+    "name": "Binagoongan Baboy",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 35,
+    "description": "Pork braised in shrimp paste and vinegar with tomatoes and a touch of sugar.",
+    "imageUrl": "/images/recipes/binagoongan-baboy.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork belly",
+      "4 tablespoons shrimp paste",
+      "1/4 cup vinegar",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon sugar",
+      "2 tablespoons cooking oil",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and vinegar, then bring to a boil without stirring for 2 minutes.",
+      "Cover and simmer for 25 minutes until the pork is tender.",
+      "Stir in the shrimp paste and sugar.",
+      "Simmer uncovered for 5 minutes, then serve."
+    ]
+  },
+  {
+    "name": "Sweet and Sour Pork",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Crispy fried pork tossed with bell pepper and pineapple in a tangy sweet sauce.",
+    "imageUrl": "/images/recipes/sweet-and-sour-pork.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g pork",
+      "1 cup pineapple chunks",
+      "1 pcs bell pepper",
+      "1/2 cup tomato sauce",
+      "3 tablespoons sugar",
+      "3 tablespoons vinegar",
+      "1 tablespoon cornstarch",
+      "1 cup cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Cut the pork into cubes and coat lightly with cornstarch.",
+      "Heat oil in a pan and fry the pork until golden and cooked through, then set aside.",
+      "In a saucepan, combine the tomato sauce, sugar, vinegar, and water.",
+      "Simmer the sauce until it starts to thicken.",
+      "Add the bell pepper and pineapple chunks, and cook for 2 minutes.",
+      "Toss in the fried pork and coat well with the sauce before serving."
+    ]
+  },
+  {
+    "name": "Pork with Oyster Sauce",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Stir-fried pork strips and vegetables coated in a savory oyster sauce glaze.",
+    "imageUrl": "/images/recipes/pork-with-oyster-sauce.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g pork",
+      "4 tablespoons oyster sauce",
+      "1 pcs bell pepper",
+      "1 pcs carrot",
+      "5 clove garlic",
+      "1 pcs onion",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Add the carrot and cook for 3 minutes.",
+      "Stir in the oyster sauce, soy sauce, and water.",
+      "Simmer until the pork is cooked through.",
+      "Add the bell pepper and cornstarch slurry, then cook until the sauce thickens.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Garlic Pork",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Deep-fried pork cubes tossed with crispy toasted garlic bits.",
+    "imageUrl": "/images/recipes/garlic-pork.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g pork belly",
+      "10 clove garlic",
+      "1 tablespoon soy sauce",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Season the pork with soy sauce, salt, and pepper, and marinate for 15 minutes.",
+      "Heat oil in a pan and fry the pork until golden and crisp, then drain and set aside.",
+      "In a separate pan with a little oil, fry the minced garlic until golden and crispy.",
+      "Toss the fried pork with the toasted garlic bits.",
+      "Serve hot with a vinegar dipping sauce."
+    ]
+  },
+  {
+    "name": "Salt and Pepper Pork",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Crispy fried pork bites seasoned simply with salt, pepper, and garlic.",
+    "imageUrl": "/images/recipes/salt-and-pepper-pork.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "700 g pork",
+      "1 tablespoon ground black pepper",
+      "1 tablespoon salt",
+      "6 clove garlic",
+      "1 pcs bell pepper",
+      "1/2 cup cornstarch",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Cut the pork into bite-sized pieces and season with half the salt and pepper.",
+      "Dust the pork with cornstarch.",
+      "Heat oil in a pan and fry the pork until golden and crisp, then drain.",
+      "In a separate pan with a little oil, saute the garlic and bell pepper.",
+      "Toss the fried pork with the sauteed garlic and bell pepper, and the remaining salt and pepper.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Pork Caldereta",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 45,
+    "description": "Pork braised in tomato sauce and liver spread with potatoes, carrots, and bell pepper.",
+    "imageUrl": "/images/recipes/pork-caldereta.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork",
+      "1 can tomato sauce",
+      "3 tablespoons liver spread",
+      "1 pcs potatoes",
+      "1 pcs carrot",
+      "1 pcs bell pepper",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 pcs bay leaves",
+      "2 tablespoons cooking oil",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the tomato sauce, water, and bay leaves.",
+      "Cover and simmer for 30 minutes until the pork is tender.",
+      "Add the potatoes and carrot, and simmer for 10 minutes.",
+      "Stir in the liver spread and bell pepper.",
+      "Simmer for 5 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Pork Pochero",
+    "category": "Pork",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 45,
+    "description": "Pork and vegetable stew in a tomato broth, sweetened with saba banana.",
+    "imageUrl": "/images/recipes/pork-pochero.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg pork belly",
+      "2 pcs saba banana",
+      "1 pcs cabbage",
+      "1 pcs potatoes",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 25 minutes until the pork is tender.",
+      "Add the potatoes and saba banana, and simmer for 10 minutes.",
+      "Add the cabbage and simmer for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Pork Binagoongan with Talong",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 35,
+    "description": "Pork and eggplant braised in shrimp paste with tomatoes and a touch of vinegar.",
+    "imageUrl": "/images/recipes/pork-binagoongan-with-talong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "800 g pork belly",
+      "2 pcs eggplant",
+      "3 tablespoons shrimp paste",
+      "2 tablespoons vinegar",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon sugar",
+      "2 tablespoons cooking oil",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and vinegar, then boil without stirring for 2 minutes.",
+      "Cover and simmer for 25 minutes until the pork is tender.",
+      "Add the eggplant and simmer for 5 minutes.",
+      "Stir in the shrimp paste and sugar, then simmer for 3 minutes more before serving."
+    ]
+  },
+  {
+    "name": "Fried Tilapia",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Whole tilapia seasoned with salt and fried until the skin is golden and crisp.",
+    "imageUrl": "/images/recipes/fried-tilapia.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs tilapia",
+      "1 tablespoon salt",
+      "1 teaspoon ground black pepper",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Clean the tilapia and pat dry with paper towels.",
+      "Season both sides with salt and pepper.",
+      "Heat the cooking oil in a pan over medium-high heat.",
+      "Fry the tilapia for 5 to 6 minutes per side until golden and crisp.",
+      "Drain on paper towels and serve with a vinegar dip."
+    ]
+  },
+  {
+    "name": "Ginataang Tilapia",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Tilapia simmered in coconut milk with ginger, chili, and spinach.",
+    "imageUrl": "/images/recipes/ginataang-tilapia.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs tilapia",
+      "2 cup coconut milk",
+      "2 pcs ginger",
+      "1 pcs onion",
+      "4 clove garlic",
+      "1 cup spinach",
+      "2 pcs thai chili pepper",
+      "2 tablespoons fish sauce"
+    ],
+    "instructions": [
+      "Arrange the ginger, onion, and garlic at the bottom of a pot.",
+      "Place the tilapia on top and pour in the coconut milk.",
+      "Bring to a gentle boil, then simmer for 12 minutes.",
+      "Season with fish sauce and add the chili peppers.",
+      "Add the spinach and simmer for 2 minutes more.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Daing na Bangus",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Butterflied milkfish marinated in vinegar and garlic, then fried until crisp.",
+    "imageUrl": "/images/recipes/daing-na-bangus.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 pcs milkfish",
+      "1/2 cup vinegar",
+      "8 clove garlic",
+      "1 teaspoon ground black pepper",
+      "1 tablespoon salt",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Combine the vinegar, garlic, pepper, and salt in a bowl.",
+      "Marinate the milkfish in the mixture for at least 30 minutes.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Fry the milkfish until golden and crisp on both sides.",
+      "Drain on paper towels and serve with steamed rice."
+    ]
+  },
+  {
+    "name": "Relyenong Bangus",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Hard",
+    "servings": 5,
+    "prepTime": 40,
+    "cookTime": 25,
+    "description": "Deboned milkfish stuffed with a savory sauteed filling of its own flaked meat and vegetables.",
+    "imageUrl": "/images/recipes/relyenong-bangus.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs milkfish",
+      "1 pcs carrot",
+      "1/2 cup green peas",
+      "1 pcs onion",
+      "4 clove garlic",
+      "1 pcs eggs",
+      "1/2 cup bread crumbs",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "1 cup cooking oil"
+    ],
+    "instructions": [
+      "Carefully debone the milkfish, keeping the skin intact, and set aside the flesh.",
+      "Steam or boil the fish flesh until cooked, then flake it and remove any bones.",
+      "Saute garlic and onion, then add the flaked fish, carrot, and green peas.",
+      "Season with salt and pepper, then mix in the egg and bread crumbs.",
+      "Stuff the mixture back into the fish skin, reshaping it to look whole.",
+      "Heat oil in a pan and fry the stuffed fish until golden on all sides.",
+      "Slice and serve."
+    ]
+  },
+  {
+    "name": "Garlic Butter Shrimp",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Shrimp sauteed in garlic butter until pink and juicy.",
+    "imageUrl": "/images/recipes/garlic-butter-shrimp.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g shrimp",
+      "4 tablespoons butter",
+      "8 clove garlic",
+      "1 teaspoon ground black pepper",
+      "1 teaspoon salt",
+      "1 pcs lemon"
+    ],
+    "instructions": [
+      "Season the shrimp with salt and pepper.",
+      "Melt the butter in a pan over medium heat.",
+      "Saute the garlic until fragrant and lightly golden.",
+      "Add the shrimp and cook for 2 to 3 minutes per side until pink.",
+      "Squeeze in lemon juice and toss to coat before serving."
+    ]
+  },
+  {
+    "name": "Buttered Shrimp",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Crispy fried shrimp coated in a creamy buttered sauce with a hint of spice.",
+    "imageUrl": "/images/recipes/buttered-shrimp.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g shrimp",
+      "1/2 cup cornstarch",
+      "4 tablespoons butter",
+      "6 clove garlic",
+      "2 pcs thai chili pepper",
+      "1 teaspoon salt",
+      "1 cup cooking oil"
+    ],
+    "instructions": [
+      "Season the shrimp with salt and coat lightly in cornstarch.",
+      "Heat cooking oil in a pan and fry the shrimp until crisp, then drain.",
+      "In a separate pan, melt the butter and saute the garlic and chili until fragrant.",
+      "Toss the fried shrimp in the garlic butter until well coated.",
+      "Serve hot immediately."
+    ]
+  },
+  {
+    "name": "Adobong Tahong",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Mussels simmered in garlic, soy sauce, and vinegar until they open and soak up the sauce.",
+    "imageUrl": "/images/recipes/adobong-tahong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg mussels",
+      "3 tablespoons soy sauce",
+      "3 tablespoons vinegar",
+      "8 clove garlic",
+      "1 pcs onion",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the mussels and soy sauce, and stir to coat.",
+      "Pour in the vinegar and let it boil without stirring for 2 minutes.",
+      "Cover and simmer for 8 minutes until the mussels open.",
+      "Season with pepper and discard any unopened mussels before serving."
+    ]
+  },
+  {
+    "name": "Tahong Soup",
+    "category": "Seafood",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Light ginger broth with mussels and spinach, comforting and quick to make.",
+    "imageUrl": "/images/recipes/tahong-soup.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg mussels",
+      "2 pcs ginger",
+      "1 pcs onion",
+      "4 clove garlic",
+      "1 cup spinach",
+      "2 tablespoons fish sauce",
+      "1 tablespoon cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the mussels and simmer for 8 minutes until they open.",
+      "Add the spinach and simmer for 2 minutes more.",
+      "Discard any unopened mussels, then serve hot."
+    ]
+  },
+  {
+    "name": "Steamed Tahong",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Mussels steamed with ginger, lemongrass, and onion until they open.",
+    "imageUrl": "/images/recipes/steamed-tahong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg mussels",
+      "2 pcs ginger",
+      "2 pcs lemongrass",
+      "1 pcs onion",
+      "1 cup water"
+    ],
+    "instructions": [
+      "Combine the ginger, lemongrass, onion, and water in a pot.",
+      "Bring to a boil.",
+      "Add the mussels, cover, and steam for 8 minutes until they open.",
+      "Discard any unopened mussels.",
+      "Serve hot with the steaming broth and a vinegar dip."
+    ]
+  },
+  {
+    "name": "Baked Tahong",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Medium",
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Half-shell mussels topped with a garlicky butter and cheese crust, baked until bubbly.",
+    "imageUrl": "/images/recipes/baked-tahong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg mussels",
+      "4 tablespoons butter",
+      "6 clove garlic",
+      "1/2 cup cheddar cheese",
+      "1/2 cup bread crumbs",
+      "1 teaspoon ground black pepper"
+    ],
+    "instructions": [
+      "Steam the mussels until they open, then remove the top shells, keeping the meat on the bottom half.",
+      "Melt the butter and saute the garlic until fragrant.",
+      "Mix the garlic butter with the bread crumbs and pepper.",
+      "Top each mussel half with the mixture and sprinkle with cheese.",
+      "Bake or broil for 8 to 10 minutes until golden and bubbly.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Sweet and Sour Fish",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Crispy fried fish fillets topped with a tangy-sweet vegetable sauce.",
+    "imageUrl": "/images/recipes/sweet-and-sour-fish.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g tilapia",
+      "1 cup pineapple chunks",
+      "1 pcs bell pepper",
+      "1 pcs carrot",
+      "1/2 cup tomato sauce",
+      "3 tablespoons sugar",
+      "3 tablespoons vinegar",
+      "1 tablespoon cornstarch",
+      "1 cup cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Cut the fish into fillets and fry in hot oil until golden and crisp, then set aside.",
+      "In a saucepan, combine the tomato sauce, sugar, vinegar, and water.",
+      "Add the carrot and simmer for 3 minutes.",
+      "Add the bell pepper and pineapple chunks, and simmer for 2 minutes.",
+      "Stir in the cornstarch slurry and cook until the sauce thickens.",
+      "Pour the sauce over the fried fish before serving."
+    ]
+  },
+  {
+    "name": "Fried Galunggong",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Whole mackerel scad, seasoned and fried until crisp on the outside.",
+    "imageUrl": "/images/recipes/fried-galunggong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "6 pcs galunggong",
+      "1 tablespoon salt",
+      "1 teaspoon ground black pepper",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Clean the galunggong and pat dry.",
+      "Season with salt and pepper.",
+      "Heat cooking oil in a pan over medium-high heat.",
+      "Fry the fish for 4 to 5 minutes per side until golden and crisp.",
+      "Drain on paper towels and serve with a vinegar dip."
+    ]
+  },
+  {
+    "name": "Pritong Hasa-Hasa",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Short-bodied mackerel, seasoned and fried until golden and crisp.",
+    "imageUrl": "/images/recipes/pritong-hasa-hasa.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs hasa-hasa",
+      "1 tablespoon salt",
+      "1 teaspoon ground black pepper",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Clean the hasa-hasa and pat dry.",
+      "Season with salt and pepper.",
+      "Heat cooking oil in a pan over medium-high heat.",
+      "Fry the fish for 4 to 5 minutes per side until golden and crisp.",
+      "Drain on paper towels and serve with a vinegar and chili dip."
+    ]
+  },
+  {
+    "name": "Ginataang Galunggong",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Mackerel scad simmered in coconut milk with ginger and chili.",
+    "imageUrl": "/images/recipes/ginataang-galunggong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "6 pcs galunggong",
+      "2 cup coconut milk",
+      "2 pcs ginger",
+      "1 pcs onion",
+      "4 clove garlic",
+      "2 pcs thai chili pepper",
+      "2 tablespoons fish sauce"
+    ],
+    "instructions": [
+      "Arrange the ginger, onion, and garlic at the bottom of a pot.",
+      "Place the galunggong on top and pour in the coconut milk.",
+      "Bring to a gentle boil, then simmer for 12 minutes.",
+      "Season with fish sauce and add the chili peppers.",
+      "Simmer for 3 minutes more, then serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Sardines with Misua",
+    "category": "Seafood",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Comforting misua noodle soup simmered with canned sardines and tomatoes.",
+    "imageUrl": "/images/recipes/sardines-with-misua.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 can sardines",
+      "100 g misua noodles",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "4 clove garlic",
+      "2 tablespoons fish sauce",
+      "1 tablespoon cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the sardines along with their sauce.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Simmer for 5 minutes.",
+      "Add the misua noodles and simmer for 2 minutes until softened.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Beef Giniling",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Ground beef sauteed with potatoes, carrots, and tomato sauce.",
+    "imageUrl": "/images/recipes/beef-giniling.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g ground beef",
+      "1 pcs potatoes",
+      "1 pcs carrot",
+      "1 can tomato sauce",
+      "1 pcs onion",
+      "4 clove garlic",
+      "2 tablespoons soy sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground beef and cook until browned, breaking it apart as it cooks.",
+      "Stir in the soy sauce and tomato sauce.",
+      "Add the potatoes, carrot, and water.",
+      "Cover and simmer for 15 minutes until the vegetables are tender.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Corned Beef Guisado",
+    "category": "Beef",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Canned corned beef sauteed with potatoes, onions, and garlic.",
+    "imageUrl": "/images/recipes/corned-beef-guisado.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 can corned beef",
+      "1 pcs potatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the diced potatoes and cook until lightly browned.",
+      "Stir in the corned beef and cook until heated through.",
+      "Season with pepper and cook for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Beef with Broccoli",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Tender beef strips and broccoli stir-fried in a savory oyster sauce.",
+    "imageUrl": "/images/recipes/beef-with-broccoli.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g beef sirloin",
+      "1 pcs broccoli",
+      "4 tablespoons oyster sauce",
+      "1 tablespoon soy sauce",
+      "5 clove garlic",
+      "1 tablespoon cornstarch",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Slice the beef thinly against the grain and marinate with soy sauce for 10 minutes.",
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the beef and stir-fry until browned.",
+      "Add the broccoli and cook for 3 minutes.",
+      "Stir in the oyster sauce and water.",
+      "Add the cornstarch slurry and cook until the sauce thickens, then serve."
+    ]
+  },
+  {
+    "name": "Beef with Oyster Sauce",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Stir-fried beef strips and vegetables coated in a savory oyster sauce glaze.",
+    "imageUrl": "/images/recipes/beef-with-oyster-sauce.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g beef sirloin",
+      "4 tablespoons oyster sauce",
+      "1 pcs bell pepper",
+      "1 pcs carrot",
+      "5 clove garlic",
+      "1 pcs onion",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Slice the beef thinly against the grain and marinate with soy sauce for 10 minutes.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and stir-fry until browned.",
+      "Add the carrot and cook for 3 minutes.",
+      "Stir in the oyster sauce and water.",
+      "Add the bell pepper and cornstarch slurry, then cook until the sauce thickens before serving."
+    ]
+  },
+  {
+    "name": "Beef Picadillo",
+    "category": "Beef",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Ground beef simmered in a light tomato broth with potatoes and carrots.",
+    "imageUrl": "/images/recipes/beef-picadillo.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g ground beef",
+      "1 pcs potatoes",
+      "1 pcs carrot",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "4 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "3 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the ground beef and cook until browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the potatoes and carrot.",
+      "Cover and simmer for 15 minutes until the vegetables are tender.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Beef Stroganoff (Filipino style)",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Beef strips and mushrooms in a creamy evaporated milk sauce over rice.",
+    "imageUrl": "/images/recipes/beef-stroganoff-filipino-style.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g beef sirloin",
+      "200 g mushrooms",
+      "1 cup evaporated milk",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch",
+      "3 tablespoons butter",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Slice the beef thinly against the grain.",
+      "Melt the butter in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and cook until browned.",
+      "Add the mushrooms and cook for 3 minutes.",
+      "Stir in the soy sauce and water, then simmer for 10 minutes until the beef is tender.",
+      "Pour in the evaporated milk and cornstarch slurry, and simmer until the sauce thickens.",
+      "Serve hot over rice."
+    ]
+  },
+  {
+    "name": "Beef and Mushroom Stir Fry",
+    "category": "Beef",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Quick stir-fried beef and mushrooms in a garlicky soy sauce glaze.",
+    "imageUrl": "/images/recipes/beef-and-mushroom-stir-fry.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g beef sirloin",
+      "200 g mushrooms",
+      "3 tablespoons soy sauce",
+      "1 tablespoon oyster sauce",
+      "6 clove garlic",
+      "1 pcs onion",
+      "3 tablespoons cooking oil",
+      "1 teaspoon ground black pepper"
+    ],
+    "instructions": [
+      "Slice the beef thinly against the grain and marinate with soy sauce for 10 minutes.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and stir-fry over high heat until browned.",
+      "Add the mushrooms and oyster sauce, and cook for 3 minutes.",
+      "Season with pepper and serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Ginisang Kangkong",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Water spinach quickly sauteed with garlic, tomatoes, and shrimp paste.",
+    "imageUrl": "/images/recipes/ginisang-kangkong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 bundle kangkong",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon shrimp paste",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the shrimp paste and cook for 1 minute.",
+      "Add the kangkong and toss until just wilted.",
+      "Cook for 2 minutes more, then serve hot."
+    ]
+  },
+  {
+    "name": "Ginisang Pechay",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Bok choy sauteed with garlic, onion, and ground pork.",
+    "imageUrl": "/images/recipes/ginisang-pechay.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 bundle pechay",
+      "150 g ground pork",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Pour in the water and fish sauce, then simmer for 3 minutes.",
+      "Add the pechay and cook until just wilted.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Ginisang Repolyo",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Cabbage sauteed with ground pork, carrots, and garlic.",
+    "imageUrl": "/images/recipes/ginisang-repolyo.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs cabbage",
+      "150 g ground pork",
+      "1 pcs carrot",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Add the carrot and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then simmer for 3 minutes.",
+      "Add the cabbage and cook until just wilted, then serve."
+    ]
+  },
+  {
+    "name": "Ginisang Sayote",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Chayote sauteed with ground pork and garlic in a light savory sauce.",
+    "imageUrl": "/images/recipes/ginisang-sayote.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "3 pcs sayote",
+      "150 g ground pork",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Add the sliced sayote and cook for 2 minutes.",
+      "Pour in the water and fish sauce.",
+      "Cover and simmer for 6 minutes until the sayote is tender, then serve."
+    ]
+  },
+  {
+    "name": "Ginisang Kalabasa",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Squash sauteed with ground pork, string beans, and garlic.",
+    "imageUrl": "/images/recipes/ginisang-kalabasa.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs kalabasa",
+      "150 g ground pork",
+      "1 bundle string beans",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Add the kalabasa and cook for 2 minutes.",
+      "Pour in the water and fish sauce.",
+      "Cover and simmer for 8 minutes until the kalabasa is tender.",
+      "Add the string beans and cook for 3 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Ginisang Upo",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Bottle gourd sauteed with shrimp, garlic, and tomatoes.",
+    "imageUrl": "/images/recipes/ginisang-upo.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs upo",
+      "150 g shrimp",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the shrimp and cook until pink.",
+      "Add the sliced upo and cook for 2 minutes.",
+      "Pour in the water and fish sauce.",
+      "Cover and simmer for 6 minutes until the upo is tender, then serve."
+    ]
+  },
+  {
+    "name": "Ginisang Patola",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Sponge gourd sauteed with egg, garlic, and tomatoes.",
+    "imageUrl": "/images/recipes/ginisang-patola.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 pcs patola",
+      "2 pcs eggs",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the sliced patola and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then simmer for 5 minutes.",
+      "Crack in the eggs and stir gently until just set.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Ginisang Talbos ng Kamote",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Sweet potato tops sauteed with garlic, onion, and shrimp paste.",
+    "imageUrl": "/images/recipes/ginisang-talbos-ng-kamote.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 bundle kamote tops",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon shrimp paste",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the shrimp paste and cook for 1 minute.",
+      "Add the kamote tops and toss until just wilted.",
+      "Cook for 2 minutes more, then serve hot."
+    ]
+  },
+  {
+    "name": "Adobong Sitaw",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "String beans braised adobo-style with pork, soy sauce, and vinegar.",
+    "imageUrl": "/images/recipes/adobong-sitaw.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 bundle sitaw",
+      "200 g pork belly",
+      "3 tablespoons soy sauce",
+      "3 tablespoons vinegar",
+      "6 clove garlic",
+      "1 pcs onion",
+      "1 pcs bay leaves",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the soy sauce, water, and bay leaf, then simmer for 8 minutes.",
+      "Add the vinegar and boil without stirring for 2 minutes.",
+      "Add the sitaw and cook for 4 minutes until just tender, then serve."
+    ]
+  },
+  {
+    "name": "Ginataang Langka",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Unripe jackfruit simmered in coconut milk with pork and shrimp paste.",
+    "imageUrl": "/images/recipes/ginataang-langka.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 cup langka",
+      "300 g pork belly",
+      "2 cup coconut milk",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon shrimp paste",
+      "2 pcs thai chili pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Add the langka and coconut milk, then bring to a simmer.",
+      "Cover and cook for 15 minutes until the langka and pork are tender.",
+      "Stir in the shrimp paste and chili peppers.",
+      "Simmer for 5 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Ginataang Sitaw",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "String beans and squash simmered in coconut milk with shrimp.",
+    "imageUrl": "/images/recipes/ginataang-sitaw.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 bundle sitaw",
+      "1 pcs kalabasa",
+      "150 g shrimp",
+      "2 cup coconut milk",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 tablespoon shrimp paste",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the kalabasa and coconut milk, then simmer for 8 minutes.",
+      "Add the sitaw and shrimp, and cook for 5 minutes.",
+      "Stir in the shrimp paste and simmer for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Ginataang Kalabasa",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Squash and string beans simmered in coconut milk with dried shrimp.",
+    "imageUrl": "/images/recipes/ginataang-kalabasa.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs kalabasa",
+      "1 bundle string beans",
+      "3 tablespoons dried shrimp",
+      "2 cup coconut milk",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the dried shrimp and cook for 1 minute.",
+      "Add the kalabasa and coconut milk, then simmer for 8 minutes.",
+      "Add the string beans and season with fish sauce.",
+      "Simmer for 5 minutes more until the vegetables are tender, then serve."
+    ]
+  },
+  {
+    "name": "Ensaladang Talong",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 10,
+    "description": "Grilled eggplant salad tossed with tomatoes, onions, and a calamansi vinaigrette.",
+    "imageUrl": "/images/recipes/ensaladang-talong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "3 pcs eggplant",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "3 tablespoons vinegar",
+      "3 pcs calamansi",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper"
+    ],
+    "instructions": [
+      "Grill the eggplants over open flame or a hot pan until the skin is charred and the flesh is soft.",
+      "Peel off the charred skin and slice the eggplant lengthwise.",
+      "Arrange the eggplant on a plate with sliced tomatoes and onion.",
+      "Whisk together the vinegar, calamansi juice, salt, and pepper.",
+      "Drizzle the dressing over the salad before serving."
+    ]
+  },
+  {
+    "name": "Ensaladang Mangga",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "Shredded green mango salad tossed with tomatoes, onions, and shrimp paste.",
+    "imageUrl": "/images/recipes/ensaladang-mangga.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 pcs green mango",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "2 tablespoons shrimp paste"
+    ],
+    "instructions": [
+      "Peel and shred the green mango.",
+      "Slice the tomatoes and onion thinly.",
+      "Combine the mango, tomatoes, and onion in a bowl.",
+      "Serve with shrimp paste on the side for dipping or mixed in."
+    ]
+  },
+  {
+    "name": "Tortang Okra",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Sliced okra bound in beaten egg and pan-fried until golden.",
+    "imageUrl": "/images/recipes/tortang-okra.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "12 pcs okra",
+      "3 pcs eggs",
+      "1 pcs onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Slice the okra thinly and combine with chopped onion in a bowl.",
+      "Beat the eggs and season with salt and pepper, then mix into the okra.",
+      "Heat oil in a pan over medium heat.",
+      "Scoop portions of the mixture into the pan and flatten slightly.",
+      "Fry for 2 to 3 minutes per side until golden, then serve."
+    ]
+  },
+  {
+    "name": "Tortang Sayote",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Grated chayote bound in beaten egg and pan-fried into savory patties.",
+    "imageUrl": "/images/recipes/tortang-sayote.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 pcs sayote",
+      "3 pcs eggs",
+      "1 pcs onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Grate the sayote and squeeze out excess liquid.",
+      "Combine with chopped onion in a bowl.",
+      "Beat the eggs and season with salt and pepper, then mix into the sayote.",
+      "Heat oil in a pan over medium heat.",
+      "Scoop portions of the mixture into the pan and flatten slightly.",
+      "Fry for 2 to 3 minutes per side until golden, then serve."
+    ]
+  },
+  {
+    "name": "Tortang Kalabasa",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Grated squash bound in beaten egg and pan-fried into golden patties.",
+    "imageUrl": "/images/recipes/tortang-kalabasa.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs kalabasa",
+      "3 pcs eggs",
+      "1 pcs onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Grate the kalabasa and squeeze out excess liquid.",
+      "Combine with chopped onion in a bowl.",
+      "Beat the eggs and season with salt and pepper, then mix into the kalabasa.",
+      "Heat oil in a pan over medium heat.",
+      "Scoop portions of the mixture into the pan and flatten slightly.",
+      "Fry for 2 to 3 minutes per side until golden, then serve."
+    ]
+  },
+  {
+    "name": "Adobong Kangkong",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Water spinach quickly braised in garlic, soy sauce, and vinegar.",
+    "imageUrl": "/images/recipes/adobong-kangkong.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "2 bundle kangkong",
+      "3 tablespoons soy sauce",
+      "2 tablespoons vinegar",
+      "8 clove garlic",
+      "1 pcs onion",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the soy sauce and vinegar, and let it boil without stirring for 1 minute.",
+      "Add the kangkong and toss until just wilted.",
+      "Cook for 2 minutes more, then serve hot."
+    ]
+  },
+  {
+    "name": "Stir-fried Mixed Vegetables",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 10,
+    "description": "Colorful medley of vegetables stir-fried in garlic and oyster sauce.",
+    "imageUrl": "/images/recipes/stir-fried-mixed-vegetables.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 pcs carrot",
+      "1 pcs cauliflower",
+      "1 bundle string beans",
+      "1 pcs bell pepper",
+      "5 clove garlic",
+      "3 tablespoons oyster sauce",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the carrot and cauliflower, and stir-fry for 3 minutes.",
+      "Add the string beans and bell pepper.",
+      "Pour in the oyster sauce and water.",
+      "Cook for 3 minutes more until the vegetables are crisp-tender, then serve."
+    ]
+  },
+  {
+    "name": "Garlic Butter Mushrooms",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Mushrooms sauteed in garlic butter until golden and tender.",
+    "imageUrl": "/images/recipes/garlic-butter-mushrooms.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g mushrooms",
+      "4 tablespoons butter",
+      "8 clove garlic",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "1 tablespoon soy sauce"
+    ],
+    "instructions": [
+      "Melt the butter in a pan over medium heat.",
+      "Saute the garlic until fragrant and lightly golden.",
+      "Add the mushrooms and cook for 5 minutes until golden and tender.",
+      "Season with salt, pepper, and soy sauce.",
+      "Cook for 2 minutes more, then serve hot."
+    ]
+  },
+  {
+    "name": "Scrambled Egg with Tomatoes",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 3,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Fluffy scrambled eggs cooked with sauteed tomatoes and onion.",
+    "imageUrl": "/images/recipes/scrambled-egg-with-tomatoes.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "5 pcs eggs",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute the onion and tomatoes until softened.",
+      "Beat the eggs and season with salt and pepper.",
+      "Pour the eggs into the pan.",
+      "Stir gently and cook until just set.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Scrambled Egg with Sardines",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 3,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Scrambled eggs cooked with flaked canned sardines and onion.",
+    "imageUrl": "/images/recipes/scrambled-egg-with-sardines.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs eggs",
+      "1 can sardines",
+      "1 pcs onion",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute the onion until softened.",
+      "Add the sardines and flake them with a spatula.",
+      "Beat the eggs and season with pepper, then pour into the pan.",
+      "Stir gently and cook until just set.",
+      "Serve hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Itlog na Maalat at Kamatis",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 3,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "Sliced salted eggs and fresh tomatoes, a simple classic breakfast pairing.",
+    "imageUrl": "/images/recipes/itlog-na-maalat-at-kamatis.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "3 pcs salted egg",
+      "3 pcs tomatoes",
+      "1 pcs onion"
+    ],
+    "instructions": [
+      "Slice the salted eggs into wedges.",
+      "Slice the tomatoes and onion.",
+      "Arrange the eggs, tomatoes, and onion on a plate.",
+      "Serve with steamed rice."
+    ]
+  },
+  {
+    "name": "Egg Fried Rice",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Day-old rice stir-fried with egg, garlic, and green onion.",
+    "imageUrl": "/images/recipes/egg-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "3 pcs eggs",
+      "6 clove garlic",
+      "1 bundle green onion",
+      "2 tablespoons soy sauce",
+      "3 tablespoons cooking oil",
+      "1 teaspoon salt"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until golden.",
+      "Push the garlic to one side, then scramble the eggs in the pan.",
+      "Add the rice and toss to combine with the garlic and egg.",
+      "Season with soy sauce and salt.",
+      "Stir in the chopped green onion and cook for 2 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Egg Drop Soup",
+    "category": "Egg",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 15,
+    "description": "Light chicken broth thickened slightly and swirled with ribbons of egg.",
+    "imageUrl": "/images/recipes/egg-drop-soup.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "3 pcs eggs",
+      "4 cup chicken broth",
+      "1 tablespoon cornstarch",
+      "1 bundle green onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper"
+    ],
+    "instructions": [
+      "Bring the chicken broth to a boil in a pot.",
+      "Dissolve the cornstarch in a little water and stir it into the broth to thicken slightly.",
+      "Beat the eggs in a bowl.",
+      "Slowly drizzle the eggs into the simmering broth while stirring gently to form ribbons.",
+      "Season with salt and pepper, and top with chopped green onion before serving."
+    ]
+  },
+  {
+    "name": "Omelette with Cheese",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Simple folded omelette filled with melted cheddar cheese.",
+    "imageUrl": "/images/recipes/omelette-with-cheese.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs eggs",
+      "1/2 cup cheddar cheese",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Beat the eggs and season with salt and pepper.",
+      "Heat oil in a pan over medium heat.",
+      "Pour in the eggs and let the bottom set slightly.",
+      "Sprinkle the cheese over half of the omelette.",
+      "Fold the omelette in half and cook until the cheese melts, then serve."
+    ]
+  },
+  {
+    "name": "Omelette with Spinach",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Folded omelette filled with sauteed spinach and onion.",
+    "imageUrl": "/images/recipes/omelette-with-spinach.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs eggs",
+      "1 cup spinach",
+      "1 pcs onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat a little oil in a pan and saute the onion and spinach until wilted, then set aside.",
+      "Beat the eggs and season with salt and pepper.",
+      "Heat the remaining oil in the pan and pour in the eggs.",
+      "Spoon the sauteed spinach over half of the omelette.",
+      "Fold the omelette in half and cook until set, then serve."
+    ]
+  },
+  {
+    "name": "Omelette with Mushroom",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Folded omelette filled with sauteed mushrooms and onion.",
+    "imageUrl": "/images/recipes/omelette-with-mushroom.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs eggs",
+      "150 g mushrooms",
+      "1 pcs onion",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat a little oil in a pan and saute the onion and mushrooms until softened, then set aside.",
+      "Beat the eggs and season with salt and pepper.",
+      "Heat the remaining oil in the pan and pour in the eggs.",
+      "Spoon the sauteed mushrooms over half of the omelette.",
+      "Fold the omelette in half and cook until set, then serve."
+    ]
+  },
+  {
+    "name": "Omelette with Ham",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Folded omelette filled with diced ham and a sprinkle of cheese.",
+    "imageUrl": "/images/recipes/omelette-with-ham.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 pcs eggs",
+      "4 slice ham",
+      "1/4 cup cheddar cheese",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Dice the ham.",
+      "Beat the eggs and season with pepper.",
+      "Heat oil in a pan and pour in the eggs.",
+      "Scatter the ham and cheese over half of the omelette.",
+      "Fold the omelette in half and cook until the cheese melts, then serve."
+    ]
+  },
+  {
+    "name": "Pancit Malabon",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "difficulty": "Medium",
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 25,
+    "description": "Thick rice noodles in a savory shrimp-based sauce, topped with shrimp and boiled egg.",
+    "imageUrl": "/images/recipes/pancit-malabon.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g rice noodles",
+      "300 g shrimp",
+      "200 g squid",
+      "3 tablespoons shrimp paste",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 pcs eggs",
+      "3 tablespoons cooking oil",
+      "2 cup water"
+    ],
+    "instructions": [
+      "Boil the eggs until hard-cooked, then peel and slice.",
+      "Soak the rice noodles in warm water until softened, then drain.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the shrimp and squid, and cook until just done, then set most aside for topping.",
+      "Add the shrimp paste and water, and bring to a simmer.",
+      "Add the noodles and toss until the sauce is absorbed.",
+      "Top with the reserved shrimp, squid, and sliced egg before serving."
+    ]
+  },
+  {
+    "name": "Pancit Lomi",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Thick fresh egg noodles in a hearty, gently thickened pork and vegetable broth.",
+    "imageUrl": "/images/recipes/pancit-lomi.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g lomi noodles",
+      "300 g pork",
+      "1 pcs carrot",
+      "1 pcs cabbage",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons cornstarch",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "5 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and fish sauce, then simmer for 15 minutes until the pork is tender.",
+      "Add the carrot and cabbage, and simmer for 3 minutes.",
+      "Add the lomi noodles and cook for 3 minutes.",
+      "Stir in the cornstarch slurry and simmer until the broth thickens slightly, then serve."
+    ]
+  },
+  {
+    "name": "Pancit Sotanghon",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Glass noodles stir-fried with chicken, cabbage, and carrots.",
+    "imageUrl": "/images/recipes/pancit-sotanghon.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "250 g sotanghon noodles",
+      "300 g chicken",
+      "1 pcs carrot",
+      "1 pcs cabbage",
+      "1 pcs onion",
+      "6 clove garlic",
+      "3 tablespoons soy sauce",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "2 cup chicken broth"
+    ],
+    "instructions": [
+      "Soak the sotanghon noodles in water until softened, then drain.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned.",
+      "Pour in the chicken broth, soy sauce, and fish sauce, then simmer for 10 minutes.",
+      "Add the carrot and cabbage, and cook for 3 minutes.",
+      "Add the noodles and toss until the liquid is absorbed, then serve."
+    ]
+  },
+  {
+    "name": "Miki Guisado",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Fresh thick egg noodles stir-fried with pork, shrimp, and vegetables.",
+    "imageUrl": "/images/recipes/miki-guisado.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g miki noodles",
+      "200 g pork",
+      "150 g shrimp",
+      "1 pcs carrot",
+      "1 pcs cabbage",
+      "1 pcs onion",
+      "6 clove garlic",
+      "3 tablespoons soy sauce",
+      "2 tablespoons cooking oil",
+      "1 cup chicken broth"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Add the shrimp and cook until pink.",
+      "Pour in the chicken broth and soy sauce, then add the carrot.",
+      "Simmer for 5 minutes, then add the cabbage and miki noodles.",
+      "Toss until the noodles absorb the sauce, then serve."
+    ]
+  },
+  {
+    "name": "Batchoy",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "Miki noodles in a rich pork broth, topped with crushed chicharon and boiled egg.",
+    "imageUrl": "/images/recipes/batchoy.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g miki noodles",
+      "300 g pork",
+      "1/2 cup chicharon",
+      "2 pcs eggs",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "5 cup water"
+    ],
+    "instructions": [
+      "Boil the eggs until hard-cooked, then peel and slice.",
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and fish sauce, then simmer for 20 minutes until the pork is tender.",
+      "Slice the pork thinly and return to the pot.",
+      "Add the miki noodles and cook for 3 minutes.",
+      "Ladle into bowls and top with crushed chicharon and sliced egg before serving."
+    ]
+  },
+  {
+    "name": "Chicken Mami",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Egg noodle soup with shredded chicken in a light garlicky broth.",
+    "imageUrl": "/images/recipes/chicken-mami.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g miki noodles",
+      "400 g chicken",
+      "1 pcs onion",
+      "6 clove garlic",
+      "1 bundle green onion",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "6 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender, then shred the meat.",
+      "Return the shredded chicken to the pot and add the noodles.",
+      "Simmer for 3 minutes, then top with chopped green onion before serving."
+    ]
+  },
+  {
+    "name": "Beef Mami",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "Egg noodle soup with tender beef slices in a savory beef broth.",
+    "imageUrl": "/images/recipes/beef-mami.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g miki noodles",
+      "400 g beef shank",
+      "1 pcs onion",
+      "6 clove garlic",
+      "1 bundle green onion",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "6 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the beef and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 30 minutes until the beef is tender, then slice thinly.",
+      "Return the beef to the pot and add the noodles.",
+      "Simmer for 3 minutes, then top with chopped green onion before serving."
+    ]
+  },
+  {
+    "name": "Misua with Patola",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Delicate wheat noodle soup with sponge gourd in a light garlicky broth.",
+    "imageUrl": "/images/recipes/misua-with-patola.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "100 g misua noodles",
+      "2 pcs patola",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "1 tablespoon cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the sliced patola and simmer for 5 minutes.",
+      "Add the misua noodles and simmer for 2 minutes until softened.",
+      "Serve hot immediately."
+    ]
+  },
+  {
+    "name": "Misua with Meatballs",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Delicate wheat noodle soup with small pork meatballs.",
+    "imageUrl": "/images/recipes/misua-with-meatballs.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "100 g misua noodles",
+      "300 g ground pork",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "1 tablespoon cooking oil",
+      "1 teaspoon salt",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Season the ground pork with salt and shape into small meatballs.",
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Drop in the meatballs and simmer for 8 minutes until cooked through.",
+      "Add the misua noodles and simmer for 2 minutes until softened, then serve."
+    ]
+  },
+  {
+    "name": "Garlic Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Day-old rice fried with plenty of toasted garlic until fragrant.",
+    "imageUrl": "/images/recipes/garlic-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "10 clove garlic",
+      "3 tablespoons cooking oil",
+      "1 teaspoon salt"
+    ],
+    "instructions": [
+      "Mince the garlic finely.",
+      "Heat oil in a pan and fry the garlic until golden and crisp, reserving some for topping.",
+      "Add the rice and toss to coat with the garlic oil.",
+      "Season with salt and cook for 5 minutes, stirring often.",
+      "Top with the reserved crispy garlic before serving."
+    ]
+  },
+  {
+    "name": "Java Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 12,
+    "description": "Turmeric-tinted fried rice with a savory garlic and onion base.",
+    "imageUrl": "/images/recipes/java-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "1 teaspoon turmeric powder",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons soy sauce",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Stir in the turmeric powder and cook for 1 minute.",
+      "Add the rice and toss until evenly colored.",
+      "Season with soy sauce and cook for 5 minutes, stirring often.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Sinangag",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 8,
+    "description": "Simple everyday Filipino garlic fried rice, quick and fragrant.",
+    "imageUrl": "/images/recipes/sinangag.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "8 clove garlic",
+      "3 tablespoons cooking oil",
+      "1 teaspoon salt"
+    ],
+    "instructions": [
+      "Mince the garlic.",
+      "Heat oil in a pan and fry the garlic until golden.",
+      "Add the rice and toss well to coat.",
+      "Season with salt and cook for 4 minutes, stirring often, then serve."
+    ]
+  },
+  {
+    "name": "Adobo Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Fried rice cooked in leftover adobo sauce with shredded pork.",
+    "imageUrl": "/images/recipes/adobo-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "300 g pork",
+      "1/4 cup soy sauce",
+      "2 tablespoons vinegar",
+      "8 clove garlic",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until golden.",
+      "Add the pork and cook until browned.",
+      "Pour in the soy sauce and vinegar, then simmer for 5 minutes until the pork is tender, then shred it.",
+      "Add the rice and toss until evenly coated in the adobo sauce.",
+      "Cook for 3 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Tinapa Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "description": "Smoky fried rice made with flaked smoked fish and garlic.",
+    "imageUrl": "/images/recipes/tinapa-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "2 pcs tinapa",
+      "1 pcs onion",
+      "6 clove garlic",
+      "3 tablespoons cooking oil",
+      "1 teaspoon salt"
+    ],
+    "instructions": [
+      "Flake the tinapa meat, removing any bones and skin.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the flaked tinapa and cook for 2 minutes.",
+      "Add the rice and toss well to combine.",
+      "Season with salt and cook for 4 minutes, stirring often, then serve."
+    ]
+  },
+  {
+    "name": "Yang Chow Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Restaurant-style fried rice with shrimp, ham, egg, and green peas.",
+    "imageUrl": "/images/recipes/yang-chow-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "5 cup rice",
+      "150 g shrimp",
+      "4 slice ham",
+      "2 pcs eggs",
+      "1/2 cup green peas",
+      "1 pcs carrot",
+      "6 clove garlic",
+      "3 tablespoons soy sauce",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until golden.",
+      "Push the garlic aside and scramble the eggs in the pan.",
+      "Add the shrimp and cook until pink.",
+      "Add the ham, carrot, and green peas, and cook for 2 minutes.",
+      "Add the rice and soy sauce, and toss until well combined.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ]
+  },
+  {
+    "name": "Pork Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Fried rice tossed with savory bits of pork and garlic.",
+    "imageUrl": "/images/recipes/pork-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "250 g pork",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons soy sauce",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until browned and cooked through.",
+      "Add the rice and soy sauce, and toss to combine.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ]
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Fried rice tossed with savory bits of chicken and garlic.",
+    "imageUrl": "/images/recipes/chicken-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "250 g chicken",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons soy sauce",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until browned and cooked through.",
+      "Add the rice and soy sauce, and toss to combine.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ]
+  },
+  {
+    "name": "Beef Fried Rice",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "description": "Fried rice tossed with savory bits of beef and garlic.",
+    "imageUrl": "/images/recipes/beef-fried-rice.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "4 cup rice",
+      "250 g beef sirloin",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons soy sauce",
+      "3 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and cook until browned.",
+      "Add the rice and soy sauce, and toss to combine.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ]
+  },
+  {
+    "name": "Tofu Sisig",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Crispy diced tofu sizzled with onions, chili, and a splash of calamansi.",
+    "imageUrl": "/images/recipes/tofu-sisig.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g tofu",
+      "1 pcs onion",
+      "2 pcs thai chili pepper",
+      "3 pcs calamansi",
+      "3 tablespoons soy sauce",
+      "1 cup cooking oil",
+      "1 teaspoon ground black pepper"
+    ],
+    "instructions": [
+      "Cut the tofu into small cubes and pat dry.",
+      "Heat oil in a pan and fry the tofu until golden and crisp, then drain.",
+      "In a separate pan with a little oil, saute the onion and chili.",
+      "Add the fried tofu, soy sauce, and pepper, and toss well.",
+      "Squeeze in calamansi juice just before serving."
+    ]
+  },
+  {
+    "name": "Crispy Tofu",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Golden fried tofu slices, crisp outside and soft inside.",
+    "imageUrl": "/images/recipes/crispy-tofu.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g tofu",
+      "1/2 cup cornstarch",
+      "1 teaspoon salt",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Slice the tofu and pat dry with paper towels.",
+      "Season with salt and dust with cornstarch.",
+      "Heat oil in a pan over medium-high heat.",
+      "Fry the tofu until golden and crisp on all sides.",
+      "Drain on paper towels and serve with a soy-vinegar dip."
+    ]
+  },
+  {
+    "name": "Salt and Pepper Tofu",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Crispy fried tofu tossed with garlic, bell pepper, salt, and pepper.",
+    "imageUrl": "/images/recipes/salt-and-pepper-tofu.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g tofu",
+      "1/2 cup cornstarch",
+      "6 clove garlic",
+      "1 pcs bell pepper",
+      "1 tablespoon salt",
+      "1 tablespoon ground black pepper",
+      "2 cups cooking oil"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes, pat dry, and dust with cornstarch.",
+      "Heat oil in a pan and fry the tofu until golden and crisp, then drain.",
+      "In a separate pan with a little oil, saute the garlic and bell pepper.",
+      "Toss the fried tofu with the sauteed garlic, bell pepper, salt, and pepper.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Adobong Tokwa",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Fried tofu braised adobo-style in garlic, soy sauce, and vinegar.",
+    "imageUrl": "/images/recipes/adobong-tokwa.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g tofu",
+      "3 tablespoons soy sauce",
+      "3 tablespoons vinegar",
+      "8 clove garlic",
+      "1 pcs bay leaves",
+      "1 teaspoon peppercorns",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "In the same pan, saute the garlic until fragrant.",
+      "Add the soy sauce, water, bay leaf, and peppercorns, then simmer for 5 minutes.",
+      "Add the vinegar and boil without stirring for 2 minutes.",
+      "Return the tofu to the pan and simmer for 3 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Tokwa't Baboy",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Fried tofu and boiled pork cubes tossed in a garlicky soy-vinegar sauce.",
+    "imageUrl": "/images/recipes/tokwat-baboy.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "300 g tofu",
+      "400 g pork belly",
+      "1/4 cup soy sauce",
+      "1/4 cup vinegar",
+      "6 clove garlic",
+      "1 pcs onion",
+      "1 teaspoon sugar",
+      "2 cups cooking oil",
+      "3 cup water"
+    ],
+    "instructions": [
+      "Boil the pork belly in water until tender, about 20 minutes, then dice.",
+      "Cut the tofu into cubes and fry in hot oil until golden, then drain.",
+      "Combine the soy sauce, vinegar, garlic, onion, and sugar in a bowl to make the sauce.",
+      "Toss the pork and tofu with the sauce.",
+      "Serve as a snack or side dish."
+    ]
+  },
+  {
+    "name": "Tokwa at Sitaw",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Fried tofu and string beans sauteed in a savory shrimp paste sauce.",
+    "imageUrl": "/images/recipes/tokwa-at-sitaw.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "300 g tofu",
+      "2 bundle sitaw",
+      "200 g pork",
+      "2 tablespoons shrimp paste",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until browned.",
+      "Add the sitaw and water, then cover and simmer for 6 minutes.",
+      "Stir in the shrimp paste and fried tofu.",
+      "Cook for 3 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Tokwa with Oyster Sauce",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Crispy fried tofu tossed in a savory oyster sauce and garlic glaze.",
+    "imageUrl": "/images/recipes/tokwa-with-oyster-sauce.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g tofu",
+      "4 tablespoons oyster sauce",
+      "6 clove garlic",
+      "1 pcs onion",
+      "1 tablespoon cornstarch",
+      "2 cups cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes and fry in hot oil until golden, then drain.",
+      "In a separate pan, saute garlic and onion until fragrant.",
+      "Add the oyster sauce and water, then simmer for 2 minutes.",
+      "Add the cornstarch slurry and cook until the sauce thickens.",
+      "Toss in the fried tofu and coat well before serving."
+    ]
+  },
+  {
+    "name": "Braised Tofu with Mushrooms",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Silken tofu and mushrooms braised together in a light savory sauce.",
+    "imageUrl": "/images/recipes/braised-tofu-with-mushrooms.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "500 g tofu",
+      "200 g mushrooms",
+      "3 tablespoons oyster sauce",
+      "1 tablespoon soy sauce",
+      "5 clove garlic",
+      "1 tablespoon cornstarch",
+      "2 tablespoons cooking oil",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes.",
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the mushrooms and cook for 3 minutes.",
+      "Stir in the oyster sauce, soy sauce, and water, then bring to a simmer.",
+      "Gently add the tofu and simmer for 5 minutes.",
+      "Add the cornstarch slurry and cook until the sauce thickens, then serve."
+    ]
+  },
+  {
+    "name": "Ginisang Tokwa",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Diced tofu sauteed with ground pork, tomatoes, and garlic.",
+    "imageUrl": "/images/recipes/ginisang-tokwa.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g tofu",
+      "200 g ground pork",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the ground pork and cook until browned.",
+      "Season with fish sauce.",
+      "Add the fried tofu and toss to combine, then serve."
+    ]
+  },
+  {
+    "name": "Stir-fried Tofu and Vegetables",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 12,
+    "description": "Crispy tofu stir-fried with bell pepper, carrot, and string beans.",
+    "imageUrl": "/images/recipes/stir-fried-tofu-and-vegetables.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g tofu",
+      "1 pcs bell pepper",
+      "1 pcs carrot",
+      "1 bundle string beans",
+      "5 clove garlic",
+      "3 tablespoons oyster sauce",
+      "3 tablespoons cooking oil",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the carrot and string beans, and stir-fry for 3 minutes.",
+      "Add the bell pepper, oyster sauce, and water.",
+      "Toss in the fried tofu and cook for 2 minutes more, then serve."
+    ]
+  },
+  {
+    "name": "Arroz Caldo",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "Warm ginger rice porridge with chicken, topped with toasted garlic and green onion.",
+    "imageUrl": "/images/recipes/arroz-caldo.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 cup rice",
+      "500 g chicken",
+      "3 pcs ginger",
+      "1 pcs onion",
+      "8 clove garlic",
+      "2 tablespoons fish sauce",
+      "1 teaspoon annatto seeds",
+      "2 tablespoons cooking oil",
+      "6 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and fry half the garlic until golden and crisp, then set aside for topping.",
+      "In the same pot, saute the remaining garlic, onion, and ginger until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Stir in the annatto seeds, rice, water, and fish sauce.",
+      "Bring to a boil, then simmer for 25 minutes, stirring occasionally, until porridge-like.",
+      "Ladle into bowls and top with the crispy garlic and chopped green onion."
+    ]
+  },
+  {
+    "name": "Lugaw",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 5,
+    "cookTime": 25,
+    "description": "Plain savory rice porridge with garlic and ginger, simple and comforting.",
+    "imageUrl": "/images/recipes/lugaw.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 cup rice",
+      "3 pcs ginger",
+      "1 pcs onion",
+      "6 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "6 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Add the rice and toast for 1 minute.",
+      "Pour in the water and fish sauce.",
+      "Bring to a boil, then simmer for 20 minutes, stirring occasionally, until porridge-like.",
+      "Serve hot with a squeeze of calamansi if desired."
+    ]
+  },
+  {
+    "name": "Goto",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 60,
+    "description": "Rice porridge simmered with beef tripe until tender, topped with crispy garlic.",
+    "imageUrl": "/images/recipes/goto.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 cup rice",
+      "500 g beef tripe",
+      "3 pcs ginger",
+      "1 pcs onion",
+      "8 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "7 cup water"
+    ],
+    "instructions": [
+      "Boil the beef tripe in water until tender, about 40 minutes, then slice into strips.",
+      "Heat oil in a pot and fry half the garlic until golden and crisp, then set aside for topping.",
+      "In the same pot, saute the remaining garlic, onion, and ginger until fragrant.",
+      "Add the tripe and rice, and toast for 1 minute.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Simmer for 20 minutes, stirring occasionally, until porridge-like.",
+      "Top with the crispy garlic before serving."
+    ]
+  },
+  {
+    "name": "Misua Soup",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Simple wheat noodle soup with ground pork in a light garlicky broth.",
+    "imageUrl": "/images/recipes/misua-soup.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "100 g misua noodles",
+      "200 g ground pork",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "1 tablespoon cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Simmer for 5 minutes.",
+      "Add the misua noodles and simmer for 2 minutes until softened, then serve."
+    ]
+  },
+  {
+    "name": "Chicken Macaroni Soup",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 5,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Chicken and elbow macaroni soup in a light, milky broth.",
+    "imageUrl": "/images/recipes/chicken-macaroni-soup.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "400 g chicken",
+      "1 cup elbow macaroni",
+      "1 pcs carrot",
+      "1 pcs onion",
+      "5 clove garlic",
+      "1 cup evaporated milk",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "5 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 15 minutes until the chicken is tender, then shred the meat.",
+      "Add the carrot and macaroni, and simmer for 8 minutes.",
+      "Stir in the evaporated milk and simmer for 2 minutes more before serving."
+    ]
+  },
+  {
+    "name": "Tinolang Isda",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Easy",
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "Fish simmered in a ginger broth with green papaya and spinach leaves.",
+    "imageUrl": "/images/recipes/tinolang-isda.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "600 g tilapia",
+      "1 pcs green papaya",
+      "1 cup spinach",
+      "3 pcs ginger",
+      "1 pcs onion",
+      "4 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "4 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the green papaya and simmer for 8 minutes.",
+      "Gently add the fish and simmer for 8 minutes until cooked through.",
+      "Add the spinach and simmer for 2 minutes more before serving."
+    ]
+  },
+  {
+    "name": "Sinampalukang Manok",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "difficulty": "Medium",
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 35,
+    "description": "Chicken simmered in a sour tamarind broth with vegetables.",
+    "imageUrl": "/images/recipes/sinampalukang-manok.jpg",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": "",
+    "rawIngredients": [
+      "1 kg chicken",
+      "1 pack tamarind soup mix",
+      "1 pcs kalabasa",
+      "1 bundle string beans",
+      "2 pcs tomatoes",
+      "1 pcs onion",
+      "5 clove garlic",
+      "2 tablespoons fish sauce",
+      "2 tablespoons cooking oil",
+      "5 cup water"
+    ],
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender.",
+      "Stir in the tamarind soup mix and add the kalabasa.",
+      "Simmer for 8 minutes, then add the string beans and cook for 3 minutes more before serving."
+    ]
   }
 ]

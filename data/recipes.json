@@ -3995,5 +3995,6980 @@
         "unit": "cup"
       }
     ]
+  },
+  {
+    "id": "recipe_054",
+    "name": "Chicken Curry",
+    "description": "Chicken simmered in coconut milk and curry powder with potatoes, carrots, and bell pepper.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 295.4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-curry.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned on all sides.",
+      "Stir in the curry powder and cook for 1 minute until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 15 minutes.",
+      "Add the potatoes and carrot, and simmer for 10 minutes more.",
+      "Pour in the coconut milk and add the bell pepper.",
+      "Simmer uncovered for 5 minutes until the sauce thickens slightly, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Curry Powder",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_055",
+    "name": "Garlic Butter Chicken",
+    "description": "Pan-seared chicken thighs finished in a rich garlic butter sauce.",
+    "category": "Chicken",
+    "mealStyle": "Dry",
+    "estimatedCost": 185.05,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/garlic-butter-chicken.jpg",
+    "instructions": [
+      "Season the chicken with salt and pepper.",
+      "Heat oil in a pan and sear the chicken until golden and cooked through, then set aside.",
+      "In the same pan, melt the butter and saute the garlic until golden and fragrant.",
+      "Return the chicken to the pan and add the soy sauce.",
+      "Toss the chicken in the garlic butter sauce for 2 minutes.",
+      "Serve hot, spooning the garlic butter over the chicken."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_056",
+    "name": "Chicken Pastel",
+    "description": "Creamy chicken stew with vegetables and hotdog slices in a savory milk-based sauce.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 321.25,
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-pastel.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion.",
+      "Add the chicken and soy sauce, then cook until lightly browned.",
+      "Pour in the chicken broth and simmer for 15 minutes until the chicken is tender.",
+      "Add the potatoes and carrot, and cook for 10 minutes.",
+      "Stir in the hotdog slices and green peas.",
+      "Pour in the evaporated milk and season with salt.",
+      "Simmer for 5 minutes until the sauce thickens, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Hotdogs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Green Peas",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Evaporated Milk",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_057",
+    "name": "Chicken Pochero",
+    "description": "Hearty chicken and vegetable stew in a tomato broth, sweetened with saba banana.",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "estimatedCost": 286.4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-pochero.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the chicken and cook until lightly browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender.",
+      "Add the potatoes and saba banana, and simmer for 10 minutes.",
+      "Add the cabbage and simmer for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Saba Banana",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_058",
+    "name": "Chicken Sotanghon Soup",
+    "description": "Comforting glass noodle soup with shredded chicken, ginger, and malunggay leaves.",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "estimatedCost": 142.2,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-sotanghon-soup.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender, then shred the meat.",
+      "Soak the sotanghon noodles in water until softened, then drain.",
+      "Add the noodles to the pot and simmer for 3 minutes.",
+      "Stir in the malunggay leaves and turn off the heat before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Sotanghon Noodles",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Malunggay Leaves",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 6,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_059",
+    "name": "Chicken Binakol",
+    "description": "Chicken soup simmered in coconut water with lemongrass and young coconut meat.",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "estimatedCost": 252.1,
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-binakol.jpg",
+    "instructions": [
+      "Combine the chicken, coconut water, lemongrass, ginger, and onion in a pot.",
+      "Bring to a boil, then lower the heat and simmer for 20 minutes.",
+      "Season with fish sauce.",
+      "Add the chili pepper and simmer for 5 minutes more.",
+      "Stir in the malunggay leaves and turn off the heat.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Coconut Water",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "Lemongrass",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Malunggay Leaves",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      }
+    ]
+  },
+  {
+    "id": "recipe_060",
+    "name": "Chicken Halang-Halang",
+    "description": "Spicy Visayan chicken stew in coconut milk with turmeric and chili.",
+    "category": "Chicken",
+    "mealStyle": "Soup",
+    "estimatedCost": 347.85,
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-halang-halang.jpg",
+    "instructions": [
+      "Combine the chicken, garlic, onion, ginger, lemongrass, and turmeric powder in a pot with enough water to cover.",
+      "Bring to a boil, then simmer for 15 minutes.",
+      "Add the kalabasa and simmer for 10 minutes until tender.",
+      "Pour in the coconut milk and season with fish sauce.",
+      "Add the chili peppers and simmer for 5 minutes.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Turmeric Powder",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Lemongrass",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "pcs"
+      }
+    ]
+  },
+  {
+    "id": "recipe_061",
+    "name": "Honey Garlic Chicken",
+    "description": "Crispy pan-fried chicken pieces coated in a sticky honey garlic glaze.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 171.45,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/honey-garlic-chicken.jpg",
+    "instructions": [
+      "Season the chicken lightly and dust with cornstarch.",
+      "Heat oil in a pan and fry the chicken until golden and cooked through, then set aside.",
+      "In the same pan, saute the garlic until fragrant.",
+      "Add the honey, soy sauce, and water, then simmer until slightly thickened.",
+      "Return the chicken to the pan and toss to coat in the sauce.",
+      "Cook for 2 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Honey",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_062",
+    "name": "Orange Chicken (Filipino style)",
+    "description": "Crispy fried chicken bites tossed in a tangy-sweet orange sauce.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 151.45,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/orange-chicken-filipino-style.jpg",
+    "instructions": [
+      "Cut the chicken into bite-sized pieces and dust with cornstarch.",
+      "Heat oil in a pan and fry the chicken until golden and crisp, then set aside.",
+      "In a saucepan, combine the orange juice, brown sugar, soy sauce, garlic, and water.",
+      "Simmer the sauce until slightly thickened.",
+      "Toss the fried chicken in the sauce until well coated.",
+      "Serve immediately while the chicken is still crisp."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Orange",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_063",
+    "name": "Lemon Chicken",
+    "description": "Crispy fried chicken fillets glazed in a bright lemon sauce.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 149.65,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/lemon-chicken.jpg",
+    "instructions": [
+      "Season the chicken and dust with cornstarch.",
+      "Heat oil in a pan and fry the chicken until golden and cooked through, then set aside.",
+      "In a saucepan, combine the lemon juice, sugar, soy sauce, and water.",
+      "Simmer the sauce until slightly thickened.",
+      "Pour the sauce over the fried chicken just before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_064",
+    "name": "Soy Garlic Chicken",
+    "description": "Crispy fried chicken tossed in a savory soy garlic glaze with sesame seeds.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 154.5,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/soy-garlic-chicken.jpg",
+    "instructions": [
+      "Heat oil in a pan and fry the chicken until golden and cooked through, then set aside.",
+      "In the same pan, saute the garlic until fragrant.",
+      "Add the soy sauce and brown sugar, then simmer until slightly thickened.",
+      "Return the chicken to the pan and toss to coat.",
+      "Drizzle with sesame oil and sprinkle with sesame seeds before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Sesame Oil",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Sesame Seeds",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_065",
+    "name": "Chicken Teriyaki",
+    "description": "Pan-grilled chicken thighs glazed in a sweet and savory teriyaki sauce.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 142.8,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-teriyaki.jpg",
+    "instructions": [
+      "Combine the soy sauce, brown sugar, garlic, sesame oil, and water in a bowl to make the marinade.",
+      "Marinate the chicken for at least 20 minutes.",
+      "Heat oil in a pan and cook the chicken, reserving the marinade.",
+      "Once the chicken is browned on both sides, pour in the reserved marinade.",
+      "Simmer until the chicken is cooked through and the sauce thickens.",
+      "Slice and serve over rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Sesame Oil",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_066",
+    "name": "Chicken Tocino",
+    "description": "Sweet cured chicken slices, pan-fried until caramelized at the edges.",
+    "category": "Chicken",
+    "mealStyle": "Dry",
+    "estimatedCost": 156.75,
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/chicken-tocino.jpg",
+    "instructions": [
+      "Combine the chicken, sugar, soy sauce, pineapple juice, annatto seeds, and salt in a bowl.",
+      "Marinate in the refrigerator for at least 4 hours, or overnight for best results.",
+      "Heat oil in a pan and add the marinated chicken along with the water.",
+      "Simmer until the water evaporates and the chicken is cooked through.",
+      "Continue cooking until the chicken caramelizes and browns slightly at the edges.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Annatto Seeds",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_067",
+    "name": "Chicken Hamonado",
+    "description": "Chicken braised in a sweet pineapple and soy sauce until tender.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 222.45,
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-hamonado.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned.",
+      "Pour in the pineapple juice, soy sauce, brown sugar, and water.",
+      "Bring to a boil, then cover and simmer for 25 minutes until the chicken is tender.",
+      "Uncover and simmer until the sauce thickens slightly.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_068",
+    "name": "Chicken with Oyster Sauce",
+    "description": "Stir-fried chicken and vegetables coated in a savory oyster sauce glaze.",
+    "category": "Chicken",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 167.75,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-with-oyster-sauce.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned.",
+      "Add the carrot and cook for 3 minutes.",
+      "Stir in the oyster sauce, soy sauce, and water.",
+      "Simmer until the chicken is cooked through.",
+      "Add the bell pepper and cornstarch slurry, then cook until the sauce thickens.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_069",
+    "name": "Pork Adobo",
+    "description": "Classic pork braised in soy sauce, vinegar, garlic, and bay leaves until tender.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 314.49,
+    "prepTime": 10,
+    "cookTime": 40,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pork-adobo.jpg",
+    "instructions": [
+      "Combine the pork, soy sauce, and garlic in a pot and marinate for 15 minutes.",
+      "Add the water, bay leaves, and peppercorns, then bring to a boil.",
+      "Cover and simmer for 30 minutes until the pork is tender.",
+      "Add the vinegar and let it boil without stirring for 2 minutes.",
+      "Stir in the sugar and simmer uncovered until the sauce reduces slightly.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_070",
+    "name": "Pork Giniling",
+    "description": "Ground pork sauteed with potatoes, carrots, and tomato sauce.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 223,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pork-giniling.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned, breaking it apart as it cooks.",
+      "Stir in the soy sauce and tomato sauce.",
+      "Add the potatoes, carrot, and water.",
+      "Cover and simmer for 15 minutes until the vegetables are tender.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Pork",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_071",
+    "name": "Pork Steak",
+    "description": "Pan-fried pork chops smothered in a soy sauce and onion gravy, Filipino bistek-style.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 233.08,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pork-steak.jpg",
+    "instructions": [
+      "Combine the pork, soy sauce, lemon juice, and pepper in a bowl and marinate for 20 minutes.",
+      "Heat oil in a pan and fry the pork until browned on both sides, reserving the marinade.",
+      "Remove the pork and set aside.",
+      "In the same pan, saute the onion until softened.",
+      "Return the pork to the pan along with the reserved marinade and water.",
+      "Simmer until the pork is tender and the sauce reduces, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_072",
+    "name": "Pork Estofado",
+    "description": "Pork braised in a sweet soy sauce with saba bananas and fried potatoes.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 380.05,
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pork-estofado.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork belly and cook until lightly browned.",
+      "Pour in the soy sauce, brown sugar, water, and bay leaves.",
+      "Cover and simmer for 30 minutes until the pork is tender.",
+      "Fry the potatoes and saba banana separately until golden, then add to the pot.",
+      "Simmer for 5 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Saba Banana",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_073",
+    "name": "Pork Hamonado",
+    "description": "Pork belly braised in pineapple juice and soy sauce until sweet and tender.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 364.45,
+    "prepTime": 10,
+    "cookTime": 35,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pork-hamonado.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the pineapple juice, soy sauce, brown sugar, water, and bay leaves.",
+      "Bring to a boil, then cover and simmer for 30 minutes until the pork is tender.",
+      "Uncover and simmer until the sauce thickens slightly, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_074",
+    "name": "Pork Asado",
+    "description": "Pork strips braised in a sweet soy sauce marinade until fork-tender.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 321.78,
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pork-asado.jpg",
+    "instructions": [
+      "Combine the pork, soy sauce, lemon juice, and garlic in a bowl and marinate for 30 minutes.",
+      "Heat oil in a pot and saute the onion until softened.",
+      "Add the pork along with the marinade and cook until lightly browned.",
+      "Pour in the water, brown sugar, and bay leaves.",
+      "Cover and simmer for 30 minutes until the pork is tender and the sauce thickens.",
+      "Slice and serve with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_075",
+    "name": "Fried Liempo",
+    "description": "Pork belly slices marinated in soy sauce and calamansi, then deep-fried until crisp.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 421.3,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/fried-liempo.jpg",
+    "instructions": [
+      "Combine the pork belly, soy sauce, calamansi juice, garlic, pepper, and salt in a bowl.",
+      "Marinate for at least 30 minutes.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Fry the pork belly until deeply golden and crisp, about 8 minutes per side.",
+      "Drain on paper towels, then slice and serve with a vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_076",
+    "name": "Binagoongan Baboy",
+    "description": "Pork braised in shrimp paste and vinegar with tomatoes and a touch of sugar.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 381.6,
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/binagoongan-baboy.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and vinegar, then bring to a boil without stirring for 2 minutes.",
+      "Cover and simmer for 25 minutes until the pork is tender.",
+      "Stir in the shrimp paste and sugar.",
+      "Simmer uncovered for 5 minutes, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_077",
+    "name": "Sweet and Sour Pork",
+    "description": "Crispy fried pork tossed with bell pepper and pineapple in a tangy sweet sauce.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 267.9,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/sweet-and-sour-pork.jpg",
+    "instructions": [
+      "Cut the pork into cubes and coat lightly with cornstarch.",
+      "Heat oil in a pan and fry the pork until golden and cooked through, then set aside.",
+      "In a saucepan, combine the tomato sauce, sugar, vinegar, and water.",
+      "Simmer the sauce until it starts to thicken.",
+      "Add the bell pepper and pineapple chunks, and cook for 2 minutes.",
+      "Toss in the fried pork and coat well with the sauce before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_078",
+    "name": "Pork with Oyster Sauce",
+    "description": "Stir-fried pork strips and vegetables coated in a savory oyster sauce glaze.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 227.75,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pork-with-oyster-sauce.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Add the carrot and cook for 3 minutes.",
+      "Stir in the oyster sauce, soy sauce, and water.",
+      "Simmer until the pork is cooked through.",
+      "Add the bell pepper and cornstarch slurry, then cook until the sauce thickens.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_079",
+    "name": "Garlic Pork",
+    "description": "Deep-fried pork cubes tossed with crispy toasted garlic bits.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 299.2,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/garlic-pork.jpg",
+    "instructions": [
+      "Season the pork with soy sauce, salt, and pepper, and marinate for 15 minutes.",
+      "Heat oil in a pan and fry the pork until golden and crisp, then drain and set aside.",
+      "In a separate pan with a little oil, fry the minced garlic until golden and crispy.",
+      "Toss the fried pork with the toasted garlic bits.",
+      "Serve hot with a vinegar dipping sauce."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 10,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_080",
+    "name": "Salt and Pepper Pork",
+    "description": "Crispy fried pork bites seasoned simply with salt, pepper, and garlic.",
+    "category": "Pork",
+    "mealStyle": "Dry",
+    "estimatedCost": 282.55,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/salt-and-pepper-pork.jpg",
+    "instructions": [
+      "Cut the pork into bite-sized pieces and season with half the salt and pepper.",
+      "Dust the pork with cornstarch.",
+      "Heat oil in a pan and fry the pork until golden and crisp, then drain.",
+      "In a separate pan with a little oil, saute the garlic and bell pepper.",
+      "Toss the fried pork with the sauteed garlic and bell pepper, and the remaining salt and pepper.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_081",
+    "name": "Pork Caldereta",
+    "description": "Pork braised in tomato sauce and liver spread with potatoes, carrots, and bell pepper.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 378.8,
+    "prepTime": 15,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pork-caldereta.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the tomato sauce, water, and bay leaves.",
+      "Cover and simmer for 30 minutes until the pork is tender.",
+      "Add the potatoes and carrot, and simmer for 10 minutes.",
+      "Stir in the liver spread and bell pepper.",
+      "Simmer for 5 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Liver Spread",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_082",
+    "name": "Pork Pochero",
+    "description": "Pork and vegetable stew in a tomato broth, sweetened with saba banana.",
+    "category": "Pork",
+    "mealStyle": "Soup",
+    "estimatedCost": 426.4,
+    "prepTime": 15,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pork-pochero.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 25 minutes until the pork is tender.",
+      "Add the potatoes and saba banana, and simmer for 10 minutes.",
+      "Add the cabbage and simmer for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Saba Banana",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_083",
+    "name": "Pork Binagoongan with Talong",
+    "description": "Pork and eggplant braised in shrimp paste with tomatoes and a touch of vinegar.",
+    "category": "Pork",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 330.85,
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pork-binagoongan-with-talong.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and vinegar, then boil without stirring for 2 minutes.",
+      "Cover and simmer for 25 minutes until the pork is tender.",
+      "Add the eggplant and simmer for 5 minutes.",
+      "Stir in the shrimp paste and sugar, then simmer for 3 minutes more before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "quantity": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Eggplant",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_084",
+    "name": "Fried Tilapia",
+    "description": "Whole tilapia seasoned with salt and fried until the skin is golden and crisp.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 413.95,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/fried-tilapia.jpg",
+    "instructions": [
+      "Clean the tilapia and pat dry with paper towels.",
+      "Season both sides with salt and pepper.",
+      "Heat the cooking oil in a pan over medium-high heat.",
+      "Fry the tilapia for 5 to 6 minutes per side until golden and crisp.",
+      "Drain on paper towels and serve with a vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Tilapia",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_085",
+    "name": "Ginataang Tilapia",
+    "description": "Tilapia simmered in coconut milk with ginger, chili, and spinach.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 480.3,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-tilapia.jpg",
+    "instructions": [
+      "Arrange the ginger, onion, and garlic at the bottom of a pot.",
+      "Place the tilapia on top and pour in the coconut milk.",
+      "Bring to a gentle boil, then simmer for 12 minutes.",
+      "Season with fish sauce and add the chili peppers.",
+      "Add the spinach and simmer for 2 minutes more.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Tilapia",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Spinach",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_086",
+    "name": "Daing na Bangus",
+    "description": "Butterflied milkfish marinated in vinegar and garlic, then fried until crisp.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 335.95,
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/daing-na-bangus.jpg",
+    "instructions": [
+      "Combine the vinegar, garlic, pepper, and salt in a bowl.",
+      "Marinate the milkfish in the mixture for at least 30 minutes.",
+      "Heat cooking oil in a pan over medium heat.",
+      "Fry the milkfish until golden and crisp on both sides.",
+      "Drain on paper towels and serve with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Milkfish",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_087",
+    "name": "Relyenong Bangus",
+    "description": "Deboned milkfish stuffed with a savory sauteed filling of its own flaked meat and vegetables.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 213.45,
+    "prepTime": 40,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Hard",
+    "imageUrl": "/images/recipes/relyenong-bangus.jpg",
+    "instructions": [
+      "Carefully debone the milkfish, keeping the skin intact, and set aside the flesh.",
+      "Steam or boil the fish flesh until cooked, then flake it and remove any bones.",
+      "Saute garlic and onion, then add the flaked fish, carrot, and green peas.",
+      "Season with salt and pepper, then mix in the egg and bread crumbs.",
+      "Stuff the mixture back into the fish skin, reshaping it to look whole.",
+      "Heat oil in a pan and fry the stuffed fish until golden on all sides.",
+      "Slice and serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Milkfish",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Green Peas",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bread Crumbs",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_088",
+    "name": "Garlic Butter Shrimp",
+    "description": "Shrimp sauteed in garlic butter until pink and juicy.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 355.05,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/garlic-butter-shrimp.jpg",
+    "instructions": [
+      "Season the shrimp with salt and pepper.",
+      "Melt the butter in a pan over medium heat.",
+      "Saute the garlic until fragrant and lightly golden.",
+      "Add the shrimp and cook for 2 to 3 minutes per side until pink.",
+      "Squeeze in lemon juice and toss to coat before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 1,
+        "unit": "pcs"
+      }
+    ]
+  },
+  {
+    "id": "recipe_089",
+    "name": "Buttered Shrimp",
+    "description": "Crispy fried shrimp coated in a creamy buttered sauce with a hint of spice.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 374.05,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/buttered-shrimp.jpg",
+    "instructions": [
+      "Season the shrimp with salt and coat lightly in cornstarch.",
+      "Heat cooking oil in a pan and fry the shrimp until crisp, then drain.",
+      "In a separate pan, melt the butter and saute the garlic and chili until fragrant.",
+      "Toss the fried shrimp in the garlic butter until well coated.",
+      "Serve hot immediately."
+    ],
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Butter",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_090",
+    "name": "Adobong Tahong",
+    "description": "Mussels simmered in garlic, soy sauce, and vinegar until they open and soak up the sauce.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 154.6,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/adobong-tahong.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the mussels and soy sauce, and stir to coat.",
+      "Pour in the vinegar and let it boil without stirring for 2 minutes.",
+      "Cover and simmer for 8 minutes until the mussels open.",
+      "Season with pepper and discard any unopened mussels before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Mussels",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_091",
+    "name": "Tahong Soup",
+    "description": "Light ginger broth with mussels and spinach, comforting and quick to make.",
+    "category": "Seafood",
+    "mealStyle": "Soup",
+    "estimatedCost": 167.95,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tahong-soup.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the mussels and simmer for 8 minutes until they open.",
+      "Add the spinach and simmer for 2 minutes more.",
+      "Discard any unopened mussels, then serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Mussels",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Spinach",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_092",
+    "name": "Steamed Tahong",
+    "description": "Mussels steamed with ginger, lemongrass, and onion until they open.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 138,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/steamed-tahong.jpg",
+    "instructions": [
+      "Combine the ginger, lemongrass, onion, and water in a pot.",
+      "Bring to a boil.",
+      "Add the mussels, cover, and steam for 8 minutes until they open.",
+      "Discard any unopened mussels.",
+      "Serve hot with the steaming broth and a vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Mussels",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Lemongrass",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Water",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_093",
+    "name": "Baked Tahong",
+    "description": "Half-shell mussels topped with a garlicky butter and cheese crust, baked until bubbly.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 199,
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/baked-tahong.jpg",
+    "instructions": [
+      "Steam the mussels until they open, then remove the top shells, keeping the meat on the bottom half.",
+      "Melt the butter and saute the garlic until fragrant.",
+      "Mix the garlic butter with the bread crumbs and pepper.",
+      "Top each mussel half with the mixture and sprinkle with cheese.",
+      "Bake or broil for 8 to 10 minutes until golden and bubbly.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Mussels",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Butter",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Cheddar Cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Bread Crumbs",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_094",
+    "name": "Sweet and Sour Fish",
+    "description": "Crispy fried fish fillets topped with a tangy-sweet vegetable sauce.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 258.1,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/sweet-and-sour-fish.jpg",
+    "instructions": [
+      "Cut the fish into fillets and fry in hot oil until golden and crisp, then set aside.",
+      "In a saucepan, combine the tomato sauce, sugar, vinegar, and water.",
+      "Add the carrot and simmer for 3 minutes.",
+      "Add the bell pepper and pineapple chunks, and simmer for 2 minutes.",
+      "Stir in the cornstarch slurry and cook until the sauce thickens.",
+      "Pour the sauce over the fried fish before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Tilapia",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_095",
+    "name": "Fried Galunggong",
+    "description": "Whole mackerel scad, seasoned and fried until crisp on the outside.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 143.95,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/fried-galunggong.jpg",
+    "instructions": [
+      "Clean the galunggong and pat dry.",
+      "Season with salt and pepper.",
+      "Heat cooking oil in a pan over medium-high heat.",
+      "Fry the fish for 4 to 5 minutes per side until golden and crisp.",
+      "Drain on paper towels and serve with a vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Galunggong",
+        "quantity": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_096",
+    "name": "Pritong Hasa-Hasa",
+    "description": "Short-bodied mackerel, seasoned and fried until golden and crisp.",
+    "category": "Seafood",
+    "mealStyle": "Dry",
+    "estimatedCost": 133.95,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pritong-hasa-hasa.jpg",
+    "instructions": [
+      "Clean the hasa-hasa and pat dry.",
+      "Season with salt and pepper.",
+      "Heat cooking oil in a pan over medium-high heat.",
+      "Fry the fish for 4 to 5 minutes per side until golden and crisp.",
+      "Drain on paper towels and serve with a vinegar and chili dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Hasa-hasa",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_097",
+    "name": "Ginataang Galunggong",
+    "description": "Mackerel scad simmered in coconut milk with ginger and chili.",
+    "category": "Seafood",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 191.1,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-galunggong.jpg",
+    "instructions": [
+      "Arrange the ginger, onion, and garlic at the bottom of a pot.",
+      "Place the galunggong on top and pour in the coconut milk.",
+      "Bring to a gentle boil, then simmer for 12 minutes.",
+      "Season with fish sauce and add the chili peppers.",
+      "Simmer for 3 minutes more, then serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Galunggong",
+        "quantity": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_098",
+    "name": "Sardines with Misua",
+    "description": "Comforting misua noodle soup simmered with canned sardines and tomatoes.",
+    "category": "Seafood",
+    "mealStyle": "Soup",
+    "estimatedCost": 108.75,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/sardines-with-misua.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the sardines along with their sauce.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Simmer for 5 minutes.",
+      "Add the misua noodles and simmer for 2 minutes until softened.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Sardines",
+        "quantity": 2,
+        "unit": "can"
+      },
+      {
+        "name": "Misua Noodles",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_099",
+    "name": "Beef Giniling",
+    "description": "Ground beef sauteed with potatoes, carrots, and tomato sauce.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 307,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-giniling.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground beef and cook until browned, breaking it apart as it cooks.",
+      "Stir in the soy sauce and tomato sauce.",
+      "Add the potatoes, carrot, and water.",
+      "Cover and simmer for 15 minutes until the vegetables are tender.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Beef",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_100",
+    "name": "Corned Beef Guisado",
+    "description": "Canned corned beef sauteed with potatoes, onions, and garlic.",
+    "category": "Beef",
+    "mealStyle": "Dry",
+    "estimatedCost": 124.3,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/corned-beef-guisado.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the diced potatoes and cook until lightly browned.",
+      "Stir in the corned beef and cook until heated through.",
+      "Season with pepper and cook for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Corned Beef",
+        "quantity": 2,
+        "unit": "can"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_101",
+    "name": "Beef with Broccoli",
+    "description": "Tender beef strips and broccoli stir-fried in a savory oyster sauce.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 308.75,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-with-broccoli.jpg",
+    "instructions": [
+      "Slice the beef thinly against the grain and marinate with soy sauce for 10 minutes.",
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the beef and stir-fry until browned.",
+      "Add the broccoli and cook for 3 minutes.",
+      "Stir in the oyster sauce and water.",
+      "Add the cornstarch slurry and cook until the sauce thickens, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Broccoli",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_102",
+    "name": "Beef with Oyster Sauce",
+    "description": "Stir-fried beef strips and vegetables coated in a savory oyster sauce glaze.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 269.75,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-with-oyster-sauce.jpg",
+    "instructions": [
+      "Slice the beef thinly against the grain and marinate with soy sauce for 10 minutes.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and stir-fry until browned.",
+      "Add the carrot and cook for 3 minutes.",
+      "Stir in the oyster sauce and water.",
+      "Add the bell pepper and cornstarch slurry, then cook until the sauce thickens before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_103",
+    "name": "Beef Picadillo",
+    "description": "Ground beef simmered in a light tomato broth with potatoes and carrots.",
+    "category": "Beef",
+    "mealStyle": "Soup",
+    "estimatedCost": 300.4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-picadillo.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the ground beef and cook until browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the potatoes and carrot.",
+      "Cover and simmer for 15 minutes until the vegetables are tender.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Ground Beef",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 3,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_104",
+    "name": "Beef Stroganoff (Filipino style)",
+    "description": "Beef strips and mushrooms in a creamy evaporated milk sauce over rice.",
+    "category": "Beef",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 351.3,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/beef-stroganoff-filipino-style.jpg",
+    "instructions": [
+      "Slice the beef thinly against the grain.",
+      "Melt the butter in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and cook until browned.",
+      "Add the mushrooms and cook for 3 minutes.",
+      "Stir in the soy sauce and water, then simmer for 10 minutes until the beef is tender.",
+      "Pour in the evaporated milk and cornstarch slurry, and simmer until the sauce thickens.",
+      "Serve hot over rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Evaporated Milk",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Butter",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_105",
+    "name": "Beef and Mushroom Stir Fry",
+    "description": "Quick stir-fried beef and mushrooms in a garlicky soy sauce glaze.",
+    "category": "Beef",
+    "mealStyle": "Dry",
+    "estimatedCost": 273,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-and-mushroom-stir-fry.jpg",
+    "instructions": [
+      "Slice the beef thinly against the grain and marinate with soy sauce for 10 minutes.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and stir-fry over high heat until browned.",
+      "Add the mushrooms and oyster sauce, and cook for 3 minutes.",
+      "Season with pepper and serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Beef Sirloin",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_106",
+    "name": "Ginisang Kangkong",
+    "description": "Water spinach quickly sauteed with garlic, tomatoes, and shrimp paste.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 57.55,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-kangkong.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the shrimp paste and cook for 1 minute.",
+      "Add the kangkong and toss until just wilted.",
+      "Cook for 2 minutes more, then serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_107",
+    "name": "Ginisang Pechay",
+    "description": "Bok choy sauteed with garlic, onion, and ground pork.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 85.4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-pechay.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Pour in the water and fish sauce, then simmer for 3 minutes.",
+      "Add the pechay and cook until just wilted.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Pechay",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_108",
+    "name": "Ginisang Repolyo",
+    "description": "Cabbage sauteed with ground pork, carrots, and garlic.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 113.4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-repolyo.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Add the carrot and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then simmer for 3 minutes.",
+      "Add the cabbage and cook until just wilted, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_109",
+    "name": "Ginisang Sayote",
+    "description": "Chayote sauteed with ground pork and garlic in a light savory sauce.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 95.4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-sayote.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Add the sliced sayote and cook for 2 minutes.",
+      "Pour in the water and fish sauce.",
+      "Cover and simmer for 6 minutes until the sayote is tender, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Sayote",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_110",
+    "name": "Ginisang Kalabasa",
+    "description": "Squash sauteed with ground pork, string beans, and garlic.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 145.4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-kalabasa.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Add the kalabasa and cook for 2 minutes.",
+      "Pour in the water and fish sauce.",
+      "Cover and simmer for 8 minutes until the kalabasa is tender.",
+      "Add the string beans and cook for 3 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_111",
+    "name": "Ginisang Upo",
+    "description": "Bottle gourd sauteed with shrimp, garlic, and tomatoes.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 140.4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-upo.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the shrimp and cook until pink.",
+      "Add the sliced upo and cook for 2 minutes.",
+      "Pour in the water and fish sauce.",
+      "Cover and simmer for 6 minutes until the upo is tender, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Upo",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_112",
+    "name": "Ginisang Patola",
+    "description": "Sponge gourd sauteed with egg, garlic, and tomatoes.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 88.4,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-patola.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the sliced patola and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then simmer for 5 minutes.",
+      "Crack in the eggs and stir gently until just set.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Patola",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_113",
+    "name": "Ginisang Talbos ng Kamote",
+    "description": "Sweet potato tops sauteed with garlic, onion, and shrimp paste.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 57.55,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-talbos-ng-kamote.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the shrimp paste and cook for 1 minute.",
+      "Add the kamote tops and toss until just wilted.",
+      "Cook for 2 minutes more, then serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Kamote Tops",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_114",
+    "name": "Adobong Sitaw",
+    "description": "String beans braised adobo-style with pork, soy sauce, and vinegar.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 154.6,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/adobong-sitaw.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the soy sauce, water, and bay leaf, then simmer for 8 minutes.",
+      "Add the vinegar and boil without stirring for 2 minutes.",
+      "Add the sitaw and cook for 4 minutes until just tender, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Sitaw",
+        "quantity": 2,
+        "unit": "bundle"
+      },
+      {
+        "name": "Pork Belly",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_115",
+    "name": "Ginataang Langka",
+    "description": "Unripe jackfruit simmered in coconut milk with pork and shrimp paste.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 234.95,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-langka.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Add the langka and coconut milk, then bring to a simmer.",
+      "Cover and cook for 15 minutes until the langka and pork are tender.",
+      "Stir in the shrimp paste and chili peppers.",
+      "Simmer for 5 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Langka",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Pork Belly",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_116",
+    "name": "Ginataang Sitaw",
+    "description": "String beans and squash simmered in coconut milk with shrimp.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 296.55,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-sitaw.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the kalabasa and coconut milk, then simmer for 8 minutes.",
+      "Add the sitaw and shrimp, and cook for 5 minutes.",
+      "Stir in the shrimp paste and simmer for 3 minutes more.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Sitaw",
+        "quantity": 2,
+        "unit": "bundle"
+      },
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_117",
+    "name": "Ginataang Kalabasa",
+    "description": "Squash and string beans simmered in coconut milk with dried shrimp.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 200.9,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginataang-kalabasa.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the dried shrimp and cook for 1 minute.",
+      "Add the kalabasa and coconut milk, then simmer for 8 minutes.",
+      "Add the string beans and season with fish sauce.",
+      "Simmer for 5 minutes more until the vegetables are tender, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Dried Shrimp",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_118",
+    "name": "Ensaladang Talong",
+    "description": "Grilled eggplant salad tossed with tomatoes, onions, and a calamansi vinaigrette.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 60.3,
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ensaladang-talong.jpg",
+    "instructions": [
+      "Grill the eggplants over open flame or a hot pan until the skin is charred and the flesh is soft.",
+      "Peel off the charred skin and slice the eggplant lengthwise.",
+      "Arrange the eggplant on a plate with sliced tomatoes and onion.",
+      "Whisk together the vinegar, calamansi juice, salt, and pepper.",
+      "Drizzle the dressing over the salad before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggplant",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_119",
+    "name": "Ensaladang Mangga",
+    "description": "Shredded green mango salad tossed with tomatoes, onions, and shrimp paste.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 64.5,
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ensaladang-mangga.jpg",
+    "instructions": [
+      "Peel and shred the green mango.",
+      "Slice the tomatoes and onion thinly.",
+      "Combine the mango, tomatoes, and onion in a bowl.",
+      "Serve with shrimp paste on the side for dipping or mixed in."
+    ],
+    "ingredients": [
+      {
+        "name": "Green Mango",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_120",
+    "name": "Tortang Okra",
+    "description": "Sliced okra bound in beaten egg and pan-fried until golden.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 62,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tortang-okra.jpg",
+    "instructions": [
+      "Slice the okra thinly and combine with chopped onion in a bowl.",
+      "Beat the eggs and season with salt and pepper, then mix into the okra.",
+      "Heat oil in a pan over medium heat.",
+      "Scoop portions of the mixture into the pan and flatten slightly.",
+      "Fry for 2 to 3 minutes per side until golden, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Okra",
+        "quantity": 12,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_121",
+    "name": "Tortang Sayote",
+    "description": "Grated chayote bound in beaten egg and pan-fried into savory patties.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 58,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tortang-sayote.jpg",
+    "instructions": [
+      "Grate the sayote and squeeze out excess liquid.",
+      "Combine with chopped onion in a bowl.",
+      "Beat the eggs and season with salt and pepper, then mix into the sayote.",
+      "Heat oil in a pan over medium heat.",
+      "Scoop portions of the mixture into the pan and flatten slightly.",
+      "Fry for 2 to 3 minutes per side until golden, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Sayote",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_122",
+    "name": "Tortang Kalabasa",
+    "description": "Grated squash bound in beaten egg and pan-fried into golden patties.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 98,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tortang-kalabasa.jpg",
+    "instructions": [
+      "Grate the kalabasa and squeeze out excess liquid.",
+      "Combine with chopped onion in a bowl.",
+      "Beat the eggs and season with salt and pepper, then mix into the kalabasa.",
+      "Heat oil in a pan over medium heat.",
+      "Scoop portions of the mixture into the pan and flatten slightly.",
+      "Fry for 2 to 3 minutes per side until golden, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_123",
+    "name": "Adobong Kangkong",
+    "description": "Water spinach quickly braised in garlic, soy sauce, and vinegar.",
+    "category": "Vegetables",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 62.85,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/adobong-kangkong.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the soy sauce and vinegar, and let it boil without stirring for 1 minute.",
+      "Add the kangkong and toss until just wilted.",
+      "Cook for 2 minutes more, then serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Kangkong",
+        "quantity": 2,
+        "unit": "bundle"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_124",
+    "name": "Stir-fried Mixed Vegetables",
+    "description": "Colorful medley of vegetables stir-fried in garlic and oyster sauce.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 126.95,
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/stir-fried-mixed-vegetables.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the carrot and cauliflower, and stir-fry for 3 minutes.",
+      "Add the string beans and bell pepper.",
+      "Pour in the oyster sauce and water.",
+      "Cook for 3 minutes more until the vegetables are crisp-tender, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cauliflower",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_125",
+    "name": "Garlic Butter Mushrooms",
+    "description": "Mushrooms sauteed in garlic butter until golden and tender.",
+    "category": "Vegetables",
+    "mealStyle": "Dry",
+    "estimatedCost": 96.4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/garlic-butter-mushrooms.jpg",
+    "instructions": [
+      "Melt the butter in a pan over medium heat.",
+      "Saute the garlic until fragrant and lightly golden.",
+      "Add the mushrooms and cook for 5 minutes until golden and tender.",
+      "Season with salt, pepper, and soy sauce.",
+      "Cook for 2 minutes more, then serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Mushrooms",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_126",
+    "name": "Scrambled Egg with Tomatoes",
+    "description": "Fluffy scrambled eggs cooked with sauteed tomatoes and onion.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 68.35,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 3,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/scrambled-egg-with-tomatoes.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute the onion and tomatoes until softened.",
+      "Beat the eggs and season with salt and pepper.",
+      "Pour the eggs into the pan.",
+      "Stir gently and cook until just set.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_127",
+    "name": "Scrambled Egg with Sardines",
+    "description": "Scrambled eggs cooked with flaked canned sardines and onion.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 69.3,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 3,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/scrambled-egg-with-sardines.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute the onion until softened.",
+      "Add the sardines and flake them with a spatula.",
+      "Beat the eggs and season with pepper, then pour into the pan.",
+      "Stir gently and cook until just set.",
+      "Serve hot with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Sardines",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_128",
+    "name": "Itlog na Maalat at Kamatis",
+    "description": "Sliced salted eggs and fresh tomatoes, a simple classic breakfast pairing.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 77,
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 3,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/itlog-na-maalat-at-kamatis.jpg",
+    "instructions": [
+      "Slice the salted eggs into wedges.",
+      "Slice the tomatoes and onion.",
+      "Arrange the eggs, tomatoes, and onion on a plate.",
+      "Serve with steamed rice."
+    ],
+    "ingredients": [
+      {
+        "name": "Salted Egg",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      }
+    ]
+  },
+  {
+    "id": "recipe_129",
+    "name": "Egg Fried Rice",
+    "description": "Day-old rice stir-fried with egg, garlic, and green onion.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 68.1,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/egg-fried-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until golden.",
+      "Push the garlic to one side, then scramble the eggs in the pan.",
+      "Add the rice and toss to combine with the garlic and egg.",
+      "Season with soy sauce and salt.",
+      "Stir in the chopped green onion and cook for 2 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Green Onion",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_130",
+    "name": "Egg Drop Soup",
+    "description": "Light chicken broth thickened slightly and swirled with ribbons of egg.",
+    "category": "Egg",
+    "mealStyle": "Soup",
+    "estimatedCost": 112.3,
+    "prepTime": 5,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/egg-drop-soup.jpg",
+    "instructions": [
+      "Bring the chicken broth to a boil in a pot.",
+      "Dissolve the cornstarch in a little water and stir it into the broth to thicken slightly.",
+      "Beat the eggs in a bowl.",
+      "Slowly drizzle the eggs into the simmering broth while stirring gently to form ribbons.",
+      "Season with salt and pepper, and top with chopped green onion before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Green Onion",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_131",
+    "name": "Omelette with Cheese",
+    "description": "Simple folded omelette filled with melted cheddar cheese.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 78.35,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/omelette-with-cheese.jpg",
+    "instructions": [
+      "Beat the eggs and season with salt and pepper.",
+      "Heat oil in a pan over medium heat.",
+      "Pour in the eggs and let the bottom set slightly.",
+      "Sprinkle the cheese over half of the omelette.",
+      "Fold the omelette in half and cook until the cheese melts, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cheddar Cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_132",
+    "name": "Omelette with Spinach",
+    "description": "Folded omelette filled with sauteed spinach and onion.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 63.55,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/omelette-with-spinach.jpg",
+    "instructions": [
+      "Heat a little oil in a pan and saute the onion and spinach until wilted, then set aside.",
+      "Beat the eggs and season with salt and pepper.",
+      "Heat the remaining oil in the pan and pour in the eggs.",
+      "Spoon the sauteed spinach over half of the omelette.",
+      "Fold the omelette in half and cook until set, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Spinach",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_133",
+    "name": "Omelette with Mushroom",
+    "description": "Folded omelette filled with sauteed mushrooms and onion.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 66.85,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/omelette-with-mushroom.jpg",
+    "instructions": [
+      "Heat a little oil in a pan and saute the onion and mushrooms until softened, then set aside.",
+      "Beat the eggs and season with salt and pepper.",
+      "Heat the remaining oil in the pan and pour in the eggs.",
+      "Spoon the sauteed mushrooms over half of the omelette.",
+      "Fold the omelette in half and cook until set, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_134",
+    "name": "Omelette with Ham",
+    "description": "Folded omelette filled with diced ham and a sprinkle of cheese.",
+    "category": "Egg",
+    "mealStyle": "Dry",
+    "estimatedCost": 89.3,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/omelette-with-ham.jpg",
+    "instructions": [
+      "Dice the ham.",
+      "Beat the eggs and season with pepper.",
+      "Heat oil in a pan and pour in the eggs.",
+      "Scatter the ham and cheese over half of the omelette.",
+      "Fold the omelette in half and cook until the cheese melts, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ham",
+        "quantity": 4,
+        "unit": "slice"
+      },
+      {
+        "name": "Cheddar Cheese",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_135",
+    "name": "Pancit Malabon",
+    "description": "Thick rice noodles in a savory shrimp-based sauce, topped with shrimp and boiled egg.",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "estimatedCost": 324.7,
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pancit-malabon.jpg",
+    "instructions": [
+      "Boil the eggs until hard-cooked, then peel and slice.",
+      "Soak the rice noodles in warm water until softened, then drain.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the shrimp and squid, and cook until just done, then set most aside for topping.",
+      "Add the shrimp paste and water, and bring to a simmer.",
+      "Add the noodles and toss until the sauce is absorbed.",
+      "Top with the reserved shrimp, squid, and sliced egg before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice Noodles",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Squid",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_136",
+    "name": "Pancit Lomi",
+    "description": "Thick fresh egg noodles in a hearty, gently thickened pork and vegetable broth.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 221.3,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/pancit-lomi.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and fish sauce, then simmer for 15 minutes until the pork is tender.",
+      "Add the carrot and cabbage, and simmer for 3 minutes.",
+      "Add the lomi noodles and cook for 3 minutes.",
+      "Stir in the cornstarch slurry and simmer until the broth thickens slightly, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Lomi Noodles",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Pork",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_137",
+    "name": "Pancit Sotanghon",
+    "description": "Glass noodles stir-fried with chicken, cabbage, and carrots.",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "estimatedCost": 210.35,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pancit-sotanghon.jpg",
+    "instructions": [
+      "Soak the sotanghon noodles in water until softened, then drain.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until lightly browned.",
+      "Pour in the chicken broth, soy sauce, and fish sauce, then simmer for 10 minutes.",
+      "Add the carrot and cabbage, and cook for 3 minutes.",
+      "Add the noodles and toss until the liquid is absorbed, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Sotanghon Noodles",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_138",
+    "name": "Miki Guisado",
+    "description": "Fresh thick egg noodles stir-fried with pork, shrimp, and vegetables.",
+    "category": "Noodles",
+    "mealStyle": "Dry",
+    "estimatedCost": 280.55,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/miki-guisado.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Add the shrimp and cook until pink.",
+      "Pour in the chicken broth and soy sauce, then add the carrot.",
+      "Simmer for 5 minutes, then add the cabbage and miki noodles.",
+      "Toss until the noodles absorb the sauce, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Miki Noodles",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Pork",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken Broth",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_139",
+    "name": "Batchoy",
+    "description": "Miki noodles in a rich pork broth, topped with crushed chicharon and boiled egg.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 200.8,
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/batchoy.jpg",
+    "instructions": [
+      "Boil the eggs until hard-cooked, then peel and slice.",
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the pork and cook until lightly browned.",
+      "Pour in the water and fish sauce, then simmer for 20 minutes until the pork is tender.",
+      "Slice the pork thinly and return to the pot.",
+      "Add the miki noodles and cook for 3 minutes.",
+      "Ladle into bowls and top with crushed chicharon and sliced egg before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Miki Noodles",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Pork",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Chicharon",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_140",
+    "name": "Chicken Mami",
+    "description": "Egg noodle soup with shredded chicken in a light garlicky broth.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 162.4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-mami.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender, then shred the meat.",
+      "Return the shredded chicken to the pot and add the noodles.",
+      "Simmer for 3 minutes, then top with chopped green onion before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Miki Noodles",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Green Onion",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 6,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_141",
+    "name": "Beef Mami",
+    "description": "Egg noodle soup with tender beef slices in a savory beef broth.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 242.4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/beef-mami.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the beef and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 30 minutes until the beef is tender, then slice thinly.",
+      "Return the beef to the pot and add the noodles.",
+      "Simmer for 3 minutes, then top with chopped green onion before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Miki Noodles",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Beef Shank",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Green Onion",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 6,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_142",
+    "name": "Misua with Patola",
+    "description": "Delicate wheat noodle soup with sponge gourd in a light garlicky broth.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 74.75,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/misua-with-patola.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the sliced patola and simmer for 5 minutes.",
+      "Add the misua noodles and simmer for 2 minutes until softened.",
+      "Serve hot immediately."
+    ],
+    "ingredients": [
+      {
+        "name": "Misua Noodles",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Patola",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_143",
+    "name": "Misua with Meatballs",
+    "description": "Delicate wheat noodle soup with small pork meatballs.",
+    "category": "Noodles",
+    "mealStyle": "Soup",
+    "estimatedCost": 122.8,
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/misua-with-meatballs.jpg",
+    "instructions": [
+      "Season the ground pork with salt and shape into small meatballs.",
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Drop in the meatballs and simmer for 8 minutes until cooked through.",
+      "Add the misua noodles and simmer for 2 minutes until softened, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Misua Noodles",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_144",
+    "name": "Garlic Fried Rice",
+    "description": "Day-old rice fried with plenty of toasted garlic until fragrant.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 39.4,
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/garlic-fried-rice.jpg",
+    "instructions": [
+      "Mince the garlic finely.",
+      "Heat oil in a pan and fry the garlic until golden and crisp, reserving some for topping.",
+      "Add the rice and toss to coat with the garlic oil.",
+      "Season with salt and cook for 5 minutes, stirring often.",
+      "Top with the reserved crispy garlic before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 10,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_145",
+    "name": "Java Rice",
+    "description": "Turmeric-tinted fried rice with a savory garlic and onion base.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 42.8,
+    "prepTime": 5,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/java-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Stir in the turmeric powder and cook for 1 minute.",
+      "Add the rice and toss until evenly colored.",
+      "Season with soy sauce and cook for 5 minutes, stirring often.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Turmeric Powder",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_146",
+    "name": "Sinangag",
+    "description": "Simple everyday Filipino garlic fried rice, quick and fragrant.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 35.4,
+    "prepTime": 5,
+    "cookTime": 8,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/sinangag.jpg",
+    "instructions": [
+      "Mince the garlic.",
+      "Heat oil in a pan and fry the garlic until golden.",
+      "Add the rice and toss well to coat.",
+      "Season with salt and cook for 4 minutes, stirring often, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_147",
+    "name": "Adobo Fried Rice",
+    "description": "Fried rice cooked in leftover adobo sauce with shredded pork.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 126.25,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/adobo-fried-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until golden.",
+      "Add the pork and cook until browned.",
+      "Pour in the soy sauce and vinegar, then simmer for 5 minutes until the pork is tender, then shred it.",
+      "Add the rice and toss until evenly coated in the adobo sauce.",
+      "Cook for 3 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Pork",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_148",
+    "name": "Tinapa Fried Rice",
+    "description": "Smoky fried rice made with flaked smoked fish and garlic.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 79.4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tinapa-fried-rice.jpg",
+    "instructions": [
+      "Flake the tinapa meat, removing any bones and skin.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the flaked tinapa and cook for 2 minutes.",
+      "Add the rice and toss well to combine.",
+      "Season with salt and cook for 4 minutes, stirring often, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Tinapa",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_149",
+    "name": "Yang Chow Fried Rice",
+    "description": "Restaurant-style fried rice with shrimp, ham, egg, and green peas.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 191,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/yang-chow-fried-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute the garlic until golden.",
+      "Push the garlic aside and scramble the eggs in the pan.",
+      "Add the shrimp and cook until pink.",
+      "Add the ham, carrot, and green peas, and cook for 2 minutes.",
+      "Add the rice and soy sauce, and toss until well combined.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 5,
+        "unit": "cup"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Ham",
+        "quantity": 4,
+        "unit": "slice"
+      },
+      {
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Green Peas",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_150",
+    "name": "Pork Fried Rice",
+    "description": "Fried rice tossed with savory bits of pork and garlic.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 112.05,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/pork-fried-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until browned and cooked through.",
+      "Add the rice and soy sauce, and toss to combine.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Pork",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_151",
+    "name": "Chicken Fried Rice",
+    "description": "Fried rice tossed with savory bits of chicken and garlic.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 87.05,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-fried-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the chicken and cook until browned and cooked through.",
+      "Add the rice and soy sauce, and toss to combine.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Chicken",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_152",
+    "name": "Beef Fried Rice",
+    "description": "Fried rice tossed with savory bits of beef and garlic.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 147.05,
+    "prepTime": 10,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/beef-fried-rice.jpg",
+    "instructions": [
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the beef and cook until browned.",
+      "Add the rice and soy sauce, and toss to combine.",
+      "Cook for 4 minutes more, stirring often, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 4,
+        "unit": "cup"
+      },
+      {
+        "name": "Beef Sirloin",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_153",
+    "name": "Tofu Sisig",
+    "description": "Crispy diced tofu sizzled with onions, chili, and a splash of calamansi.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 84.45,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tofu-sisig.jpg",
+    "instructions": [
+      "Cut the tofu into small cubes and pat dry.",
+      "Heat oil in a pan and fry the tofu until golden and crisp, then drain.",
+      "In a separate pan with a little oil, saute the onion and chili.",
+      "Add the fried tofu, soy sauce, and pepper, and toss well.",
+      "Squeeze in calamansi juice just before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Thai Chili Pepper",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Calamansi",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_154",
+    "name": "Crispy Tofu",
+    "description": "Golden fried tofu slices, crisp outside and soft inside.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 96.45,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/crispy-tofu.jpg",
+    "instructions": [
+      "Slice the tofu and pat dry with paper towels.",
+      "Season with salt and dust with cornstarch.",
+      "Heat oil in a pan over medium-high heat.",
+      "Fry the tofu until golden and crisp on all sides.",
+      "Drain on paper towels and serve with a soy-vinegar dip."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_155",
+    "name": "Salt and Pepper Tofu",
+    "description": "Crispy fried tofu tossed with garlic, bell pepper, salt, and pepper.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 126.55,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/salt-and-pepper-tofu.jpg",
+    "instructions": [
+      "Cut the tofu into cubes, pat dry, and dust with cornstarch.",
+      "Heat oil in a pan and fry the tofu until golden and crisp, then drain.",
+      "In a separate pan with a little oil, saute the garlic and bell pepper.",
+      "Toss the fried tofu with the sauteed garlic, bell pepper, salt, and pepper.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_156",
+    "name": "Adobong Tokwa",
+    "description": "Fried tofu braised adobo-style in garlic, soy sauce, and vinegar.",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 67.6,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/adobong-tokwa.jpg",
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "In the same pan, saute the garlic until fragrant.",
+      "Add the soy sauce, water, bay leaf, and peppercorns, then simmer for 5 minutes.",
+      "Add the vinegar and boil without stirring for 2 minutes.",
+      "Return the tofu to the pan and simmer for 3 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Bay Leaves",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_157",
+    "name": "Tokwa't Baboy",
+    "description": "Fried tofu and boiled pork cubes tossed in a garlicky soy-vinegar sauce.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 233.3,
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tokwat-baboy.jpg",
+    "instructions": [
+      "Boil the pork belly in water until tender, about 20 minutes, then dice.",
+      "Cut the tofu into cubes and fry in hot oil until golden, then drain.",
+      "Combine the soy sauce, vinegar, garlic, onion, and sugar in a bowl to make the sauce.",
+      "Toss the pork and tofu with the sauce.",
+      "Serve as a snack or side dish."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Pork Belly",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 3,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_158",
+    "name": "Tokwa at Sitaw",
+    "description": "Fried tofu and string beans sauteed in a savory shrimp paste sauce.",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 173.8,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tokwa-at-sitaw.jpg",
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "Heat oil in a pan and saute garlic and onion until fragrant.",
+      "Add the pork and cook until browned.",
+      "Add the sitaw and water, then cover and simmer for 6 minutes.",
+      "Stir in the shrimp paste and fried tofu.",
+      "Cook for 3 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Sitaw",
+        "quantity": 2,
+        "unit": "bundle"
+      },
+      {
+        "name": "Pork",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Shrimp Paste",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_159",
+    "name": "Tokwa with Oyster Sauce",
+    "description": "Crispy fried tofu tossed in a savory oyster sauce and garlic glaze.",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 125.25,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tokwa-with-oyster-sauce.jpg",
+    "instructions": [
+      "Cut the tofu into cubes and fry in hot oil until golden, then drain.",
+      "In a separate pan, saute garlic and onion until fragrant.",
+      "Add the oyster sauce and water, then simmer for 2 minutes.",
+      "Add the cornstarch slurry and cook until the sauce thickens.",
+      "Toss in the fried tofu and coat well before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_160",
+    "name": "Braised Tofu with Mushrooms",
+    "description": "Silken tofu and mushrooms braised together in a light savory sauce.",
+    "category": "Others",
+    "mealStyle": "With Sauce",
+    "estimatedCost": 94.1,
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/braised-tofu-with-mushrooms.jpg",
+    "instructions": [
+      "Cut the tofu into cubes.",
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the mushrooms and cook for 3 minutes.",
+      "Stir in the oyster sauce, soy sauce, and water, then bring to a simmer.",
+      "Gently add the tofu and simmer for 5 minutes.",
+      "Add the cornstarch slurry and cook until the sauce thickens, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_161",
+    "name": "Ginisang Tokwa",
+    "description": "Diced tofu sauteed with ground pork, tomatoes, and garlic.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 126.4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/ginisang-tokwa.jpg",
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "Heat oil in a pan and saute garlic, onion, and tomatoes until softened.",
+      "Add the ground pork and cook until browned.",
+      "Season with fish sauce.",
+      "Add the fried tofu and toss to combine, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "recipe_162",
+    "name": "Stir-fried Tofu and Vegetables",
+    "description": "Crispy tofu stir-fried with bell pepper, carrot, and string beans.",
+    "category": "Others",
+    "mealStyle": "Dry",
+    "estimatedCost": 98.95,
+    "prepTime": 15,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/stir-fried-tofu-and-vegetables.jpg",
+    "instructions": [
+      "Cut the tofu into cubes and fry in a little oil until golden, then set aside.",
+      "Heat oil in a pan and saute the garlic until fragrant.",
+      "Add the carrot and string beans, and stir-fry for 3 minutes.",
+      "Add the bell pepper, oyster sauce, and water.",
+      "Toss in the fried tofu and cook for 2 minutes more, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Oyster Sauce",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_163",
+    "name": "Arroz Caldo",
+    "description": "Warm ginger rice porridge with chicken, topped with toasted garlic and green onion.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 135.25,
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 6,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/arroz-caldo.jpg",
+    "instructions": [
+      "Heat oil in a pot and fry half the garlic until golden and crisp, then set aside for topping.",
+      "In the same pot, saute the remaining garlic, onion, and ginger until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Stir in the annatto seeds, rice, water, and fish sauce.",
+      "Bring to a boil, then simmer for 25 minutes, stirring occasionally, until porridge-like.",
+      "Ladle into bowls and top with the crispy garlic and chopped green onion."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Chicken",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Annatto Seeds",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 6,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_164",
+    "name": "Lugaw",
+    "description": "Plain savory rice porridge with garlic and ginger, simple and comforting.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 41,
+    "prepTime": 5,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/lugaw.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Add the rice and toast for 1 minute.",
+      "Pour in the water and fish sauce.",
+      "Bring to a boil, then simmer for 20 minutes, stirring occasionally, until porridge-like.",
+      "Serve hot with a squeeze of calamansi if desired."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 6,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 6,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_165",
+    "name": "Goto",
+    "description": "Rice porridge simmered with beef tripe until tender, topped with crispy garlic.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 170,
+    "prepTime": 15,
+    "cookTime": 60,
+    "servings": 6,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/goto.jpg",
+    "instructions": [
+      "Boil the beef tripe in water until tender, about 40 minutes, then slice into strips.",
+      "Heat oil in a pot and fry half the garlic until golden and crisp, then set aside for topping.",
+      "In the same pot, saute the remaining garlic, onion, and ginger until fragrant.",
+      "Add the tripe and rice, and toast for 1 minute.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Simmer for 20 minutes, stirring occasionally, until porridge-like.",
+      "Top with the crispy garlic before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Beef Tripe",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 8,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 7,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_166",
+    "name": "Misua Soup",
+    "description": "Simple wheat noodle soup with ground pork in a light garlicky broth.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 96.75,
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/misua-soup.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the ground pork and cook until browned.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Simmer for 5 minutes.",
+      "Add the misua noodles and simmer for 2 minutes until softened, then serve."
+    ],
+    "ingredients": [
+      {
+        "name": "Misua Noodles",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Ground Pork",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_167",
+    "name": "Chicken Macaroni Soup",
+    "description": "Chicken and elbow macaroni soup in a light, milky broth.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 149.6,
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/chicken-macaroni-soup.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic and onion until fragrant.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 15 minutes until the chicken is tender, then shred the meat.",
+      "Add the carrot and macaroni, and simmer for 8 minutes.",
+      "Stir in the evaporated milk and simmer for 2 minutes more before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Elbow Macaroni",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Evaporated Milk",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 5,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_168",
+    "name": "Tinolang Isda",
+    "description": "Fish simmered in a ginger broth with green papaya and spinach leaves.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 255.8,
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "imageUrl": "/images/recipes/tinolang-isda.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and ginger until fragrant.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Add the green papaya and simmer for 8 minutes.",
+      "Gently add the fish and simmer for 8 minutes until cooked through.",
+      "Add the spinach and simmer for 2 minutes more before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Tilapia",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Green Papaya",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Spinach",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 4,
+        "unit": "cup"
+      }
+    ]
+  },
+  {
+    "id": "recipe_169",
+    "name": "Sinampalukang Manok",
+    "description": "Chicken simmered in a sour tamarind broth with vegetables.",
+    "category": "Others",
+    "mealStyle": "Soup",
+    "estimatedCost": 314.4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 5,
+    "difficulty": "Medium",
+    "imageUrl": "/images/recipes/sinampalukang-manok.jpg",
+    "instructions": [
+      "Heat oil in a pot and saute garlic, onion, and tomatoes until softened.",
+      "Add the chicken and cook for 2 minutes.",
+      "Pour in the water and fish sauce, then bring to a boil.",
+      "Cover and simmer for 20 minutes until the chicken is tender.",
+      "Stir in the tamarind soup mix and add the kalabasa.",
+      "Simmer for 8 minutes, then add the string beans and cook for 3 minutes more before serving."
+    ],
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Tamarind Soup Mix",
+        "quantity": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "Kalabasa",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "String Beans",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "clove"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooking Oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Water",
+        "quantity": 5,
+        "unit": "cup"
+      }
+    ]
   }
 ]

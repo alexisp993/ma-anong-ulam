@@ -316,5 +316,701 @@
     "recipeName": "Ukoy",
     "source": "Foxy Folksy",
     "sourceUrl": "https://www.foxyfolksy.com/ukoy-recipe-filipino-shrimp-fritters/"
+  },
+  {
+    "recipeId": "recipe_054",
+    "recipeName": "Chicken Curry",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_055",
+    "recipeName": "Garlic Butter Chicken",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_056",
+    "recipeName": "Chicken Pastel",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_057",
+    "recipeName": "Chicken Pochero",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_058",
+    "recipeName": "Chicken Sotanghon Soup",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_059",
+    "recipeName": "Chicken Binakol",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_060",
+    "recipeName": "Chicken Halang-Halang",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_061",
+    "recipeName": "Honey Garlic Chicken",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_062",
+    "recipeName": "Orange Chicken (Filipino style)",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_063",
+    "recipeName": "Lemon Chicken",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_064",
+    "recipeName": "Soy Garlic Chicken",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_065",
+    "recipeName": "Chicken Teriyaki",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_066",
+    "recipeName": "Chicken Tocino",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_067",
+    "recipeName": "Chicken Hamonado",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_068",
+    "recipeName": "Chicken with Oyster Sauce",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_069",
+    "recipeName": "Pork Adobo",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_070",
+    "recipeName": "Pork Giniling",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_071",
+    "recipeName": "Pork Steak",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_072",
+    "recipeName": "Pork Estofado",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_073",
+    "recipeName": "Pork Hamonado",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_074",
+    "recipeName": "Pork Asado",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_075",
+    "recipeName": "Fried Liempo",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_076",
+    "recipeName": "Binagoongan Baboy",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_077",
+    "recipeName": "Sweet and Sour Pork",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_078",
+    "recipeName": "Pork with Oyster Sauce",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_079",
+    "recipeName": "Garlic Pork",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_080",
+    "recipeName": "Salt and Pepper Pork",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_081",
+    "recipeName": "Pork Caldereta",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_082",
+    "recipeName": "Pork Pochero",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_083",
+    "recipeName": "Pork Binagoongan with Talong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_084",
+    "recipeName": "Fried Tilapia",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_085",
+    "recipeName": "Ginataang Tilapia",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_086",
+    "recipeName": "Daing na Bangus",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_087",
+    "recipeName": "Relyenong Bangus",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_088",
+    "recipeName": "Garlic Butter Shrimp",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_089",
+    "recipeName": "Buttered Shrimp",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_090",
+    "recipeName": "Adobong Tahong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_091",
+    "recipeName": "Tahong Soup",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_092",
+    "recipeName": "Steamed Tahong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_093",
+    "recipeName": "Baked Tahong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_094",
+    "recipeName": "Sweet and Sour Fish",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_095",
+    "recipeName": "Fried Galunggong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_096",
+    "recipeName": "Pritong Hasa-Hasa",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_097",
+    "recipeName": "Ginataang Galunggong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_098",
+    "recipeName": "Sardines with Misua",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_099",
+    "recipeName": "Beef Giniling",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_100",
+    "recipeName": "Corned Beef Guisado",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_101",
+    "recipeName": "Beef with Broccoli",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_102",
+    "recipeName": "Beef with Oyster Sauce",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_103",
+    "recipeName": "Beef Picadillo",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_104",
+    "recipeName": "Beef Stroganoff (Filipino style)",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_105",
+    "recipeName": "Beef and Mushroom Stir Fry",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_106",
+    "recipeName": "Ginisang Kangkong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_107",
+    "recipeName": "Ginisang Pechay",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_108",
+    "recipeName": "Ginisang Repolyo",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_109",
+    "recipeName": "Ginisang Sayote",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_110",
+    "recipeName": "Ginisang Kalabasa",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_111",
+    "recipeName": "Ginisang Upo",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_112",
+    "recipeName": "Ginisang Patola",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_113",
+    "recipeName": "Ginisang Talbos ng Kamote",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_114",
+    "recipeName": "Adobong Sitaw",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_115",
+    "recipeName": "Ginataang Langka",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_116",
+    "recipeName": "Ginataang Sitaw",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_117",
+    "recipeName": "Ginataang Kalabasa",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_118",
+    "recipeName": "Ensaladang Talong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_119",
+    "recipeName": "Ensaladang Mangga",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_120",
+    "recipeName": "Tortang Okra",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_121",
+    "recipeName": "Tortang Sayote",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_122",
+    "recipeName": "Tortang Kalabasa",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_123",
+    "recipeName": "Adobong Kangkong",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_124",
+    "recipeName": "Stir-fried Mixed Vegetables",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_125",
+    "recipeName": "Garlic Butter Mushrooms",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_126",
+    "recipeName": "Scrambled Egg with Tomatoes",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_127",
+    "recipeName": "Scrambled Egg with Sardines",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_128",
+    "recipeName": "Itlog na Maalat at Kamatis",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_129",
+    "recipeName": "Egg Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_130",
+    "recipeName": "Egg Drop Soup",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_131",
+    "recipeName": "Omelette with Cheese",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_132",
+    "recipeName": "Omelette with Spinach",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_133",
+    "recipeName": "Omelette with Mushroom",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_134",
+    "recipeName": "Omelette with Ham",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_135",
+    "recipeName": "Pancit Malabon",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_136",
+    "recipeName": "Pancit Lomi",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_137",
+    "recipeName": "Pancit Sotanghon",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_138",
+    "recipeName": "Miki Guisado",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_139",
+    "recipeName": "Batchoy",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_140",
+    "recipeName": "Chicken Mami",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_141",
+    "recipeName": "Beef Mami",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_142",
+    "recipeName": "Misua with Patola",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_143",
+    "recipeName": "Misua with Meatballs",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_144",
+    "recipeName": "Garlic Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_145",
+    "recipeName": "Java Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_146",
+    "recipeName": "Sinangag",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_147",
+    "recipeName": "Adobo Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_148",
+    "recipeName": "Tinapa Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_149",
+    "recipeName": "Yang Chow Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_150",
+    "recipeName": "Pork Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_151",
+    "recipeName": "Chicken Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_152",
+    "recipeName": "Beef Fried Rice",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_153",
+    "recipeName": "Tofu Sisig",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_154",
+    "recipeName": "Crispy Tofu",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_155",
+    "recipeName": "Salt and Pepper Tofu",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_156",
+    "recipeName": "Adobong Tokwa",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_157",
+    "recipeName": "Tokwa't Baboy",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_158",
+    "recipeName": "Tokwa at Sitaw",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_159",
+    "recipeName": "Tokwa with Oyster Sauce",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_160",
+    "recipeName": "Braised Tofu with Mushrooms",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_161",
+    "recipeName": "Ginisang Tokwa",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_162",
+    "recipeName": "Stir-fried Tofu and Vegetables",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_163",
+    "recipeName": "Arroz Caldo",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_164",
+    "recipeName": "Lugaw",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_165",
+    "recipeName": "Goto",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_166",
+    "recipeName": "Misua Soup",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_167",
+    "recipeName": "Chicken Macaroni Soup",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_168",
+    "recipeName": "Tinolang Isda",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
+  },
+  {
+    "recipeId": "recipe_169",
+    "recipeName": "Sinampalukang Manok",
+    "source": "Ma, Anong Ulam? Editorial Team",
+    "sourceUrl": ""
   }
 ]

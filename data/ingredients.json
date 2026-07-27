@@ -664,5 +664,221 @@
     "name": "Raisins",
     "category": "Fruit",
     "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_112",
+    "name": "Curry Powder",
+    "category": "Spice",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_113",
+    "name": "Green Peas",
+    "category": "Vegetable",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_114",
+    "name": "Sotanghon Noodles",
+    "category": "Grain",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_115",
+    "name": "Coconut Water",
+    "category": "Pantry",
+    "estimatedCost": 60
+  },
+  {
+    "id": "ingredient_116",
+    "name": "Lemongrass",
+    "category": "Spice",
+    "estimatedCost": 2
+  },
+  {
+    "id": "ingredient_117",
+    "name": "Turmeric Powder",
+    "category": "Spice",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_118",
+    "name": "Honey",
+    "category": "Pantry",
+    "estimatedCost": 400
+  },
+  {
+    "id": "ingredient_119",
+    "name": "Orange",
+    "category": "Fruit",
+    "estimatedCost": 10
+  },
+  {
+    "id": "ingredient_120",
+    "name": "Sesame Oil",
+    "category": "Pantry",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_121",
+    "name": "Sesame Seeds",
+    "category": "Spice",
+    "estimatedCost": 300
+  },
+  {
+    "id": "ingredient_122",
+    "name": "Spinach",
+    "category": "Vegetable",
+    "estimatedCost": 80
+  },
+  {
+    "id": "ingredient_123",
+    "name": "Bread Crumbs",
+    "category": "Pantry",
+    "estimatedCost": 50
+  },
+  {
+    "id": "ingredient_124",
+    "name": "Mussels",
+    "category": "Seafood",
+    "estimatedCost": 120
+  },
+  {
+    "id": "ingredient_125",
+    "name": "Galunggong",
+    "category": "Seafood",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_126",
+    "name": "Hasa-hasa",
+    "category": "Seafood",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_127",
+    "name": "Sardines",
+    "category": "Canned Good",
+    "estimatedCost": 25
+  },
+  {
+    "id": "ingredient_128",
+    "name": "Misua Noodles",
+    "category": "Grain",
+    "estimatedCost": 200
+  },
+  {
+    "id": "ingredient_129",
+    "name": "Ground Beef",
+    "category": "Beef",
+    "estimatedCost": 400
+  },
+  {
+    "id": "ingredient_130",
+    "name": "Corned Beef",
+    "category": "Canned Good",
+    "estimatedCost": 45
+  },
+  {
+    "id": "ingredient_131",
+    "name": "Broccoli",
+    "category": "Vegetable",
+    "estimatedCost": 70
+  },
+  {
+    "id": "ingredient_132",
+    "name": "Mushrooms",
+    "category": "Vegetable",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_133",
+    "name": "Sayote",
+    "category": "Vegetable",
+    "estimatedCost": 10
+  },
+  {
+    "id": "ingredient_134",
+    "name": "Upo",
+    "category": "Vegetable",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_135",
+    "name": "Patola",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_136",
+    "name": "Kamote Tops",
+    "category": "Vegetable",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_137",
+    "name": "Langka",
+    "category": "Vegetable",
+    "estimatedCost": 80
+  },
+  {
+    "id": "ingredient_138",
+    "name": "Green Mango",
+    "category": "Fruit",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_139",
+    "name": "Salted Egg",
+    "category": "Egg",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_140",
+    "name": "Rice",
+    "category": "Grain",
+    "estimatedCost": 15
+  },
+  {
+    "id": "ingredient_141",
+    "name": "Green Onion",
+    "category": "Vegetable",
+    "estimatedCost": 10
+  },
+  {
+    "id": "ingredient_142",
+    "name": "Ham",
+    "category": "Processed Meat",
+    "estimatedCost": 8
+  },
+  {
+    "id": "ingredient_143",
+    "name": "Lomi Noodles",
+    "category": "Grain",
+    "estimatedCost": 150
+  },
+  {
+    "id": "ingredient_144",
+    "name": "Miki Noodles",
+    "category": "Grain",
+    "estimatedCost": 130
+  },
+  {
+    "id": "ingredient_145",
+    "name": "Tinapa",
+    "category": "Seafood",
+    "estimatedCost": 20
+  },
+  {
+    "id": "ingredient_146",
+    "name": "Tofu",
+    "category": "Pantry",
+    "estimatedCost": 80
+  },
+  {
+    "id": "ingredient_147",
+    "name": "Beef Tripe",
+    "category": "Beef",
+    "estimatedCost": 250
   }
 ]

@@ -1444,7 +1444,7 @@ Artificial Intelligence is NOT used in Version 1.0.
 
 The MVP will include a curated collection of approximately:
 
-75–100 Filipino recipes.
+150–200 Filipino recipes.
 
 Recipes should represent meals commonly prepared in Filipino households.
 
