@@ -4617,31 +4617,6 @@
     ]
   },
   {
-    "name": "Sinangag",
-    "category": "Others",
-    "mealStyle": "Dry",
-    "difficulty": "Easy",
-    "servings": 4,
-    "prepTime": 5,
-    "cookTime": 8,
-    "description": "Simple everyday Filipino garlic fried rice, quick and fragrant.",
-    "imageUrl": "/images/recipes/sinangag.jpg",
-    "source": "Ma, Anong Ulam? Editorial Team",
-    "sourceUrl": "",
-    "rawIngredients": [
-      "4 cup rice",
-      "8 clove garlic",
-      "3 tablespoons cooking oil",
-      "1 teaspoon salt"
-    ],
-    "instructions": [
-      "Mince the garlic.",
-      "Heat oil in a pan and fry the garlic until golden.",
-      "Add the rice and toss well to coat.",
-      "Season with salt and cook for 4 minutes, stirring often, then serve."
-    ]
-  },
-  {
     "name": "Adobo Fried Rice",
     "category": "Others",
     "mealStyle": "Dry",

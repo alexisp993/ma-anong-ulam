@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   HomeIcon,
@@ -10,7 +11,6 @@ import {
   CalendarIcon,
   CartIcon,
   HeartIcon,
-  PotIcon,
   type IconProps,
 } from "@/components/icons";
 import { AuthActions } from "@/components/layout/AuthActions";
@@ -31,9 +31,8 @@ export function Sidebar() {
   return (
     <aside className="hidden w-64 shrink-0 flex-col border-r border-border bg-surface md:flex">
       <div className="flex flex-col gap-6 p-5">
-        <Link href="/" className="flex items-center gap-2 text-primary">
-          <PotIcon size={28} />
-          <span className="text-lg font-bold leading-tight">Ma, Anong Ulam?</span>
+        <Link href="/" className="flex items-center gap-2">
+          <Image src="/images/logo.png" alt="Ma, Anong Ulam?" width={40} height={40} className="rounded-card" />
         </Link>
 
         <nav aria-label="Primary" className="flex-1">

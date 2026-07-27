@@ -2,6 +2,7 @@ import { auth } from "@/lib/auth";
 import { apiSuccess, apiError, apiServerError } from "@/lib/api-response";
 import { computeGroceryList, generateGroceryListForPlan } from "@/lib/grocery-list";
 import { generateGroceryListSchema } from "@/lib/validation/grocery-list";
+import { withDbRetry } from "@/lib/db-retry";
 
 // POST /api/grocery-lists/generate — API_REFERENCE.md §7.1 documents
 // { mealPlanId } only (auth required). PRODUCT_BLUEPRINT.md gives guests
@@ -18,12 +19,14 @@ export async function POST(request: Request) {
       const session = await auth();
       if (!session?.user) return apiError("Authentication required.", 401);
 
-      const list = await generateGroceryListForPlan(session.user.id, parsed.data.mealPlanId);
+      const list = await withDbRetry(() =>
+        generateGroceryListForPlan(session.user.id, parsed.data.mealPlanId!)
+      );
       if (!list) return apiError("Meal plan not found.", 404);
       return apiSuccess(list);
     }
 
-    const list = await computeGroceryList(parsed.data.recipeIds!);
+    const list = await withDbRetry(() => computeGroceryList(parsed.data.recipeIds!));
     return apiSuccess(list);
   } catch {
     return apiServerError();

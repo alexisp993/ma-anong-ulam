@@ -9566,47 +9566,6 @@
   },
   {
     "id": "recipe_146",
-    "name": "Sinangag",
-    "description": "Simple everyday Filipino garlic fried rice, quick and fragrant.",
-    "category": "Others",
-    "mealStyle": "Dry",
-    "estimatedCost": 35.4,
-    "prepTime": 5,
-    "cookTime": 8,
-    "servings": 4,
-    "difficulty": "Easy",
-    "imageUrl": "/images/recipes/sinangag.jpg",
-    "instructions": [
-      "Mince the garlic.",
-      "Heat oil in a pan and fry the garlic until golden.",
-      "Add the rice and toss well to coat.",
-      "Season with salt and cook for 4 minutes, stirring often, then serve."
-    ],
-    "ingredients": [
-      {
-        "name": "Rice",
-        "quantity": 4,
-        "unit": "cup"
-      },
-      {
-        "name": "Garlic",
-        "quantity": 8,
-        "unit": "clove"
-      },
-      {
-        "name": "Cooking Oil",
-        "quantity": 3,
-        "unit": "tbsp"
-      },
-      {
-        "name": "Salt",
-        "quantity": 1,
-        "unit": "tsp"
-      }
-    ]
-  },
-  {
-    "id": "recipe_147",
     "name": "Adobo Fried Rice",
     "description": "Fried rice cooked in leftover adobo sauce with shredded pork.",
     "category": "Others",
@@ -9658,7 +9617,7 @@
     ]
   },
   {
-    "id": "recipe_148",
+    "id": "recipe_147",
     "name": "Tinapa Fried Rice",
     "description": "Smoky fried rice made with flaked smoked fish and garlic.",
     "category": "Others",
@@ -9710,7 +9669,7 @@
     ]
   },
   {
-    "id": "recipe_149",
+    "id": "recipe_148",
     "name": "Yang Chow Fried Rice",
     "description": "Restaurant-style fried rice with shrimp, ham, egg, and green peas.",
     "category": "Others",
@@ -9778,7 +9737,7 @@
     ]
   },
   {
-    "id": "recipe_150",
+    "id": "recipe_149",
     "name": "Pork Fried Rice",
     "description": "Fried rice tossed with savory bits of pork and garlic.",
     "category": "Others",
@@ -9829,7 +9788,7 @@
     ]
   },
   {
-    "id": "recipe_151",
+    "id": "recipe_150",
     "name": "Chicken Fried Rice",
     "description": "Fried rice tossed with savory bits of chicken and garlic.",
     "category": "Others",
@@ -9880,7 +9839,7 @@
     ]
   },
   {
-    "id": "recipe_152",
+    "id": "recipe_151",
     "name": "Beef Fried Rice",
     "description": "Fried rice tossed with savory bits of beef and garlic.",
     "category": "Others",
@@ -9931,7 +9890,7 @@
     ]
   },
   {
-    "id": "recipe_153",
+    "id": "recipe_152",
     "name": "Tofu Sisig",
     "description": "Crispy diced tofu sizzled with onions, chili, and a splash of calamansi.",
     "category": "Others",
@@ -9988,7 +9947,7 @@
     ]
   },
   {
-    "id": "recipe_154",
+    "id": "recipe_153",
     "name": "Crispy Tofu",
     "description": "Golden fried tofu slices, crisp outside and soft inside.",
     "category": "Others",
@@ -10030,7 +9989,7 @@
     ]
   },
   {
-    "id": "recipe_155",
+    "id": "recipe_154",
     "name": "Salt and Pepper Tofu",
     "description": "Crispy fried tofu tossed with garlic, bell pepper, salt, and pepper.",
     "category": "Others",
@@ -10087,7 +10046,7 @@
     ]
   },
   {
-    "id": "recipe_156",
+    "id": "recipe_155",
     "name": "Adobong Tokwa",
     "description": "Fried tofu braised adobo-style in garlic, soy sauce, and vinegar.",
     "category": "Others",
@@ -10149,7 +10108,7 @@
     ]
   },
   {
-    "id": "recipe_157",
+    "id": "recipe_156",
     "name": "Tokwa't Baboy",
     "description": "Fried tofu and boiled pork cubes tossed in a garlicky soy-vinegar sauce.",
     "category": "Others",
@@ -10216,7 +10175,7 @@
     ]
   },
   {
-    "id": "recipe_158",
+    "id": "recipe_157",
     "name": "Tokwa at Sitaw",
     "description": "Fried tofu and string beans sauteed in a savory shrimp paste sauce.",
     "category": "Others",
@@ -10279,7 +10238,7 @@
     ]
   },
   {
-    "id": "recipe_159",
+    "id": "recipe_158",
     "name": "Tokwa with Oyster Sauce",
     "description": "Crispy fried tofu tossed in a savory oyster sauce and garlic glaze.",
     "category": "Others",
@@ -10336,7 +10295,7 @@
     ]
   },
   {
-    "id": "recipe_160",
+    "id": "recipe_159",
     "name": "Braised Tofu with Mushrooms",
     "description": "Silken tofu and mushrooms braised together in a light savory sauce.",
     "category": "Others",
@@ -10399,7 +10358,7 @@
     ]
   },
   {
-    "id": "recipe_161",
+    "id": "recipe_160",
     "name": "Ginisang Tokwa",
     "description": "Diced tofu sauteed with ground pork, tomatoes, and garlic.",
     "category": "Others",
@@ -10456,7 +10415,7 @@
     ]
   },
   {
-    "id": "recipe_162",
+    "id": "recipe_161",
     "name": "Stir-fried Tofu and Vegetables",
     "description": "Crispy tofu stir-fried with bell pepper, carrot, and string beans.",
     "category": "Others",
@@ -10518,7 +10477,7 @@
     ]
   },
   {
-    "id": "recipe_163",
+    "id": "recipe_162",
     "name": "Arroz Caldo",
     "description": "Warm ginger rice porridge with chicken, topped with toasted garlic and green onion.",
     "category": "Others",
@@ -10586,7 +10545,7 @@
     ]
   },
   {
-    "id": "recipe_164",
+    "id": "recipe_163",
     "name": "Lugaw",
     "description": "Plain savory rice porridge with garlic and ginger, simple and comforting.",
     "category": "Others",
@@ -10643,7 +10602,7 @@
     ]
   },
   {
-    "id": "recipe_165",
+    "id": "recipe_164",
     "name": "Goto",
     "description": "Rice porridge simmered with beef tripe until tender, topped with crispy garlic.",
     "category": "Others",
@@ -10707,7 +10666,7 @@
     ]
   },
   {
-    "id": "recipe_166",
+    "id": "recipe_165",
     "name": "Misua Soup",
     "description": "Simple wheat noodle soup with ground pork in a light garlicky broth.",
     "category": "Others",
@@ -10764,7 +10723,7 @@
     ]
   },
   {
-    "id": "recipe_167",
+    "id": "recipe_166",
     "name": "Chicken Macaroni Soup",
     "description": "Chicken and elbow macaroni soup in a light, milky broth.",
     "category": "Others",
@@ -10832,7 +10791,7 @@
     ]
   },
   {
-    "id": "recipe_168",
+    "id": "recipe_167",
     "name": "Tinolang Isda",
     "description": "Fish simmered in a ginger broth with green papaya and spinach leaves.",
     "category": "Others",
@@ -10899,7 +10858,7 @@
     ]
   },
   {
-    "id": "recipe_169",
+    "id": "recipe_168",
     "name": "Sinampalukang Manok",
     "description": "Chicken simmered in a sour tamarind broth with vegetables.",
     "category": "Others",

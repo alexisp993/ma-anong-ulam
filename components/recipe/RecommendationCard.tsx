@@ -24,7 +24,7 @@ export function RecommendationCard({ recipe }: { recipe: RecommendedRecipe }) {
             alt={recipe.name}
             fill
             sizes="(min-width: 640px) 33vw, 50vw"
-            className="object-cover"
+            className="object-contain"
           />
           <div className="absolute left-2 top-2 flex flex-wrap gap-1">
             {isBudgetFriendly && <Badge variant="budget">Budget Friendly</Badge>}

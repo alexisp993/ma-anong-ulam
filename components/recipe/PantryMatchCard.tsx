@@ -18,7 +18,7 @@ export function PantryMatchCard({ recipe }: { recipe: PantryRecommendation }) {
             alt={recipe.name}
             fill
             sizes="(min-width: 640px) 33vw, 50vw"
-            className="object-cover"
+            className="object-contain"
           />
           {ready && (
             <div className="absolute left-2 top-2">

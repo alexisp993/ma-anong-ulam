@@ -41,7 +41,7 @@ export default async function RecipeDetailPage({
       </div>
 
       <div className="relative aspect-[16/9] w-full overflow-hidden rounded-card bg-border shadow-sm">
-        <Image src={recipe.imageUrl} alt={recipe.name} fill className="object-cover" />
+        <Image src={recipe.imageUrl} alt={recipe.name} fill className="object-contain" />
       </div>
 
       <dl className="grid grid-cols-2 gap-4 rounded-card border border-border bg-surface p-4 text-sm shadow-sm sm:grid-cols-3">
