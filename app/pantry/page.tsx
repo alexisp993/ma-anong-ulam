@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { useSession } from "next-auth/react";
 import { IngredientPicker } from "@/components/pantry/IngredientPicker";
 import { PantryMatchCard } from "@/components/recipe/PantryMatchCard";
@@ -8,51 +8,18 @@ import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { Button } from "@/components/ui/Button";
-import {
-  addGuestPantryItem,
-  getGuestPantry,
-  removeGuestPantryItem,
-} from "@/lib/guest-storage";
+import { addGuestPantryItem, removeGuestPantryItem } from "@/lib/guest-storage";
+import { usePantryItems, type PantryItemLike } from "@/lib/hooks/usePantryItems";
 import type { PantryRecommendation } from "@/lib/pantry";
 import { JarIcon, TrashIcon, SearchIcon } from "@/components/icons";
 
-interface PantryEntry {
-  id?: string;
-  ingredientId: string;
-  name: string;
-}
-
-type LoadStatus = "loading" | "success" | "error";
 type RecStatus = "idle" | "loading" | "success" | "error";
 
 export default function PantryPage() {
-  const { data: session, status: sessionStatus } = useSession();
-  const [items, setItems] = useState<PantryEntry[]>([]);
-  const [pantryStatus, setPantryStatus] = useState<LoadStatus>("loading");
+  const { data: session } = useSession();
+  const { items, setItems, status: pantryStatus, reload: loadPantry } = usePantryItems();
   const [recommendations, setRecommendations] = useState<PantryRecommendation[]>([]);
   const [recStatus, setRecStatus] = useState<RecStatus>("idle");
-
-  const loadPantry = useCallback(async () => {
-    setPantryStatus("loading");
-    try {
-      if (session?.user) {
-        const response = await fetch("/api/pantry");
-        const json = await response.json();
-        if (!json.success) throw new Error(json.message);
-        setItems(json.data);
-      } else {
-        setItems(getGuestPantry());
-      }
-      setPantryStatus("success");
-    } catch {
-      setPantryStatus("error");
-    }
-  }, [session]);
-
-  useEffect(() => {
-    if (sessionStatus === "loading") return;
-    loadPantry();
-  }, [sessionStatus, loadPantry]);
 
   async function handleAdd(ingredient: { id: string; name: string }) {
     if (session?.user) {
@@ -73,7 +40,7 @@ export default function PantryPage() {
     }
   }
 
-  async function handleRemove(entry: PantryEntry) {
+  async function handleRemove(entry: PantryItemLike) {
     if (session?.user && entry.id) {
       const response = await fetch(`/api/pantry/${entry.id}`, { method: "DELETE" });
       const json = await response.json();

@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { Input } from "@/components/ui/Input";
 import { Select } from "@/components/ui/Select";
@@ -14,7 +15,16 @@ import type { RecipeSummary } from "@/lib/recipes";
 type Status = "loading" | "success" | "error";
 
 export default function RecipesPage() {
-  const [search, setSearch] = useState("");
+  return (
+    <Suspense fallback={<LoadingIndicator label="Loading recipes…" />}>
+      <RecipesPageContent />
+    </Suspense>
+  );
+}
+
+function RecipesPageContent() {
+  const searchParams = useSearchParams();
+  const [search, setSearch] = useState(() => searchParams.get("search") ?? "");
   const [category, setCategory] = useState("");
   const [recipes, setRecipes] = useState<RecipeSummary[]>([]);
   const [status, setStatus] = useState<Status>("loading");
