@@ -1344,7 +1344,7 @@ Suggested categories:
 - Vegetables
 - Fruits
 - Dairy
-- Pantry Items
+- Staples
 - Seasonings
 - Others
 
@@ -4186,7 +4186,7 @@ Ingredients shall be grouped using the following categories:
 - Vegetables
 - Fruits
 - Dairy
-- Pantry Items
+- Staples
 - Seasonings
 - Others
 

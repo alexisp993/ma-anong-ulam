@@ -39,7 +39,7 @@ export const GROCERY_CATEGORIES = [
   "Vegetables",
   "Fruits",
   "Dairy",
-  "Pantry Items",
+  "Staples",
   "Seasonings",
   "Others",
 ] as const;
