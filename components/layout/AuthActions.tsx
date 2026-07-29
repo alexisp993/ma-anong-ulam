@@ -23,7 +23,7 @@ export function AuthActions({ stacked = false }: { stacked?: boolean }) {
         <button
           type="button"
           onClick={() => signOut({ callbackUrl: "/" })}
-          className="inline-flex items-center justify-center gap-1.5 rounded-card border border-border px-3 py-1.5 font-medium text-text hover:border-primary"
+          className="inline-flex items-center justify-center gap-1.5 rounded-card border border-border px-3 py-1.5 font-medium text-text transition-[border-color,transform] duration-150 hover:border-primary active:scale-[0.97]"
         >
           <LogoutIcon size={16} />
           Sign Out
@@ -36,13 +36,13 @@ export function AuthActions({ stacked = false }: { stacked?: boolean }) {
     <div className={containerClass}>
       <Link
         href="/login"
-        className="rounded-card border border-border px-3 py-1.5 text-center text-sm font-medium text-text hover:border-primary"
+        className="rounded-card border border-border px-3 py-1.5 text-center text-sm font-medium text-text transition-[border-color,transform] duration-150 hover:border-primary active:scale-[0.97]"
       >
         Sign In
       </Link>
       <Link
         href="/register"
-        className="rounded-card bg-primary px-3 py-1.5 text-center text-sm font-medium text-white hover:bg-primary-dark"
+        className="rounded-card bg-primary px-3 py-1.5 text-center text-sm font-medium text-white transition-[background-color,transform] duration-150 hover:bg-primary-dark active:scale-[0.97]"
       >
         Register
       </Link>

@@ -11,7 +11,10 @@ export function PantryMatchCard({ recipe }: { recipe: PantryRecommendation }) {
 
   return (
     <div className="relative overflow-hidden rounded-card border border-border bg-surface shadow-sm transition-shadow hover:shadow-md">
-      <Link href={`/recipes/${recipe.id}`} className="block">
+      <Link
+        href={`/recipes/${recipe.id}`}
+        className="block transition-transform duration-150 active:scale-[0.98]"
+      >
         <div className="relative aspect-[4/3] w-full bg-border">
           <Image
             src={recipe.imageUrl}

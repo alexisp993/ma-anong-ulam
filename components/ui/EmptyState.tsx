@@ -16,7 +16,7 @@ export function EmptyState({ message, actionLabel, actionHref, icon }: EmptyStat
       {actionLabel && actionHref && (
         <Link
           href={actionHref}
-          className="inline-block rounded-card bg-primary px-5 py-2.5 font-semibold text-white transition-colors hover:bg-primary-dark"
+          className="inline-block rounded-card bg-primary px-5 py-2.5 font-semibold text-white transition-[background-color,transform] duration-150 hover:bg-primary-dark active:scale-[0.97]"
         >
           {actionLabel}
         </Link>

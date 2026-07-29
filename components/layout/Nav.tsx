@@ -30,7 +30,7 @@ export function Nav() {
               <Link
                 href={item.href}
                 aria-current={isActive ? "page" : undefined}
-                className={`inline-block whitespace-nowrap border-b-2 px-3 py-3 text-sm font-medium transition-colors ${
+                className={`inline-block whitespace-nowrap border-b-2 px-3 py-3 text-sm font-medium transition-[color,border-color,opacity] duration-150 active:opacity-60 ${
                   isActive
                     ? "border-primary text-primary"
                     : "border-transparent text-text-muted hover:text-text"

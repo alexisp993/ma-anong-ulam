@@ -77,7 +77,7 @@ export function FavoriteButton({ recipeId, className = "" }: FavoriteButtonProps
       disabled={busy}
       aria-pressed={favorited}
       aria-label={favorited ? "Remove from favorites" : "Add to favorites"}
-      className={`inline-flex items-center gap-1.5 rounded-card border px-3 py-1.5 text-sm font-medium transition-colors disabled:opacity-60 ${
+      className={`inline-flex items-center gap-1.5 rounded-card border px-3 py-1.5 text-sm font-medium transition-[background-color,border-color,transform] duration-150 active:scale-90 disabled:opacity-60 disabled:active:scale-100 ${
         favorited
           ? "border-primary bg-primary text-white"
           : "border-border bg-surface text-text hover:border-primary"

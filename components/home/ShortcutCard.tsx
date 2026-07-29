@@ -21,7 +21,7 @@ export function ShortcutCard({ label, href, description, actionLabel, icon: Icon
       </div>
       <Link
         href={href}
-        className="inline-block rounded-card bg-primary px-4 py-2 text-center text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
+        className="inline-block rounded-card bg-primary px-4 py-2 text-center text-sm font-semibold text-white transition-[background-color,transform] duration-150 hover:bg-primary-dark active:scale-[0.97]"
       >
         {actionLabel}
       </Link>

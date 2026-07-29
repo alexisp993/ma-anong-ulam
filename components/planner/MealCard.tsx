@@ -31,7 +31,7 @@ export function MealCard({
       </p>
       <Link
         href={`/recipes/${recipeId}`}
-        className="block text-sm font-semibold text-text hover:text-primary"
+        className="block text-sm font-semibold text-text transition-colors duration-150 hover:text-primary active:opacity-70"
       >
         {name}
       </Link>
