@@ -12,9 +12,10 @@ import {
   getLastMealPlanId,
   getGuestPurchasedMap,
   setGuestItemPurchased,
+  getGuestPantry,
 } from "@/lib/guest-storage";
 import type { GroceryListView } from "@/lib/grocery-list";
-import { CartIcon, WalletIcon, RefreshIcon } from "@/components/icons";
+import { CartIcon, RefreshIcon, JarIcon } from "@/components/icons";
 
 type Status = "loading-source" | "no-source" | "ready" | "generating" | "success" | "error";
 type GenerateSource = { mealPlanId: string } | { recipeIds: string[] };
@@ -63,11 +64,13 @@ export default function GroceryListPage() {
       let data: GroceryListView = json.data;
       if (!session?.user) {
         const purchasedMap = getGuestPurchasedMap();
+        const pantryIngredientIds = new Set(getGuestPantry().map((item) => item.ingredientId));
         data = {
           ...data,
           items: data.items.map((item) => ({
             ...item,
             purchased: purchasedMap[item.ingredientId] ?? false,
+            inPantry: pantryIngredientIds.has(item.ingredientId),
           })),
         };
       }
@@ -131,16 +134,6 @@ export default function GroceryListPage() {
             Regenerate Grocery List
           </Button>
 
-          <div className="flex items-center gap-3 rounded-card border border-border bg-surface p-4 shadow-sm">
-            <div className="flex h-10 w-10 items-center justify-center rounded-card bg-accent/15 text-accent-dark">
-              <WalletIcon size={20} />
-            </div>
-            <div>
-              <p className="text-sm text-text-muted">Estimated Total</p>
-              <p className="text-xl font-bold text-text">₱{list.estimatedTotal.toFixed(0)}</p>
-            </div>
-          </div>
-
           {list.items.length === 0 ? (
             <EmptyState icon={<CartIcon size={32} />} message="No grocery items available." />
           ) : (
@@ -162,15 +155,22 @@ export default function GroceryListPage() {
                           aria-label={`Mark ${item.name} as purchased`}
                           className="h-4 w-4 accent-accent"
                         />
-                        <span
-                          className={`flex-1 text-text ${item.purchased ? "text-text-muted line-through" : ""}`}
-                        >
-                          {item.name}
-                        </span>
+                        <div className="flex-1">
+                          <span
+                            className={`text-text ${item.purchased ? "text-text-muted line-through" : ""}`}
+                          >
+                            {item.name}
+                          </span>
+                          {item.inPantry && (
+                            <p className="flex items-center gap-1 text-xs text-accent-dark">
+                              <JarIcon size={12} />
+                              Already in your pantry — check if you have enough.
+                            </p>
+                          )}
+                        </div>
                         <span className="text-sm text-text-muted">
                           {item.quantity} {item.unit}
                         </span>
-                        <span className="text-sm text-text-muted">₱{item.estimatedCost.toFixed(0)}</span>
                       </li>
                     ))}
                   </ul>

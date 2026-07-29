@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/prisma";
-import { lineCost } from "@/scripts/pricing";
 import type { AllowedUnit } from "@/scripts/units";
 import type { GroceryCategory } from "@/lib/constants";
+import { getPantryForUser } from "@/lib/pantry";
 
 // Maps the pipeline's free-text Ingredient.category values (Poultry, Beef,
 // Vegetable, Condiment, ...) onto PRODUCT_BLUEPRINT.md §6.5.7's fixed
@@ -34,13 +34,16 @@ export interface GroceryItem {
   category: GroceryCategory;
   quantity: number;
   unit: string;
-  estimatedCost: number;
   purchased: boolean;
+  // True if this ingredient is already in the user's pantry — the item still
+  // shows (we don't track pantry quantity, so we can't know it's fully
+  // covered), but the UI flags it so the user can check if what they have
+  // is enough before buying more.
+  inPantry: boolean;
 }
 
 export interface GroceryListView {
   groceryListId: string;
-  estimatedTotal: number;
   items: GroceryItem[];
 }
 
@@ -92,6 +95,11 @@ function round2(value: number): number {
 // (ingredientId, unit) — an ingredient can appear more than once if
 // different recipes measure it in different units (see aggregateIngredients
 // above), so ingredientId alone would collide.
+//
+// Guests' pantry lives in browser localStorage (lib/guest-storage.ts), not
+// the DB, so this server-side function can't know their pantry — it always
+// returns inPantry: false, and the client merges in the real flag (mirrors
+// the existing guest `purchased` merge in app/grocery-list/page.tsx).
 export async function computeGroceryList(recipeIds: string[]): Promise<GroceryListView> {
   const aggregated = await aggregateIngredients(recipeIds);
   const items: GroceryItem[] = aggregated.map((entry) => ({
@@ -101,11 +109,10 @@ export async function computeGroceryList(recipeIds: string[]): Promise<GroceryLi
     category: mapGroceryCategory(entry.category),
     quantity: round2(entry.quantity),
     unit: entry.unit,
-    estimatedCost: round2(lineCost(entry.name, entry.quantity, entry.unit)),
     purchased: false,
+    inPantry: false,
   }));
-  const estimatedTotal = round2(items.reduce((sum, item) => sum + item.estimatedCost, 0));
-  return { groceryListId: "", estimatedTotal, items };
+  return { groceryListId: "", items };
 }
 
 // Registered path: persists the list, replacing any previous one for the
@@ -122,11 +129,9 @@ export async function generateGroceryListForPlan(
 
   const recipeIds = mealPlan.weeklyMeals.map((meal) => meal.recipeId);
   const aggregated = await aggregateIngredients(recipeIds);
-  const priced = aggregated.map((entry) => ({
-    ...entry,
-    estimatedCost: round2(lineCost(entry.name, entry.quantity, entry.unit)),
-  }));
-  const estimatedTotal = round2(priced.reduce((sum, entry) => sum + entry.estimatedCost, 0));
+
+  const pantryItems = await getPantryForUser(userId);
+  const pantryIngredientIds = new Set(pantryItems.map((item) => item.ingredientId));
 
   const groceryList = await prisma.$transaction(async (tx) => {
     await tx.groceryList.deleteMany({ where: { userId, mealPlanId } });
@@ -134,13 +139,13 @@ export async function generateGroceryListForPlan(
       data: {
         userId,
         mealPlanId,
-        estimatedTotal,
+        estimatedTotal: 0,
         groceryItems: {
-          create: priced.map((entry) => ({
+          create: aggregated.map((entry) => ({
             ingredientId: entry.ingredientId,
             quantity: round2(entry.quantity),
             unit: entry.unit,
-            estimatedCost: entry.estimatedCost,
+            estimatedCost: 0,
             purchased: false,
           })),
         },
@@ -151,7 +156,6 @@ export async function generateGroceryListForPlan(
 
   return {
     groceryListId: groceryList.id,
-    estimatedTotal: Number(groceryList.estimatedTotal),
     items: groceryList.groceryItems.map((item) => ({
       id: item.id,
       ingredientId: item.ingredientId,
@@ -159,8 +163,8 @@ export async function generateGroceryListForPlan(
       category: mapGroceryCategory(item.ingredient.category),
       quantity: Number(item.quantity),
       unit: item.unit,
-      estimatedCost: Number(item.estimatedCost),
       purchased: item.purchased,
+      inPantry: pantryIngredientIds.has(item.ingredientId),
     })),
   };
 }
@@ -175,9 +179,11 @@ export async function getGroceryList(
   });
   if (!groceryList || groceryList.userId !== userId) return null;
 
+  const pantryItems = await getPantryForUser(userId);
+  const pantryIngredientIds = new Set(pantryItems.map((item) => item.ingredientId));
+
   return {
     groceryListId: groceryList.id,
-    estimatedTotal: Number(groceryList.estimatedTotal),
     items: groceryList.groceryItems.map((item) => ({
       id: item.id,
       ingredientId: item.ingredientId,
@@ -185,13 +191,13 @@ export async function getGroceryList(
       category: mapGroceryCategory(item.ingredient.category),
       quantity: Number(item.quantity),
       unit: item.unit,
-      estimatedCost: Number(item.estimatedCost),
       purchased: item.purchased,
+      inPantry: pantryIngredientIds.has(item.ingredientId),
     })),
   };
 }
 
-// BR-GL-004: purchased status shall not affect quantities or estimated costs.
+// BR-GL-004: purchased status shall not affect quantities.
 export async function setItemPurchased(
   userId: string,
   groceryListId: string,

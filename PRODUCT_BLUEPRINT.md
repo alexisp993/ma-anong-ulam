@@ -4056,7 +4056,7 @@ The Grocery List should allow users to:
 - View all required ingredients.
 - Combine duplicate ingredients.
 - Organize ingredients into categories.
-- View estimated ingredient costs.
+- See a note when an ingredient is already in their pantry.
 - Mark items as purchased.
 - Save the grocery list.
 
@@ -4112,23 +4112,17 @@ The application shall group ingredients by category.
 
 ### FR-GL-004
 
-Each grocery item shall display an estimated cost.
+If a grocery item's ingredient is already in the user's pantry, the item shall display a note prompting the user to check whether their current amount is enough (the Pantry only tracks whether an ingredient is present, not how much of it, so the item is annotated rather than removed).
 
 ---
 
 ### FR-GL-005
 
-The grocery list shall display an estimated total cost.
-
----
-
-### FR-GL-006
-
 Users shall be able to mark grocery items as purchased.
 
 ---
 
-### FR-GL-007
+### FR-GL-006
 
 Users shall be able to save the grocery list.
 
@@ -4152,8 +4146,8 @@ Each grocery item shall display:
 - Quantity
 - Unit
 - Category
-- Estimated Cost
 - Purchased Status
+- Pantry Note (only if the ingredient is already in the user's pantry)
 
 Example:
 
@@ -4164,7 +4158,19 @@ Chicken
 
 Meat
 
-₱420
+☐ Purchased
+```
+
+Example with a pantry note:
+
+```
+Garlic
+
+10 clove
+
+Seasonings
+
+Already in your pantry — check if you have enough.
 
 ☐ Purchased
 ```
@@ -4220,13 +4226,15 @@ Chicken
 
 ---
 
-## 6.5.9 Estimated Cost
+## 6.5.9 Pantry Check
 
-Each grocery item displays an estimated cost based on the application's ingredient dataset.
+The grocery list is cross-referenced against the user's Pantry (guest pantry stored locally, registered-user pantry stored in the database).
 
-The grocery list also displays an estimated total cost.
+If a grocery item's ingredient is already in the user's pantry, the item is not removed — the Pantry only tracks whether an ingredient is present, not its quantity, so the application cannot know if the amount on hand is enough for the week's recipes.
 
-Estimated costs are intended to assist with budgeting and may not exactly match market prices.
+Instead, the item displays a short note: "Already in your pantry — check if you have enough." The item still counts toward the list and can still be marked purchased.
+
+The application does not display estimated costs for grocery items. Recipe-level estimated cost (shown on the Recipe Browser, Recipe Detail, and Weekly Planner) is a separate feature and is unaffected.
 
 ---
 
@@ -4262,8 +4270,6 @@ Ingredient names must not be empty.
 
 Quantities must be greater than zero.
 
-Estimated costs must not be negative.
-
 ---
 
 ## 6.5.13 Business Rules
@@ -4288,13 +4294,19 @@ Ingredients shall be grouped by category.
 
 ### BR-GL-004
 
-Purchased status shall not affect ingredient quantities or estimated costs.
+Purchased status shall not affect ingredient quantities.
 
 ---
 
 ### BR-GL-005
 
 Generating a new weekly meal plan replaces the previously generated grocery list.
+
+---
+
+### BR-GL-006
+
+An ingredient already present in the user's pantry shall remain on the grocery list, annotated with a note to check the pantry amount — it shall not be removed, since pantry quantity is not tracked.
 
 ---
 
@@ -4379,8 +4391,7 @@ The Grocery List feature is complete when users can:
 - View all required ingredients.
 - View merged duplicate ingredients.
 - View ingredient categories.
-- View estimated costs.
-- View an estimated total cost.
+- See a note on items already in their pantry.
 - Mark items as purchased.
 - Save grocery lists.
 - Experience appropriate loading, empty, and error states.
