@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
@@ -8,11 +8,11 @@ import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { MealCard } from "@/components/planner/MealCard";
-import { setGuestWeeklyPlan, setLastMealPlanId } from "@/lib/guest-storage";
+import { getGuestWeeklyPlan, setGuestWeeklyPlan } from "@/lib/guest-storage";
 import { CalendarIcon, SaveIcon, CheckCircleIcon, XCircleIcon } from "@/components/icons";
 import type { DayPlan, MealType, PlannedMeal } from "@/lib/weekly-planner";
 
-type Status = "idle" | "loading" | "success" | "error";
+type Status = "resuming" | "idle" | "loading" | "success" | "error";
 type SaveStatus = "idle" | "saving" | "saved" | "error";
 
 function updateSlot(
@@ -30,14 +30,57 @@ function updateSlot(
 }
 
 export default function WeeklyPlannerPage() {
-  const { data: session } = useSession();
+  const { data: session, status: sessionStatus } = useSession();
   const [weeklyBudget, setWeeklyBudget] = useState("2000");
   const [familySize, setFamilySize] = useState("4");
   const [days, setDays] = useState<DayPlan[] | null>(null);
   const [mealPlanId, setMealPlanId] = useState<string | null>(null);
-  const [status, setStatus] = useState<Status>("idle");
+  const [status, setStatus] = useState<Status>("resuming");
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [replacingKey, setReplacingKey] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (sessionStatus === "loading") return;
+
+    let cancelled = false;
+    async function resume() {
+      try {
+        if (session?.user) {
+          const response = await fetch("/api/weekly-planner/current");
+          const json = await response.json();
+          if (json.success && json.data) {
+            if (cancelled) return;
+            setWeeklyBudget(String(json.data.weeklyBudget));
+            setFamilySize(String(json.data.familySize));
+            setDays(json.data.days);
+            setMealPlanId(json.data.mealPlanId);
+            setSaveStatus("saved");
+            setStatus("success");
+            return;
+          }
+        } else {
+          const plan = getGuestWeeklyPlan();
+          if (plan) {
+            if (cancelled) return;
+            setWeeklyBudget(String(plan.weeklyBudget));
+            setFamilySize(String(plan.familySize));
+            setDays(plan.days);
+            setSaveStatus("saved");
+            setStatus("success");
+            return;
+          }
+        }
+      } catch {
+        // Fall through to idle — a failed background resume-check isn't an
+        // actionable user error, the generate form is still right there.
+      }
+      if (!cancelled) setStatus("idle");
+    }
+    resume();
+    return () => {
+      cancelled = true;
+    };
+  }, [session, sessionStatus]);
 
   async function generate() {
     setStatus("loading");
@@ -120,7 +163,6 @@ export default function WeeklyPlannerPage() {
         const json = await response.json();
         if (!json.success) throw new Error(json.message);
         setMealPlanId(json.data.mealPlanId);
-        setLastMealPlanId(json.data.mealPlanId);
       } else {
         setGuestWeeklyPlan({
           weeklyBudget: Number(weeklyBudget),
@@ -165,6 +207,8 @@ export default function WeeklyPlannerPage() {
         </div>
       </form>
 
+      {status === "resuming" && <LoadingIndicator label="Loading your saved plan…" />}
+
       {status === "idle" && (
         <EmptyState icon={<CalendarIcon size={32} />} message="Generate a weekly meal plan to begin." />
       )}
@@ -189,6 +233,7 @@ export default function WeeklyPlannerPage() {
                   recipeId={day.lunch.recipeId}
                   name={day.lunch.name}
                   estimatedCost={day.lunch.estimatedCost}
+                  imageUrl={day.lunch.imageUrl}
                   onReplace={() => handleReplace(dayIndex, "Lunch")}
                   replacing={replacingKey === `${dayIndex}-Lunch`}
                 />
@@ -197,6 +242,7 @@ export default function WeeklyPlannerPage() {
                   recipeId={day.dinner.recipeId}
                   name={day.dinner.name}
                   estimatedCost={day.dinner.estimatedCost}
+                  imageUrl={day.dinner.imageUrl}
                   onReplace={() => handleReplace(dayIndex, "Dinner")}
                   replacing={replacingKey === `${dayIndex}-Dinner`}
                 />

@@ -11,7 +11,6 @@ const KEYS = {
   pantry: "maul:pantry",
   weeklyPlan: "maul:weeklyplan",
   groceryPurchased: "maul:grocery-purchased",
-  lastMealPlanId: "maul:lastMealPlanId",
 } as const;
 
 function readIds(key: string): string[] {
@@ -122,16 +121,4 @@ export function setGuestItemPurchased(ingredientId: string, purchased: boolean) 
   const map = getGuestPurchasedMap();
   map[ingredientId] = purchased;
   window.localStorage.setItem(KEYS.groceryPurchased, JSON.stringify(map));
-}
-
-// Lightweight pointer so the Grocery List page can find a registered user's
-// most recently saved plan without a "list my meal plans" endpoint (not
-// specified anywhere in API_REFERENCE.md / PRODUCT_BLUEPRINT.md).
-export function getLastMealPlanId(): string | null {
-  if (typeof window === "undefined") return null;
-  return window.localStorage.getItem(KEYS.lastMealPlanId);
-}
-
-export function setLastMealPlanId(id: string) {
-  window.localStorage.setItem(KEYS.lastMealPlanId, id);
 }

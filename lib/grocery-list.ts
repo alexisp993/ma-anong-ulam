@@ -169,6 +169,37 @@ export async function generateGroceryListForPlan(
   };
 }
 
+// Powers "resume my saved grocery list on load", scoped to one specific
+// plan rather than "most recent for user" — a regenerated plan must not
+// surface a stale list left over from an older, replaced plan.
+export async function getGroceryListForPlan(
+  userId: string,
+  mealPlanId: string
+): Promise<GroceryListView | null> {
+  const groceryList = await prisma.groceryList.findFirst({
+    where: { userId, mealPlanId },
+    include: { groceryItems: { include: { ingredient: true } } },
+  });
+  if (!groceryList) return null;
+
+  const pantryItems = await getPantryForUser(userId);
+  const pantryIngredientIds = new Set(pantryItems.map((item) => item.ingredientId));
+
+  return {
+    groceryListId: groceryList.id,
+    items: groceryList.groceryItems.map((item) => ({
+      id: item.id,
+      ingredientId: item.ingredientId,
+      name: item.ingredient.name,
+      category: mapGroceryCategory(item.ingredient.category),
+      quantity: Number(item.quantity),
+      unit: item.unit,
+      purchased: item.purchased,
+      inPantry: pantryIngredientIds.has(item.ingredientId),
+    })),
+  };
+}
+
 export async function getGroceryList(
   userId: string,
   groceryListId: string

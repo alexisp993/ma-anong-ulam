@@ -9,7 +9,6 @@ import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { GROCERY_CATEGORIES } from "@/lib/constants";
 import {
   getGuestWeeklyPlan,
-  getLastMealPlanId,
   getGuestPurchasedMap,
   setGuestItemPurchased,
   getGuestPantry,
@@ -26,37 +25,13 @@ export default function GroceryListPage() {
   const [status, setStatus] = useState<Status>("loading-source");
   const [source, setSource] = useState<GenerateSource | null>(null);
 
-  useEffect(() => {
-    if (sessionStatus === "loading") return;
-
-    if (session?.user) {
-      const mealPlanId = getLastMealPlanId();
-      if (mealPlanId) {
-        setSource({ mealPlanId });
-        setStatus("ready");
-      } else {
-        setStatus("no-source");
-      }
-    } else {
-      const plan = getGuestWeeklyPlan();
-      const recipeIds = plan?.days.flatMap((day) => [day.lunch.recipeId, day.dinner.recipeId]);
-      if (recipeIds && recipeIds.length > 0) {
-        setSource({ recipeIds });
-        setStatus("ready");
-      } else {
-        setStatus("no-source");
-      }
-    }
-  }, [session, sessionStatus]);
-
-  async function handleGenerate() {
-    if (!source) return;
+  async function generateList(src: GenerateSource) {
     setStatus("generating");
     try {
       const response = await fetch("/api/grocery-lists/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(source),
+        body: JSON.stringify(src),
       });
       const json = await response.json();
       if (!json.success) throw new Error(json.message);
@@ -79,6 +54,58 @@ export default function GroceryListPage() {
     } catch {
       setStatus("error");
     }
+  }
+
+  useEffect(() => {
+    if (sessionStatus === "loading") return;
+
+    let cancelled = false;
+    async function loadSource() {
+      if (session?.user) {
+        try {
+          const response = await fetch("/api/weekly-planner/current");
+          const json = await response.json();
+          if (!json.success || !json.data) {
+            if (!cancelled) setStatus("no-source");
+            return;
+          }
+          const mealPlanId: string = json.data.mealPlanId;
+          if (cancelled) return;
+          setSource({ mealPlanId });
+
+          const listResponse = await fetch(`/api/grocery-lists/by-plan/${mealPlanId}`);
+          const listJson = await listResponse.json();
+          if (cancelled) return;
+          if (listJson.success && listJson.data) {
+            setList(listJson.data);
+            setStatus("success");
+          } else {
+            setStatus("ready");
+          }
+        } catch {
+          if (!cancelled) setStatus("no-source");
+        }
+      } else {
+        const plan = getGuestWeeklyPlan();
+        const recipeIds = plan?.days.flatMap((day) => [day.lunch.recipeId, day.dinner.recipeId]);
+        if (recipeIds && recipeIds.length > 0) {
+          setSource({ recipeIds });
+          await generateList({ recipeIds });
+        } else if (!cancelled) {
+          setStatus("no-source");
+        }
+      }
+    }
+    loadSource();
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [session, sessionStatus]);
+
+  async function handleGenerate() {
+    if (!source) return;
+    await generateList(source);
   }
 
   async function handleTogglePurchased(itemId: string, ingredientId: string, purchased: boolean) {

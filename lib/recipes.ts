@@ -46,6 +46,7 @@ export async function getRecipes(filters: {
 }): Promise<RecipeSummary[]> {
   const recipes = await prisma.recipe.findMany({
     where: {
+      status: "PUBLISHED",
       ...(filters.search
         ? { name: { contains: filters.search, mode: "insensitive" } }
         : {}),
@@ -57,8 +58,8 @@ export async function getRecipes(filters: {
 }
 
 export async function getRecipeById(id: string): Promise<RecipeDetail | null> {
-  const recipe = await prisma.recipe.findUnique({
-    where: { id },
+  const recipe = await prisma.recipe.findFirst({
+    where: { id, status: "PUBLISHED" },
     include: { recipeIngredients: { include: { ingredient: true } } },
   });
   if (!recipe) return null;

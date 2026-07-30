@@ -35,6 +35,7 @@ export async function getPantryRecommendations(
 ): Promise<PantryRecommendation[]> {
   const pantrySet = new Set(ingredientIds);
   const recipes = await prisma.recipe.findMany({
+    where: { status: "PUBLISHED" },
     include: { recipeIngredients: { include: { ingredient: true } } },
   });
 

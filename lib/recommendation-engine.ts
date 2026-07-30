@@ -152,7 +152,7 @@ function toScorable(recipe: {
 export async function getKahitAnoRecommendations(
   input: KahitAnoInput
 ): Promise<RecommendedRecipe[]> {
-  const recipes = await prisma.recipe.findMany();
+  const recipes = await prisma.recipe.findMany({ where: { status: "PUBLISHED" } });
   const allScorable = recipes.map(toScorable);
 
   const excludeSet = new Set(input.excludeIds ?? []);

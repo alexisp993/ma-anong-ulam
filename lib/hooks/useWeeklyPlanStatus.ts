@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
-import { getGuestWeeklyPlan, getLastMealPlanId } from "@/lib/guest-storage";
+import { getGuestWeeklyPlan } from "@/lib/guest-storage";
 
 type Status = "loading" | "success" | "error";
 
@@ -18,14 +18,9 @@ export function useWeeklyPlanStatus() {
     setStatus("loading");
     try {
       if (session?.user) {
-        const mealPlanId = getLastMealPlanId();
-        if (!mealPlanId) {
-          setHasPlan(false);
-        } else {
-          const response = await fetch(`/api/weekly-planner/${mealPlanId}`);
-          const json = await response.json();
-          setHasPlan(Boolean(json.success));
-        }
+        const response = await fetch("/api/weekly-planner/current");
+        const json = await response.json();
+        setHasPlan(Boolean(json.success && json.data));
       } else {
         setHasPlan(Boolean(getGuestWeeklyPlan()));
       }

@@ -80,7 +80,10 @@ function pickBestRecipe(
 }
 
 async function loadScorableRecipes(): Promise<ScorableRecipe[]> {
-  const recipes = await prisma.recipe.findMany({ include: { recipeIngredients: true } });
+  const recipes = await prisma.recipe.findMany({
+    where: { status: "PUBLISHED" },
+    include: { recipeIngredients: true },
+  });
   return recipes.map((recipe) => ({
     id: recipe.id,
     name: recipe.name,
@@ -219,6 +222,19 @@ export async function getSavedWeeklyPlan(
   };
 }
 
+// Powers "resume my last plan on load" — reuses getSavedWeeklyPlan rather
+// than duplicating the day-mapping logic. WeeklyMealPlan.userId has no
+// unique constraint (saveWeeklyPlan always creates a new row), so "current"
+// is defined as the most recently created plan.
+export async function getMostRecentWeeklyPlan(userId: string): Promise<SavedWeeklyPlan | null> {
+  const plan = await prisma.weeklyMealPlan.findFirst({
+    where: { userId },
+    orderBy: { createdAt: "desc" },
+  });
+  if (!plan) return null;
+  return getSavedWeeklyPlan(userId, plan.id);
+}
+
 // Returns false if the plan doesn't exist / isn't owned by this user, or the
 // recipeId is invalid — callers translate that into the right HTTP status.
 export async function replaceSavedMeal(
@@ -231,7 +247,7 @@ export async function replaceSavedMeal(
   const plan = await prisma.weeklyMealPlan.findUnique({ where: { id: mealPlanId } });
   if (!plan || plan.userId !== userId) return false;
 
-  const recipe = await prisma.recipe.findUnique({ where: { id: recipeId } });
+  const recipe = await prisma.recipe.findFirst({ where: { id: recipeId, status: "PUBLISHED" } });
   if (!recipe) return false;
 
   await prisma.weeklyMeal.updateMany({

@@ -17,30 +17,39 @@ model User {
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
-  favorites       Favorite[]
-  pantryItems     PantryItem[]
-  weeklyMealPlans WeeklyMealPlan[]
-  groceryLists    GroceryList[]
+  favorites        Favorite[]
+  pantryItems      PantryItem[]
+  weeklyMealPlans  WeeklyMealPlan[]
+  groceryLists     GroceryList[]
+  submittedRecipes Recipe[]
 
   @@index([email])
 }
 
-model Recipe {
-  id             String   @id @default(uuid()) @db.Uuid
-  name           String   @db.VarChar(255)
-  description    String   @db.Text
-  category       String   @db.VarChar(100)
-  mealStyle      String   @db.VarChar(50)
-  estimatedCost  Decimal  @db.Decimal(10, 2)
-  prepTime       Int
-  cookTime       Int
-  servings       Int
-  difficulty     String   @db.VarChar(20)
-  imageUrl       String   @db.Text
-  instructions   String   @db.Text
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+enum RecipeStatus {
+  PENDING
+  PUBLISHED
+}
 
+model Recipe {
+  id                String       @id @default(uuid()) @db.Uuid
+  name              String       @db.VarChar(255)
+  description       String       @db.Text
+  category          String       @db.VarChar(100)
+  mealStyle         String       @db.VarChar(50)
+  estimatedCost     Decimal      @db.Decimal(10, 2)
+  prepTime          Int
+  cookTime          Int
+  servings          Int
+  difficulty        String       @db.VarChar(20)
+  imageUrl          String       @db.Text
+  instructions      String       @db.Text
+  status            RecipeStatus @default(PUBLISHED)
+  submittedByUserId String?      @db.Uuid
+  createdAt         DateTime     @default(now())
+  updatedAt         DateTime     @updatedAt
+
+  submitter         User?              @relation(fields: [submittedByUserId], references: [id], onDelete: SetNull)
   recipeIngredients RecipeIngredient[]
   favorites         Favorite[]
   weeklyMeals       WeeklyMeal[]
@@ -48,6 +57,7 @@ model Recipe {
   @@index([name])
   @@index([category])
   @@index([mealStyle])
+  @@index([status])
 }
 
 model Ingredient {

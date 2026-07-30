@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, useEffect, useState } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { Input } from "@/components/ui/Input";
@@ -60,7 +61,15 @@ function RecipesPageContent() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold text-text">Recipes</h1>
+      <div className="flex items-center justify-between gap-3">
+        <h1 className="text-2xl font-bold text-text">Recipes</h1>
+        <Link
+          href="/recipes/submit"
+          className="text-sm font-medium text-primary transition-opacity duration-150 hover:underline active:opacity-70"
+        >
+          Submit a Recipe
+        </Link>
+      </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
         <Input

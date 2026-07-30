@@ -84,6 +84,7 @@ Included
 - Grocery List
 - Favorites
 - User Accounts
+- Recipe Submission
 
 Not Included
 
@@ -94,7 +95,6 @@ Not Included
 - Nutrition
 - Meal Tracking
 - Social Features
-- Recipe Submission
 - Admin Dashboard
 
 These are future ideas only.
@@ -308,6 +308,25 @@ Recipes must always contain:
 - Difficulty
 
 Do not create partial recipes.
+
+---
+
+# Recipe Submission Rules
+
+Signed-in users may submit new recipes.
+
+Submitted recipes require every field listed under Recipe Rules.
+
+Submitted recipes start as Pending and are hidden from all browsing and
+recommendation surfaces until published.
+
+Publishing a submission is a direct database action, not an in-app admin feature.
+
+Users select ingredients from the existing ingredient list only. Users
+cannot create new ingredients inline.
+
+Estimated Cost is always calculated by the server from ingredient
+quantities. It is never entered manually.
 
 ---
 

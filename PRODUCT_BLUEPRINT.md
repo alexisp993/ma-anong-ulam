@@ -219,7 +219,6 @@ The MVP should favor simple, maintainable solutions over unnecessary complexity.
 The following features are intentionally excluded from the MVP:
 
 - AI-generated recommendations
-- Community recipe submissions
 - Recipe ratings
 - Comments and discussions
 - Nutrition tracking
@@ -639,7 +638,6 @@ Potential future enhancements include:
 - Seasonal recipe suggestions
 - Regional Filipino cuisine support
 - Nutrition information
-- Recipe submissions
 - Personalized recommendations
 
 These features are **future considerations only** and must not influence the design or implementation of the MVP.
@@ -1106,7 +1104,7 @@ If these goals are achieved, the MVP is considered complete.
 
 # 4.3 Core Features
 
-The MVP consists of seven primary features.
+The MVP consists of eight primary features.
 
 | Feature | Included |
 |----------|:---------:|
@@ -1117,6 +1115,7 @@ The MVP consists of seven primary features.
 | Grocery List | ✅ |
 | Favorites | ✅ |
 | User Accounts | ✅ |
+| Recipe Submission | ✅ |
 
 These features make up the entire Version 1.0 product.
 
@@ -1504,7 +1503,6 @@ The following features are intentionally excluded from Version 1.0.
 
 Community
 
-- Recipe submissions
 - Comments
 - Ratings
 - Reviews
@@ -1574,6 +1572,40 @@ To maintain a focused MVP:
 - Any feature that does not directly help users decide what to cook should be evaluated carefully before inclusion.
 
 This document defines the functional boundary of Version 1.0.
+
+---
+
+# 4.20 Recipe Submission
+
+## Purpose
+
+Allow signed-in users to contribute new recipes to the collection.
+
+## Functional Requirements
+
+Users can:
+
+- Submit a new recipe with all required fields (see 6.1 Recipe entity requirements: Name, Ingredients, Instructions, Estimated Cost, Servings, Prep Time, Cook Time, Meal Style, Difficulty).
+- Select ingredients from the existing ingredient list.
+- Specify quantity and unit for each ingredient.
+- Upload a recipe photo.
+
+Estimated Cost is calculated by the server from the submitted ingredient quantities. Users never enter it manually.
+
+## Review
+
+Submitted recipes start with a Pending status and are not visible in the Recipe Browser, Kahit Ano, Pantry, or Weekly Planner until published.
+
+Publishing a submission is a manual, out-of-application step. No in-app moderation dashboard is provided.
+
+## Not Included
+
+Recipe Submission will NOT include:
+
+- An in-app moderation or admin dashboard.
+- Free-text ingredient creation.
+- Manual entry of Estimated Cost.
+- Editing or resubmitting a recipe after submission.
 
 ---
 
@@ -5366,8 +5398,12 @@ Represents a single recipe.
 | difficulty | Enum | Yes |
 | imageUrl | String | Yes |
 | instructions | Text | Yes |
+| status | Enum | Yes |
+| submittedByUserId | UUID | No |
 | createdAt | DateTime | Yes |
 | updatedAt | DateTime | Yes |
+
+`status` distinguishes curated/published recipes from pending user submissions (see 8.14 Enumerations). `submittedByUserId` references the User who submitted the recipe; it is absent for curated recipes.
 
 ---
 
@@ -5606,6 +5642,13 @@ Ingredient
 
 ---
 
+### Recipe Status
+
+- Pending
+- Published
+
+---
+
 # 8.15 Data Integrity Rules
 
 The following rules apply:
@@ -5631,7 +5674,7 @@ When a registered user deletes their account:
 - Grocery Lists are deleted.
 - Grocery List Items are deleted.
 
-Recipe and Ingredient data remain unchanged.
+Recipe and Ingredient data remain unchanged. If the user had submitted any recipes, their `submittedByUserId` is cleared on those recipes; the recipes themselves remain.
 
 ---
 
@@ -5795,6 +5838,36 @@ Supports optional query parameters for:
 ### Purpose
 
 Return a single recipe.
+
+---
+
+## Submit Recipe
+
+**POST**
+
+```
+/api/recipes/submit
+```
+
+### Purpose
+
+Create a new recipe submission with Pending status. Requires authentication.
+
+Ingredients must reference existing Ingredient records. Estimated Cost is computed server-side from the submitted ingredient quantities and is not accepted as client input.
+
+---
+
+## Upload Recipe Image
+
+**POST**
+
+```
+/api/recipes/submit/image
+```
+
+### Purpose
+
+Upload a photo for a recipe submission and return its URL for use in the Submit Recipe request. Requires authentication.
 
 ---
 
@@ -6213,6 +6286,7 @@ Allow users to browse and search recipes.
 - Sort option
 - Recipe list
 - Recipe cards
+- Submit a Recipe link (visible to all users; requires sign-in to proceed)
 
 Each recipe card shall display:
 
@@ -6488,6 +6562,29 @@ The User Interface Specification is complete when:
 - Responsive behavior is defined.
 - Accessibility requirements are documented.
 - Interface consistency requirements are documented.
+
+---
+
+# 10.21 Recipe Submission
+
+## Purpose
+
+Allow a signed-in user to submit a new recipe.
+
+### Required Elements
+
+- Sign-in prompt (shown instead of the form when the visitor is not signed in)
+- Basic info fields: name, description, category, meal style
+- Detail fields: prep time, cook time, servings, difficulty
+- Photo upload with preview
+- Ingredient selector limited to existing ingredients, with quantity and unit per line
+- Instructions field
+- Submit action
+- Loading state while submitting
+- Success confirmation stating the recipe is pending review
+- Error state that surfaces a clear message without exposing internal errors
+
+Estimated Cost is not collected on this page; it is calculated by the server.
 
 ---
 
@@ -7152,6 +7249,7 @@ Version 1.0 includes only the following features:
 - Grocery List
 - Favorites
 - User Accounts
+- Recipe Submission
 
 No other product features are included in the MVP.
 
@@ -7181,11 +7279,11 @@ All recommendations shall be generated using the documented business rules.
 
 # 13.5 Recipe Data
 
-Recipes are provided by the application's curated recipe database.
+Recipes are provided by the application's curated recipe database, supplemented by user submissions.
 
-End users cannot create, edit, or delete recipes.
+Signed-in users may submit new recipes for review. End users cannot edit or delete recipes, including their own submissions, once submitted.
 
-Recipe management is outside the scope of Version 1.0.
+Recipe management beyond submission is outside the scope of Version 1.0.
 
 ---
 
@@ -7239,7 +7337,6 @@ The following functionality is explicitly excluded from Version 1.0.
 
 ## Community Features
 
-- User-created recipes
 - Ratings
 - Reviews
 - Comments
@@ -7292,7 +7389,6 @@ The following functionality is explicitly excluded from Version 1.0.
 - Ingredient-based search
 - Advanced filtering
 - Recipe editing
-- Recipe creation
 - Recipe import
 
 ---

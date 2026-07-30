@@ -14,6 +14,7 @@ export const generateGroceryListSchema = z
 
 export const groceryListIdSchema = z.string().uuid();
 export const groceryItemIdSchema = z.string().uuid();
+export const mealPlanIdParamSchema = z.string().uuid();
 
 export const updatePurchasedSchema = z.object({
   purchased: z.boolean(),

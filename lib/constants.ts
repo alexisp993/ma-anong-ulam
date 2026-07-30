@@ -51,6 +51,10 @@ export type GroceryCategory = (typeof GROCERY_CATEGORIES)[number];
 export const BUDGET_FRIENDLY_MAX_COST = 200;
 export const QUICK_MEAL_MAX_MINUTES = 30;
 
+// Recipe Submission image upload limits — PRODUCT_BLUEPRINT.md §10.21.
+export const MAX_RECIPE_IMAGE_BYTES = 5 * 1024 * 1024;
+export const ALLOWED_RECIPE_IMAGE_TYPES = ["image/jpeg", "image/png", "image/webp"] as const;
+
 export function difficultyBadgeVariant(difficulty: string): "easy" | "medium" | "hard" {
   if (difficulty === "Easy") return "easy";
   if (difficulty === "Hard") return "hard";
