@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "postinstall": "prisma generate",
     "normalize": "tsx scripts/normalize-recipes.ts",
     "costs": "tsx scripts/generate-costs.ts",
     "validate": "tsx scripts/validate-recipes.ts",
