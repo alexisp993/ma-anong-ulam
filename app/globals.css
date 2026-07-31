@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #e8622e;
-  --color-primary-dark: #c44e1d;
+  /* Darkened from #e8622e / #c44e1d: white-on-primary text measured 3.4:1,
+     failing WCAG AA's 4.5:1 minimum. These clear 4.96:1 / 5.89:1 while
+     staying in the same warm orange/terracotta hue. */
+  --color-primary: #c04a15;
+  --color-primary-dark: #ad4210;
   --color-accent: #6ba368;
   --color-accent-dark: #4f7a4d;
   --color-secondary: #f5c14b;

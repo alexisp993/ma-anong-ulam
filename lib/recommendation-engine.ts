@@ -56,35 +56,40 @@ function scoreRecipe(recipe: ScorableRecipe, input: KahitAnoInput, options: Scor
   return bScore * 0.5 + sScore * 0.3 + styleBonus;
 }
 
-function buildReason(recipe: ScorableRecipe, input: KahitAnoInput): string {
-  const reasons: string[] = [];
-  const overBudgetRatio = recipe.estimatedCost / input.budget;
+interface ReasonSetContext {
+  cheapestCost: number;
+  fastestTime: number;
+}
 
-  if (overBudgetRatio <= 1.1) {
-    reasons.push(`fits your ₱${input.budget} budget`);
-  } else if (overBudgetRatio <= 1.5) {
-    reasons.push("close to your budget");
+// Distinguishes recipes within the same result set instead of only checking
+// each recipe against the input in isolation — recipes that all clear the
+// same budget/servings thresholds used to produce byte-identical reason
+// text. The primary clause now names what makes THIS pick stand out among
+// the others returned (cheapest, quickest, or its actual ₱ distance from
+// budget), so a 5-result set reads as 5 distinct reasons, not 1 repeated.
+function buildReason(recipe: ScorableRecipe, input: KahitAnoInput, set: ReasonSetContext): string {
+  const totalTime = recipe.prepTime + recipe.cookTime;
+  const diff = Math.round(recipe.estimatedCost - input.budget);
+
+  let primary: string;
+  if (recipe.estimatedCost === set.cheapestCost) {
+    primary = `Your most budget-friendly pick at ₱${recipe.estimatedCost}`;
+  } else if (totalTime === set.fastestTime) {
+    primary = `Your quickest pick, ready in ${totalTime} minutes`;
+  } else if (diff <= 0) {
+    primary = diff === 0 ? `Right at your ₱${input.budget} budget` : `₱${-diff} under your ₱${input.budget} budget`;
+  } else {
+    primary = `₱${diff} over your budget, but close`;
   }
 
-  if (Math.abs(recipe.servings - input.familySize) <= 1) {
-    reasons.push(`great for a family of ${input.familySize}`);
-  }
-
+  const secondary: string[] = [];
   if (input.mealStyle && recipe.mealStyle === input.mealStyle) {
-    reasons.push(`matches your preferred ${input.mealStyle.toLowerCase()} style`);
+    secondary.push(`matches your preferred ${input.mealStyle.toLowerCase()} style`);
+  } else if (Math.abs(recipe.servings - input.familySize) <= 1) {
+    secondary.push(`serves ${recipe.servings}, right for your family of ${input.familySize}`);
   }
 
-  if (recipe.prepTime + recipe.cookTime <= 30) {
-    reasons.push("ready in about 30 minutes");
-  }
-
-  if (reasons.length === 0) {
-    reasons.push("a practical everyday Filipino meal");
-  }
-
-  const [first, ...rest] = reasons;
-  const capitalized = first.charAt(0).toUpperCase() + first.slice(1);
-  return rest.length > 0 ? `${capitalized} and ${rest[0]}.` : `${capitalized}.`;
+  return secondary.length > 0 ? `${primary}, and ${secondary[0]}.` : `${primary}.`;
 }
 
 // Deterministic ties broken by name (BR-KA-003 / BR-RE-002: same inputs
@@ -166,5 +171,10 @@ export async function getKahitAnoRecommendations(
     best = runAttempts(allScorable, input);
   }
 
-  return best.slice(0, 5).map((recipe) => ({ ...recipe, reason: buildReason(recipe, input) }));
+  const top = best.slice(0, 5);
+  const set: ReasonSetContext = {
+    cheapestCost: Math.min(...top.map((recipe) => recipe.estimatedCost)),
+    fastestTime: Math.min(...top.map((recipe) => recipe.prepTime + recipe.cookTime)),
+  };
+  return top.map((recipe) => ({ ...recipe, reason: buildReason(recipe, input, set) }));
 }

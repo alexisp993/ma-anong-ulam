@@ -9,7 +9,7 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { MealCard } from "@/components/planner/MealCard";
 import { getGuestWeeklyPlan, setGuestWeeklyPlan } from "@/lib/guest-storage";
-import { CalendarIcon, SaveIcon, CheckCircleIcon, XCircleIcon } from "@/components/icons";
+import { CalendarIcon, SaveIcon, CheckCircleIcon, XCircleIcon, WalletIcon } from "@/components/icons";
 import type { DayPlan, MealType, PlannedMeal } from "@/lib/weekly-planner";
 
 type Status = "resuming" | "idle" | "loading" | "success" | "error";
@@ -221,6 +221,22 @@ export default function WeeklyPlannerPage() {
 
       {status === "success" && days && (
         <div className="space-y-4">
+          {(() => {
+            const total = days.reduce(
+              (sum, day) => sum + day.lunch.estimatedCost + day.dinner.estimatedCost,
+              0
+            );
+            const budget = Number(weeklyBudget);
+            const overBudget = budget > 0 && total > budget;
+            return (
+              <p
+                className={`flex items-center gap-1.5 text-sm font-medium ${overBudget ? "text-red-600" : "text-accent-dark"}`}
+              >
+                <WalletIcon size={16} />₱{total.toFixed(0)} of your ₱{budget.toFixed(0)} budget
+                {overBudget && " — over budget"}
+              </p>
+            );
+          })()}
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {days.map((day, dayIndex) => (
               <div

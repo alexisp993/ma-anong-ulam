@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma";
-import type { AllowedUnit } from "@/scripts/units";
+import { COST_BASIS_G, COST_BASIS_ML, type AllowedUnit } from "@/scripts/units";
 import type { GroceryCategory } from "@/lib/constants";
 import { getPantryForUser } from "@/lib/pantry";
 
@@ -55,39 +55,86 @@ interface AggregatedLine {
   unit: AllowedUnit;
 }
 
+function round2(value: number): number {
+  return Math.round(value * 100) / 100;
+}
+
+// Picks a readable display unit for a summed weight, same threshold logic
+// a shopper would use mentally (switch to kg once it's "a kilo or more").
+function pickWeightDisplay(grams: number): { quantity: number; unit: AllowedUnit } {
+  if (grams >= 1000) return { quantity: round2(grams / 1000), unit: "kg" };
+  return { quantity: round2(grams), unit: "g" };
+}
+
+// Same idea for volume — collapses an accumulated "26 tbsp" into "1.63 cup",
+// picking the largest cooking-measurement unit the total actually fills.
+function pickVolumeDisplay(ml: number): { quantity: number; unit: AllowedUnit } {
+  if (ml >= 1000) return { quantity: round2(ml / 1000), unit: "L" };
+  if (ml >= 240) return { quantity: round2(ml / 240), unit: "cup" };
+  if (ml >= 15) return { quantity: round2(ml / 15), unit: "tbsp" };
+  if (ml >= 5) return { quantity: round2(ml / 5), unit: "tsp" };
+  return { quantity: round2(ml), unit: "ml" };
+}
+
+interface IngredientAccumulator {
+  name: string;
+  category: string;
+  grams: number;
+  ml: number;
+  // Count-style units (pcs, clove, can, pack, bundle, head, slice) aren't
+  // metrically convertible into each other, so each stays its own line —
+  // this is the one case §6.5.8's "merge duplicates" genuinely can't apply.
+  countLines: Map<AllowedUnit, number>;
+}
+
 // Combines duplicate ingredient lines across a set of recipes (§6.5.8).
-// Grouped by (ingredient, unit) — the same ingredient measured in different
-// units across recipes stays as separate rows rather than being incorrectly
-// summed (e.g. "5 clove Garlic" and "2 tbsp Garlic" can't just be added).
+// Weight units (g/kg) and volume units (tsp/tbsp/cup/ml/L) are normalized to
+// a common base (grams / milliliters) before summing, so "0.23 kg" and
+// "350 g" of the same ingredient collapse into one line instead of showing
+// as two separate, confusing entries.
 async function aggregateIngredients(recipeIds: string[]): Promise<AggregatedLine[]> {
   const lines = await prisma.recipeIngredient.findMany({
     where: { recipeId: { in: recipeIds } },
     include: { ingredient: true },
   });
 
-  const merged = new Map<string, AggregatedLine>();
+  const byIngredient = new Map<string, IngredientAccumulator>();
   for (const line of lines) {
     const unit = line.unit as AllowedUnit;
-    const key = `${line.ingredientId}:${unit}`;
     const quantity = Number(line.quantity);
-    const existing = merged.get(key);
-    if (existing) {
-      existing.quantity += quantity;
+    const acc = byIngredient.get(line.ingredientId) ?? {
+      name: line.ingredient.name,
+      category: line.ingredient.category,
+      grams: 0,
+      ml: 0,
+      countLines: new Map<AllowedUnit, number>(),
+    };
+
+    if (unit in COST_BASIS_G) {
+      acc.grams += quantity * COST_BASIS_G[unit]!;
+    } else if (unit in COST_BASIS_ML) {
+      acc.ml += quantity * COST_BASIS_ML[unit]!;
     } else {
-      merged.set(key, {
-        ingredientId: line.ingredientId,
-        name: line.ingredient.name,
-        category: line.ingredient.category,
-        quantity,
-        unit,
-      });
+      acc.countLines.set(unit, (acc.countLines.get(unit) ?? 0) + quantity);
+    }
+    byIngredient.set(line.ingredientId, acc);
+  }
+
+  const result: AggregatedLine[] = [];
+  for (const [ingredientId, acc] of byIngredient) {
+    if (acc.grams > 0) {
+      const { quantity, unit } = pickWeightDisplay(acc.grams);
+      result.push({ ingredientId, name: acc.name, category: acc.category, quantity, unit });
+    }
+    if (acc.ml > 0) {
+      const { quantity, unit } = pickVolumeDisplay(acc.ml);
+      result.push({ ingredientId, name: acc.name, category: acc.category, quantity, unit });
+    }
+    for (const [unit, quantity] of acc.countLines) {
+      result.push({ ingredientId, name: acc.name, category: acc.category, quantity: round2(quantity), unit });
     }
   }
-  return Array.from(merged.values());
-}
-
-function round2(value: number): number {
-  return Math.round(value * 100) / 100;
+  return result;
 }
 
 // Guest / not-yet-persisted path: pure compute, no DB writes. There's no

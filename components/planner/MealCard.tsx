@@ -42,7 +42,9 @@ export function MealCard({
             <LabelIcon size={14} />
             {label}
           </p>
-          <p className="truncate text-sm font-semibold text-text">{name}</p>
+          <p title={name} className="line-clamp-2 text-sm font-semibold leading-snug text-text">
+            {name}
+          </p>
           <p className="flex items-center gap-1 text-xs text-text-muted">
             <WalletIcon size={13} />₱{estimatedCost.toFixed(0)}
           </p>
