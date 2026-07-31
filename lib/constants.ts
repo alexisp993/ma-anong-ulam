@@ -51,6 +51,22 @@ export type GroceryCategory = (typeof GROCERY_CATEGORIES)[number];
 export const BUDGET_FRIENDLY_MAX_COST = 200;
 export const QUICK_MEAL_MAX_MINUTES = 30;
 
+// Weekly Planner "Meal Focus" — a category-composition preference, NOT a
+// nutrition claim (no protein/carb/calorie data exists anywhere in the
+// dataset). Deliberately named and scoped as a rough proxy: meat/seafood/egg
+// categories vs. vegetable/noodle categories, nothing more precise.
+export const MEAL_FOCUS_OPTIONS = ["Any", "Protein-forward", "Vegetable-forward"] as const;
+export type MealFocus = (typeof MEAL_FOCUS_OPTIONS)[number];
+
+const PROTEIN_FORWARD_CATEGORIES: readonly string[] = ["Chicken", "Pork", "Beef", "Seafood", "Egg"];
+const VEGETABLE_FORWARD_CATEGORIES: readonly string[] = ["Vegetables", "Noodles"];
+
+export function matchesMealFocus(category: string, focus: MealFocus): boolean {
+  if (focus === "Protein-forward") return PROTEIN_FORWARD_CATEGORIES.includes(category);
+  if (focus === "Vegetable-forward") return VEGETABLE_FORWARD_CATEGORIES.includes(category);
+  return false;
+}
+
 // Recipe Submission image upload limits — PRODUCT_BLUEPRINT.md §10.21.
 export const MAX_RECIPE_IMAGE_BYTES = 5 * 1024 * 1024;
 export const ALLOWED_RECIPE_IMAGE_TYPES = ["image/jpeg", "image/png", "image/webp"] as const;

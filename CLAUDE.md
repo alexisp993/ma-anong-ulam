@@ -358,6 +358,11 @@ Avoid duplicate recipes.
 
 Promote ingredient reuse to reduce grocery costs.
 
+Users may optionally set a Meal Focus (Protein-forward or Vegetable-forward)
+to bias recipe selection toward existing recipe categories (meat/seafood/egg
+vs. vegetables/noodles). This is a category preference, not a nutrition
+feature — no protein, carb, or calorie data exists anywhere in the app.
+
 ---
 
 # Grocery List Rules

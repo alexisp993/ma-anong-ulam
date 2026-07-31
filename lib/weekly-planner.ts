@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import type { RecipeSummary } from "@/lib/recipes";
-import { DAYS_OF_WEEK } from "@/lib/constants";
+import { DAYS_OF_WEEK, matchesMealFocus, type MealFocus } from "@/lib/constants";
 
 export type DayOfWeek = (typeof DAYS_OF_WEEK)[number];
 export type MealType = "Lunch" | "Dinner";
@@ -54,12 +54,20 @@ function reuseBonus(recipe: ScorableRecipe, sameDayIngredientIds: Set<string>): 
   return clamp(overlap / Math.max(recipe.ingredientIds.length, 1), 0, 1) * 0.1;
 }
 
+// Soft preference toward a category-composition "Meal Focus," not a
+// nutrition filter — see lib/constants.ts's matchesMealFocus for the caveat.
+function focusBonus(recipe: ScorableRecipe, mealFocus?: MealFocus): number {
+  if (!mealFocus || mealFocus === "Any") return 0;
+  return matchesMealFocus(recipe.category, mealFocus) ? 0.15 : 0;
+}
+
 function pickBestRecipe(
   pool: ScorableRecipe[],
   perMealBudget: number,
   familySize: number,
   usedIds: Set<string>,
-  sameDayIngredientIds: Set<string>
+  sameDayIngredientIds: Set<string>,
+  mealFocus?: MealFocus
 ): ScorableRecipe {
   const available = pool.filter((recipe) => !usedIds.has(recipe.id));
   // BR-WP-003 (minimize duplicates) is a soft preference — if we run out of
@@ -72,7 +80,8 @@ function pickBestRecipe(
       score:
         budgetScore(recipe.estimatedCost, perMealBudget) * 0.6 +
         servingsScore(recipe.servings, familySize) * 0.3 +
-        reuseBonus(recipe, sameDayIngredientIds),
+        reuseBonus(recipe, sameDayIngredientIds) +
+        focusBonus(recipe, mealFocus),
     }))
     .sort((a, b) => b.score - a.score || a.recipe.name.localeCompare(b.recipe.name));
 
@@ -113,6 +122,7 @@ function toPlannedMeal(recipe: ScorableRecipe): PlannedMeal {
 export async function generateWeeklyPlan(input: {
   weeklyBudget: number;
   familySize: number;
+  mealFocus?: MealFocus;
 }): Promise<DayPlan[]> {
   const pool = await loadScorableRecipes();
   const perMealBudget = input.weeklyBudget / 14;
@@ -120,7 +130,14 @@ export async function generateWeeklyPlan(input: {
   const days: DayPlan[] = [];
 
   for (const day of DAYS_OF_WEEK) {
-    const lunch = pickBestRecipe(pool, perMealBudget, input.familySize, usedIds, new Set());
+    const lunch = pickBestRecipe(
+      pool,
+      perMealBudget,
+      input.familySize,
+      usedIds,
+      new Set(),
+      input.mealFocus
+    );
     usedIds.add(lunch.id);
 
     const dinner = pickBestRecipe(
@@ -128,7 +145,8 @@ export async function generateWeeklyPlan(input: {
       perMealBudget,
       input.familySize,
       usedIds,
-      new Set(lunch.ingredientIds)
+      new Set(lunch.ingredientIds),
+      input.mealFocus
     );
     usedIds.add(dinner.id);
 
@@ -144,11 +162,19 @@ export async function pickReplacementMeal(input: {
   weeklyBudget: number;
   familySize: number;
   excludeRecipeIds: string[];
+  mealFocus?: MealFocus;
 }): Promise<PlannedMeal> {
   const pool = await loadScorableRecipes();
   const perMealBudget = input.weeklyBudget / 14;
   const usedIds = new Set(input.excludeRecipeIds);
-  const recipe = pickBestRecipe(pool, perMealBudget, input.familySize, usedIds, new Set());
+  const recipe = pickBestRecipe(
+    pool,
+    perMealBudget,
+    input.familySize,
+    usedIds,
+    new Set(),
+    input.mealFocus
+  );
   return toPlannedMeal(recipe);
 }
 

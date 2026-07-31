@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { Input } from "@/components/ui/Input";
+import { Select } from "@/components/ui/Select";
 import { Button } from "@/components/ui/Button";
 import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
@@ -10,6 +11,7 @@ import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { MealCard } from "@/components/planner/MealCard";
 import { getGuestWeeklyPlan, setGuestWeeklyPlan } from "@/lib/guest-storage";
 import { CalendarIcon, SaveIcon, CheckCircleIcon, XCircleIcon, WalletIcon } from "@/components/icons";
+import { MEAL_FOCUS_OPTIONS, type MealFocus } from "@/lib/constants";
 import type { DayPlan, MealType, PlannedMeal } from "@/lib/weekly-planner";
 
 type Status = "resuming" | "idle" | "loading" | "success" | "error";
@@ -33,6 +35,7 @@ export default function WeeklyPlannerPage() {
   const { data: session, status: sessionStatus } = useSession();
   const [weeklyBudget, setWeeklyBudget] = useState("2000");
   const [familySize, setFamilySize] = useState("4");
+  const [mealFocus, setMealFocus] = useState<MealFocus>("Any");
   const [days, setDays] = useState<DayPlan[] | null>(null);
   const [mealPlanId, setMealPlanId] = useState<string | null>(null);
   const [status, setStatus] = useState<Status>("resuming");
@@ -93,6 +96,7 @@ export default function WeeklyPlannerPage() {
         body: JSON.stringify({
           weeklyBudget: Number(weeklyBudget),
           familySize: Number(familySize),
+          mealFocus,
         }),
       });
       const json = await response.json();
@@ -122,6 +126,7 @@ export default function WeeklyPlannerPage() {
           weeklyBudget: Number(weeklyBudget),
           familySize: Number(familySize),
           excludeRecipeIds,
+          mealFocus,
         }),
       });
       const json = await response.json();
@@ -180,7 +185,7 @@ export default function WeeklyPlannerPage() {
     <div className="space-y-6">
       <h1 className="text-2xl font-bold text-text">Weekly Planner</h1>
 
-      <form onSubmit={handleGenerateSubmit} className="grid gap-4 sm:grid-cols-3">
+      <form onSubmit={handleGenerateSubmit} className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Input
           label="Weekly Budget (₱)"
           name="weeklyBudget"
@@ -200,12 +205,23 @@ export default function WeeklyPlannerPage() {
           onChange={(event) => setFamilySize(event.target.value)}
           required
         />
+        <Select
+          label="Meal Focus"
+          name="mealFocus"
+          options={MEAL_FOCUS_OPTIONS.map((option) => ({ label: option, value: option }))}
+          value={mealFocus}
+          onChange={(event) => setMealFocus(event.target.value as MealFocus)}
+        />
         <div className="flex items-end">
           <Button type="submit" loading={status === "loading"}>
             Generate Meal Plan
           </Button>
         </div>
       </form>
+      <p className="text-xs text-text-muted">
+        Meal Focus is a rough category preference (meat/seafood/egg dishes vs. vegetable/noodle
+        dishes) — not a nutrition or calorie calculation.
+      </p>
 
       {status === "resuming" && <LoadingIndicator label="Loading your saved plan…" />}
 

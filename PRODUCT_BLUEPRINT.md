@@ -3800,6 +3800,28 @@ Default:
 
 ---
 
+### Meal Focus
+
+Optional
+
+A category-composition preference, not a nutrition calculation — the app
+stores no protein, carb, or calorie data for any recipe.
+
+Options:
+
+```
+Any (default)
+Protein-forward
+Vegetable-forward
+```
+
+Protein-forward biases selection toward Chicken, Pork, Beef, Seafood, and
+Egg category recipes. Vegetable-forward biases selection toward Vegetables
+and Noodles category recipes. This is a soft preference applied during
+scoring, not a hard filter — budget and family size still take priority.
+
+---
+
 ## 6.4.6 Planner Output
 
 The generated meal plan displays seven days.
@@ -3832,6 +3854,7 @@ The Weekly Planner should:
 - Encourage ingredient reuse across multiple meals.
 - Recommend familiar Filipino dishes.
 - Produce a balanced weekly plan.
+- Apply the user's optional Meal Focus as a soft preference, after budget and family size.
 
 The planner should generate a practical plan rather than a perfectly optimized one.
 
