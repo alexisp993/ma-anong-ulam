@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/Button";
 import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { SegmentedControl } from "@/components/ui/SegmentedControl";
+import { IngredientThumb } from "@/components/ui/IngredientThumb";
 import { GROCERY_CATEGORIES } from "@/lib/constants";
 import {
   getGuestWeeklyPlan,
@@ -19,11 +22,18 @@ import { CartIcon, RefreshIcon, JarIcon } from "@/components/icons";
 type Status = "loading-source" | "no-source" | "ready" | "generating" | "success" | "error";
 type GenerateSource = { mealPlanId: string } | { recipeIds: string[] };
 
+// The reference's second tab is "By Recipe", but grocery items are merged
+// across recipes on purpose (that's the whole point of the aggregation), so
+// recipe provenance no longer exists by the time the list is built. To
+// buy / Bought splits the same data along an axis that's actually stored.
+type ListTab = "to-buy" | "bought";
+
 export default function GroceryListPage() {
   const { data: session, status: sessionStatus } = useSession();
   const [list, setList] = useState<GroceryListView | null>(null);
   const [status, setStatus] = useState<Status>("loading-source");
   const [source, setSource] = useState<GenerateSource | null>(null);
+  const [tab, setTab] = useState<ListTab>("to-buy");
 
   async function generateList(src: GenerateSource) {
     setStatus("generating");
@@ -128,7 +138,7 @@ export default function GroceryListPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold text-text">Grocery List</h1>
+      <SectionHeading as="h1" title="Grocery List" />
 
       {status === "loading-source" && <LoadingIndicator />}
 
@@ -156,20 +166,43 @@ export default function GroceryListPage() {
 
       {status === "success" && list && (
         <div className="space-y-6">
-          <Button type="button" variant="secondary" onClick={handleGenerate}>
-            <RefreshIcon size={16} />
-            Regenerate Grocery List
-          </Button>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <SegmentedControl
+              items={[
+                {
+                  value: "to-buy" as const,
+                  label: "To buy",
+                  count: list.items.filter((item) => !item.purchased).length,
+                },
+                {
+                  value: "bought" as const,
+                  label: "Bought",
+                  count: list.items.filter((item) => item.purchased).length,
+                },
+              ]}
+              value={tab}
+              onChange={setTab}
+              ariaLabel="Filter grocery items"
+            />
+            <Button type="button" variant="secondary" onClick={handleGenerate} className="!px-4 !py-2 !text-sm">
+              <RefreshIcon size={16} />
+              Regenerate
+            </Button>
+          </div>
 
           {list.items.length === 0 ? (
             <EmptyState icon={<CartIcon size={32} />} message="No grocery items available." />
           ) : (
             GROCERY_CATEGORIES.map((category) => {
-              const items = list.items.filter((item) => item.category === category);
+              const items = list.items.filter(
+                (item) =>
+                  item.category === category &&
+                  (tab === "bought" ? item.purchased : !item.purchased)
+              );
               if (items.length === 0) return null;
               return (
                 <div key={category} className="space-y-2">
-                  <h2 className="font-semibold text-text">{category}</h2>
+                  <h2 className="font-bold text-text">{category}</h2>
                   <ul className="divide-y divide-border rounded-card border border-border bg-surface shadow-sm">
                     {items.map((item) => (
                       <li key={item.id} className="flex items-center gap-3 px-4 py-2.5">
@@ -180,8 +213,9 @@ export default function GroceryListPage() {
                             handleTogglePurchased(item.id, item.ingredientId, event.target.checked)
                           }
                           aria-label={`Mark ${item.name} as purchased`}
-                          className="h-4 w-4 accent-accent"
+                          className="h-4 w-4 accent-primary"
                         />
+                        <IngredientThumb name={item.name} size={24} />
                         <div className="flex-1">
                           <span
                             className={`text-text ${item.purchased ? "text-text-muted line-through" : ""}`}
@@ -189,7 +223,7 @@ export default function GroceryListPage() {
                             {item.name}
                           </span>
                           {item.inPantry && (
-                            <p className="flex items-center gap-1 text-xs text-accent-dark">
+                            <p className="flex items-center gap-1 text-xs text-primary">
                               <JarIcon size={12} />
                               Already in your pantry — check if you have enough.
                             </p>

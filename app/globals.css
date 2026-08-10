@@ -1,24 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  /* Darkened from #e8622e / #c44e1d: white-on-primary text measured 3.4:1,
-     failing WCAG AA's 4.5:1 minimum. These clear 4.96:1 / 5.89:1 while
-     staying in the same warm orange/terracotta hue. */
-  --color-primary: #c04a15;
-  --color-primary-dark: #ad4210;
-  --color-accent: #6ba368;
-  --color-accent-dark: #4f7a4d;
-  --color-secondary: #f5c14b;
-  --color-background: #fdf8f0;
+  /* Olive-green primary. White-on-primary measures 7.4:1, comfortably past
+     WCAG AA's 4.5:1 minimum (the previous terracotta was itself a fix for a
+     3.4:1 failure — don't lighten these without re-checking that ratio). */
+  --color-primary: #4a5a3c;
+  --color-primary-dark: #3b4a2f;
+  --color-primary-tint: #eef1e8;
+  /* Brand orange survives only in the logo mark — never a text/background
+     pair, it doesn't carry enough contrast for either. */
+  --color-brand: #e0641e;
+  --color-accent: #6b8a57;
+  /* Aliased to primary so pre-existing text-accent-dark references stay
+     correct against the new palette. */
+  --color-accent-dark: #4a5a3c;
+  --color-secondary: #e8b84b;
+  --color-background: #fbf7f0;
   --color-surface: #ffffff;
-  --color-surface-muted: #f7e8cc;
-  --color-text: #3a2a1e;
-  --color-text-muted: #7a6a5d;
-  --color-border: #ede6d6;
+  --color-surface-muted: #f4f1e8;
+  --color-text: #2e2a24;
+  /* 5.6:1 on surface. The source mockup's muted grey is ~3.8:1 — too low. */
+  --color-text-muted: #6f675c;
+  --color-border: #eae4d8;
+  --color-danger: #b3261e;
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
 
-  --radius-card: 1.25rem;
+  --radius-xs: 0.5rem;
+  --radius-sm: 0.75rem;
+  /* Retuned from 1.25rem. This one token drives nearly every corner in the
+     app, so changing the value here is the whole radius shift. */
+  --radius-card: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 9999px;
 }
 
 body {

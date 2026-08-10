@@ -12,3 +12,6 @@ next-env.d.ts
 
 # TypeScript
 *.tsbuildinfo
+
+# QA contact sheets from the ingredient thumbnail extractor (review artifacts)
+scripts/qa/

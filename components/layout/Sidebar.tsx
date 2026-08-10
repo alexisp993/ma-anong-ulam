@@ -3,53 +3,45 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import {
-  HomeIcon,
-  SearchIcon,
-  DiceIcon,
-  JarIcon,
-  CalendarIcon,
-  CartIcon,
-  HeartIcon,
-  type IconProps,
-} from "@/components/icons";
 import { AuthActions } from "@/components/layout/AuthActions";
+import { TipOfTheDayCard } from "@/components/layout/TipOfTheDayCard";
+import { NAV_ITEMS, isActiveNavItem } from "@/components/layout/nav-items";
 
-const NAV_ITEMS: { label: string; href: string; icon: (props: IconProps) => React.JSX.Element }[] = [
-  { label: "Home", href: "/", icon: HomeIcon },
-  { label: "Recipes", href: "/recipes", icon: SearchIcon },
-  { label: "Kahit Ano", href: "/kahit-ano", icon: DiceIcon },
-  { label: "Pantry", href: "/pantry", icon: JarIcon },
-  { label: "Weekly Planner", href: "/weekly-planner", icon: CalendarIcon },
-  { label: "Grocery List", href: "/grocery-list", icon: CartIcon },
-  { label: "Favorites", href: "/favorites", icon: HeartIcon },
-];
-
-export function Sidebar() {
+export function Sidebar({ tip }: { tip: string }) {
   const pathname = usePathname();
 
   return (
     <aside className="hidden w-64 shrink-0 flex-col border-r border-border bg-surface md:flex">
       <div className="flex flex-col gap-6 p-5">
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logo.png" alt="Ma, Anong Ulam?" width={40} height={40} className="rounded-card" />
+        <Link href="/" className="flex items-center gap-2.5">
+          <Image
+            src="/images/logo.png"
+            alt=""
+            width={38}
+            height={38}
+            className="rounded-card"
+          />
+          <span className="text-lg font-extrabold leading-[1.15] tracking-tight text-text">
+            Ma, anong
+            <br />
+            ulam?
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="flex-1">
           <ul className="space-y-1">
             {NAV_ITEMS.map((item) => {
-              const isActive =
-                item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+              const isActive = isActiveNavItem(pathname, item.href);
               const ItemIcon = item.icon;
               return (
                 <li key={item.href}>
                   <Link
                     href={item.href}
                     aria-current={isActive ? "page" : undefined}
-                    className={`flex items-center gap-3 rounded-card px-3 py-2.5 text-sm font-medium transition-[background-color,color] duration-150 active:bg-accent/25 ${
+                    className={`flex items-center gap-3 rounded-pill px-3.5 py-2.5 text-sm font-semibold transition-[background-color,color] duration-150 ${
                       isActive
-                        ? "bg-accent/15 text-accent-dark"
-                        : "text-text-muted hover:bg-background hover:text-text"
+                        ? "bg-primary text-white"
+                        : "text-text-muted hover:bg-primary-tint hover:text-text active:bg-primary-tint"
                     }`}
                   >
                     <ItemIcon size={20} />
@@ -62,7 +54,8 @@ export function Sidebar() {
         </nav>
       </div>
 
-      <div className="mt-auto border-t border-border p-5">
+      <div className="mt-auto space-y-4 border-t border-border p-5">
+        <TipOfTheDayCard tip={tip} />
         <AuthActions stacked />
       </div>
     </aside>

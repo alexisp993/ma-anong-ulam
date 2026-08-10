@@ -1,8 +1,8 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import Link from "next/link";
 import { useSession } from "next-auth/react";
+import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Input } from "@/components/ui/Input";
 import { Select } from "@/components/ui/Select";
 import { Textarea } from "@/components/ui/Textarea";
@@ -40,12 +40,7 @@ export default function SubmitRecipePage() {
     return (
       <div className="space-y-3 py-10 text-center">
         <p className="text-text-muted">Sign in to submit a recipe.</p>
-        <Link
-          href="/login"
-          className="inline-block rounded-card bg-primary px-5 py-2.5 font-semibold text-white transition-[background-color,transform] duration-150 hover:bg-primary-dark active:scale-[0.97]"
-        >
-          Sign In
-        </Link>
+        <ButtonLink href="/login">Sign In</ButtonLink>
       </div>
     );
   }
@@ -98,16 +93,11 @@ export default function SubmitRecipePage() {
   if (status === "success") {
     return (
       <div className="space-y-3 py-10 text-center">
-        <p className="flex items-center justify-center gap-1.5 text-lg font-semibold text-accent-dark">
+        <p className="flex items-center justify-center gap-1.5 text-lg font-semibold text-primary">
           <CheckCircleIcon size={20} />
           Thanks — your recipe is pending review.
         </p>
-        <Link
-          href="/recipes"
-          className="inline-block rounded-card bg-primary px-5 py-2.5 font-semibold text-white transition-[background-color,transform] duration-150 hover:bg-primary-dark active:scale-[0.97]"
-        >
-          Back to Recipes
-        </Link>
+        <ButtonLink href="/recipes">Back to Recipes</ButtonLink>
       </div>
     );
   }
@@ -232,7 +222,7 @@ export default function SubmitRecipePage() {
       </section>
 
       {status === "error" && (
-        <p className="flex items-center gap-1.5 text-sm text-red-600">
+        <p className="flex items-center gap-1.5 text-sm text-danger">
           <XCircleIcon size={16} />
           {errorMessage}
         </p>

@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { PantryMatchCard } from "@/components/recipe/PantryMatchCard";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
@@ -52,15 +52,11 @@ export function RecommendedForYou() {
 
   return (
     <section aria-label="Recommended for you" className="space-y-4">
-      <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-lg font-bold text-text">Recommended for You</h2>
-          <p className="text-sm text-text-muted">Based on what&apos;s in your pantry.</p>
-        </div>
-        <Link href="/recipes" className="text-sm font-semibold text-primary hover:underline">
-          View all
-        </Link>
-      </div>
+      <SectionHeading
+        title="Recommended for You"
+        subtitle="Based on what's in your pantry."
+        href="/recipes"
+      />
 
       {(pantryStatus === "loading" || recStatus === "loading") && (
         <LoadingIndicator label="Finding recipes for you…" />
@@ -84,9 +80,13 @@ export function RecommendedForYou() {
       )}
 
       {recStatus === "success" && recommendations.length > 0 && (
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+        // Horizontal snap row on small screens, matching the reference's
+        // scrolling strip; a plain grid once there's room for all five.
+        <div className="-mx-1 flex snap-x gap-3 overflow-x-auto px-1 pb-1 lg:mx-0 lg:grid lg:grid-cols-5 lg:overflow-visible lg:px-0">
           {recommendations.map((recipe) => (
-            <PantryMatchCard key={recipe.id} recipe={recipe} />
+            <div key={recipe.id} className="w-44 shrink-0 snap-start lg:w-auto">
+              <PantryMatchCard recipe={recipe} />
+            </div>
           ))}
         </div>
       )}

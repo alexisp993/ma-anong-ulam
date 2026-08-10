@@ -31,7 +31,7 @@ export function PantryMatchCard({ recipe }: { recipe: PantryRecommendation }) {
         </div>
         <div className="space-y-2 p-3">
           <p className="pr-8 font-semibold text-text">{recipe.name}</p>
-          <p className="flex items-center gap-1.5 text-sm font-medium text-accent-dark">
+          <p className="flex items-center gap-1.5 text-sm font-medium text-primary">
             <CheckCircleIcon size={16} />
             {recipe.matchedCount} / {recipe.totalCount} Ingredients
           </p>

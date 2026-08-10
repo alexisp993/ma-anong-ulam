@@ -8,6 +8,7 @@ import { PlusIcon, SearchIcon } from "@/components/icons";
 interface IngredientOption {
   id: string;
   name: string;
+  category: string;
 }
 
 interface IngredientPickerProps {

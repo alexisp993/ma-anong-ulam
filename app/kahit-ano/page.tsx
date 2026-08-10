@@ -8,7 +8,9 @@ import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { RecommendationCard } from "@/components/recipe/RecommendationCard";
-import { DiceIcon, RefreshIcon } from "@/components/icons";
+import { Card } from "@/components/ui/Card";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { DiceIcon, RefreshIcon, HelpIcon } from "@/components/icons";
 import { MEAL_STYLES } from "@/lib/constants";
 import type { RecommendedRecipe } from "@/lib/recommendation-engine";
 
@@ -20,6 +22,7 @@ export default function KahitAnoPage() {
   const [mealStyle, setMealStyle] = useState("");
   const [results, setResults] = useState<RecommendedRecipe[]>([]);
   const [status, setStatus] = useState<Status>("idle");
+  const [showHelp, setShowHelp] = useState(false);
 
   async function generate(excludeIds?: string[]) {
     setStatus("loading");
@@ -50,12 +53,30 @@ export default function KahitAnoPage() {
 
   return (
     <div className="space-y-6">
-      <div className="space-y-2">
-        <h1 className="text-2xl font-bold text-text">Kahit Ano</h1>
-        <p className="text-text-muted">
-          Tell us your budget and household size and we&apos;ll suggest a few recipes.
-        </p>
-      </div>
+      <SectionHeading
+        as="h1"
+        title="Kahit Ano? 🎲"
+        subtitle="Tell us your budget and household size and we'll suggest a few recipes."
+        action={
+          <button
+            type="button"
+            onClick={() => setShowHelp((open) => !open)}
+            aria-expanded={showHelp}
+            aria-label="How Kahit Ano works"
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-pill border border-border text-text-muted transition-[background-color,color,transform] duration-150 hover:bg-primary-tint hover:text-primary active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+          >
+            <HelpIcon size={18} />
+          </button>
+        }
+      />
+
+      {showHelp && (
+        <Card className="bg-primary-tint text-sm text-text">
+          Recipes are ranked by how close they land to your budget and how well the servings fit your
+          household, with a nudge toward your chosen meal style. Same answers, same suggestions — no
+          randomness.
+        </Card>
+      )}
 
       <form onSubmit={handleSubmit} className="grid gap-4 sm:grid-cols-3">
         <Input

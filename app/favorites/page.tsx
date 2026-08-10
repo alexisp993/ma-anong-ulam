@@ -6,6 +6,7 @@ import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { getGuestFavoriteIds } from "@/lib/guest-storage";
 import type { RecipeSummary } from "@/lib/recipes";
 import { HeartIcon } from "@/components/icons";
@@ -63,7 +64,17 @@ export default function FavoritesPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold text-text">Favorites</h1>
+      {/* The reference has All/Recipes/Ingredients tabs, but favorites are
+          recipes only — a single-option tab row would be dead chrome. */}
+      <SectionHeading
+        as="h1"
+        title="Favorites"
+        subtitle={
+          status === "success" && recipes.length > 0
+            ? `${recipes.length} saved recipe${recipes.length === 1 ? "" : "s"}`
+            : undefined
+        }
+      />
 
       {status === "loading" && <LoadingIndicator label="Loading your favorites…" />}
 
@@ -84,7 +95,7 @@ export default function FavoritesPage() {
       )}
 
       {status === "success" && recipes.length > 0 && (
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {recipes.map((recipe) => (
             <RecipeCard key={recipe.id} recipe={recipe} />
           ))}

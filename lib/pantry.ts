@@ -5,6 +5,9 @@ export interface PantryItemView {
   id: string;
   ingredientId: string;
   name: string;
+  // Ingredient.category, surfaced so the Pantry page can group and filter.
+  // Not a schema change — the column already exists.
+  category: string;
 }
 
 export async function getPantryForUser(userId: string): Promise<PantryItemView[]> {
@@ -17,6 +20,7 @@ export async function getPantryForUser(userId: string): Promise<PantryItemView[]
     id: item.id,
     ingredientId: item.ingredientId,
     name: item.ingredient.name,
+    category: item.ingredient.category,
   }));
 }
 

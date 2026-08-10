@@ -14,7 +14,10 @@
     "costs": "tsx scripts/generate-costs.ts",
     "validate": "tsx scripts/validate-recipes.ts",
     "seed": "tsx scripts/seed-recipes.ts",
-    "pipeline": "npm run normalize && npm run costs && npm run validate && npm run seed"
+    "pipeline": "npm run normalize && npm run costs && npm run validate && npm run seed",
+    "thumbs:extract": "tsx scripts/extract-ingredient-images.ts",
+    "thumbs:match": "tsx scripts/match-ingredient-images.ts",
+    "thumbs": "npm run thumbs:extract && npm run thumbs:match -- --write"
   },
   "dependencies": {
     "@prisma/client": "^6.1.0",
@@ -36,6 +39,7 @@
     "eslint-config-next": "^15.5.21",
     "postcss": "^8.5.23",
     "prisma": "^6.1.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",

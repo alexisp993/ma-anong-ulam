@@ -2,38 +2,23 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const NAV_ITEMS = [
-  { label: "Home", href: "/" },
-  { label: "Recipes", href: "/recipes" },
-  { label: "Kahit Ano", href: "/kahit-ano" },
-  { label: "Pantry", href: "/pantry" },
-  { label: "Weekly Planner", href: "/weekly-planner" },
-  { label: "Grocery List", href: "/grocery-list" },
-  { label: "Favorites", href: "/favorites" },
-] as const;
+import { MOBILE_NAV_ITEMS, isActiveNavItem } from "@/components/layout/nav-items";
 
 export function Nav() {
   const pathname = usePathname();
 
   return (
-    <nav
-      aria-label="Primary"
-      className="border-b border-border bg-surface overflow-x-auto"
-    >
-      <ul className="flex min-w-max gap-1 px-4 sm:justify-center sm:px-6">
-        {NAV_ITEMS.map((item) => {
-          const isActive =
-            item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+    <nav aria-label="Primary" className="border-b border-border bg-surface overflow-x-auto">
+      <ul className="flex min-w-max gap-1.5 px-4 py-2.5 sm:justify-center sm:px-6">
+        {MOBILE_NAV_ITEMS.map((item) => {
+          const isActive = isActiveNavItem(pathname, item.href);
           return (
             <li key={item.href}>
               <Link
                 href={item.href}
                 aria-current={isActive ? "page" : undefined}
-                className={`inline-block whitespace-nowrap border-b-2 px-3 py-3 text-sm font-medium transition-[color,border-color,opacity] duration-150 active:opacity-60 ${
-                  isActive
-                    ? "border-primary text-primary"
-                    : "border-transparent text-text-muted hover:text-text"
+                className={`inline-block whitespace-nowrap rounded-pill px-3.5 py-1.5 text-sm font-semibold transition-[background-color,color,opacity] duration-150 active:opacity-70 ${
+                  isActive ? "bg-primary text-white" : "text-text-muted hover:bg-primary-tint hover:text-text"
                 }`}
               >
                 {item.label}

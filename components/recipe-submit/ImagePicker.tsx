@@ -61,7 +61,7 @@ export function ImagePicker({ onUploaded }: ImagePickerProps) {
       )}
       {status === "uploading" && <LoadingIndicator label="Uploading photo…" />}
       {status === "error" && (
-        <p className="text-sm text-red-600">
+        <p className="text-sm text-danger">
           Couldn&apos;t upload that photo. Use a JPEG, PNG, or WebP under 5MB.
         </p>
       )}

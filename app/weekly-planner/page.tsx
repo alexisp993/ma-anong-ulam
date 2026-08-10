@@ -9,6 +9,9 @@ import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { MealCard } from "@/components/planner/MealCard";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { FilterPills } from "@/components/ui/FilterPills";
+import { Card } from "@/components/ui/Card";
 import { getGuestWeeklyPlan, setGuestWeeklyPlan } from "@/lib/guest-storage";
 import { CalendarIcon, SaveIcon, CheckCircleIcon, XCircleIcon, WalletIcon } from "@/components/icons";
 import { MEAL_FOCUS_OPTIONS, type MealFocus } from "@/lib/constants";
@@ -41,6 +44,10 @@ export default function WeeklyPlannerPage() {
   const [status, setStatus] = useState<Status>("resuming");
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [replacingKey, setReplacingKey] = useState<string | null>(null);
+  // Mobile-only day filter. The full week stays visible from `md` up: Save
+  // posts the whole week at once, so hiding unsaved days behind a tab on a
+  // large screen would risk losing edits the user can't see.
+  const [visibleDay, setVisibleDay] = useState<string>("Mon");
 
   useEffect(() => {
     if (sessionStatus === "loading") return;
@@ -183,7 +190,7 @@ export default function WeeklyPlannerPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold text-text">Weekly Planner</h1>
+      <SectionHeading as="h1" title="Weekly Planner" />
 
       <form onSubmit={handleGenerateSubmit} className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Input
@@ -246,20 +253,36 @@ export default function WeeklyPlannerPage() {
             const overBudget = budget > 0 && total > budget;
             return (
               <p
-                className={`flex items-center gap-1.5 text-sm font-medium ${overBudget ? "text-red-600" : "text-accent-dark"}`}
+                className={`flex items-center gap-1.5 rounded-card px-3 py-2 text-sm font-semibold ${
+                  overBudget ? "bg-danger/10 text-danger" : "bg-primary-tint text-primary"
+                }`}
               >
                 <WalletIcon size={16} />₱{total.toFixed(0)} of your ₱{budget.toFixed(0)} budget
                 {overBudget && " — over budget"}
               </p>
             );
           })()}
+
+          {/* Day pills are a mobile affordance only — see visibleDay above. */}
+          <div className="md:hidden">
+            <FilterPills
+              items={days.map((day) => ({ value: day.day.slice(0, 3), label: day.day.slice(0, 3) }))}
+              value={visibleDay}
+              onChange={setVisibleDay}
+              ariaLabel="Show a single day"
+            />
+          </div>
+
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {days.map((day, dayIndex) => (
-              <div
+              <Card
                 key={day.day}
-                className="space-y-2 rounded-card border border-border bg-surface p-3 shadow-sm"
+                padded={false}
+                className={`space-y-2 p-3 ${
+                  day.day.slice(0, 3) === visibleDay ? "" : "hidden md:block"
+                }`}
               >
-                <p className="font-semibold text-text">{day.day}</p>
+                <p className="font-bold text-text">{day.day}</p>
                 <MealCard
                   label="Lunch"
                   recipeId={day.lunch.recipeId}
@@ -278,7 +301,7 @@ export default function WeeklyPlannerPage() {
                   onReplace={() => handleReplace(dayIndex, "Dinner")}
                   replacing={replacingKey === `${dayIndex}-Dinner`}
                 />
-              </div>
+              </Card>
             ))}
           </div>
 
@@ -288,13 +311,13 @@ export default function WeeklyPlannerPage() {
               Save Meal Plan
             </Button>
             {saveStatus === "saved" && (
-              <p className="flex items-center gap-1.5 text-sm text-accent-dark">
+              <p className="flex items-center gap-1.5 text-sm font-semibold text-primary">
                 <CheckCircleIcon size={16} />
                 Meal plan saved.
               </p>
             )}
             {saveStatus === "error" && (
-              <p className="flex items-center gap-1.5 text-sm text-red-600">
+              <p className="flex items-center gap-1.5 text-sm text-danger">
                 <XCircleIcon size={16} />
                 Unable to save your meal plan.
               </p>

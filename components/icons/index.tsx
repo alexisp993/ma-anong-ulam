@@ -392,3 +392,32 @@ export function ChefHatIcon(props: IconProps) {
     </Icon>
   );
 }
+
+// --- Redesign additions -----------------------------------------------
+
+export function LeafIcon(props: IconProps) {
+  return (
+    <Icon {...props}>
+      <path d="M4 20c0-8 5-13 16-14 1 10-4 15-12 15H4z" />
+      <path d="M4 20c3-5 7-8 12-10" />
+    </Icon>
+  );
+}
+
+export function ChevronRightIcon(props: IconProps) {
+  return (
+    <Icon {...props}>
+      <path d="M9 5l7 7-7 7" />
+    </Icon>
+  );
+}
+
+export function HelpIcon(props: IconProps) {
+  return (
+    <Icon {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M9.5 9.5a2.6 2.6 0 0 1 5 .9c0 1.7-2.5 2.1-2.5 3.6" />
+      <circle cx="12" cy="17.5" r="1" fill="currentColor" stroke="none" />
+    </Icon>
+  );
+}

@@ -21,11 +21,11 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(function 
         ref={ref}
         aria-invalid={error ? true : undefined}
         aria-describedby={error ? `${textareaId}-error` : undefined}
-        className={`w-full rounded-card border border-border bg-surface px-3 py-2 text-text transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 ${className}`}
+        className={`w-full rounded-card border border-border bg-surface px-3 py-2 text-text transition-colors focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 ${className}`}
         {...props}
       />
       {error && (
-        <p id={`${textareaId}-error`} className="text-sm text-red-600">
+        <p id={`${textareaId}-error`} className="text-sm text-danger">
           {error}
         </p>
       )}

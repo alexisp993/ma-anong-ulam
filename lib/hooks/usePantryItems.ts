@@ -8,6 +8,9 @@ export interface PantryItemLike {
   id?: string;
   ingredientId: string;
   name: string;
+  // Absent on guest entries saved before categories were tracked, so
+  // consumers must tolerate undefined rather than assume it.
+  category?: string;
 }
 
 type Status = "loading" | "success" | "error";

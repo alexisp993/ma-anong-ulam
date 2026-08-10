@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { usePantryItems } from "@/lib/hooks/usePantryItems";
+import { Card } from "@/components/ui/Card";
+import { ButtonLink } from "@/components/ui/ButtonLink";
 import { JarIcon } from "@/components/icons";
 
 const PREVIEW_COUNT = 5;
@@ -12,7 +13,7 @@ export function PantryOverviewCard() {
   const remaining = items.length - preview.length;
 
   return (
-    <div className="space-y-3 rounded-card border border-border bg-surface p-5 shadow-sm">
+    <Card className="space-y-3">
       <div className="flex items-center gap-2 text-text">
         <JarIcon size={18} />
         <h2 className="font-bold">Pantry Overview</h2>
@@ -32,12 +33,9 @@ export function PantryOverviewCard() {
         </p>
       )}
 
-      <Link
-        href="/pantry"
-        className="block rounded-card border border-border bg-surface px-4 py-2 text-center text-sm font-semibold text-text transition-colors hover:border-primary"
-      >
+      <ButtonLink href="/pantry" variant="secondary" className="w-full !px-4 !py-2 !text-sm">
         View Pantry
-      </Link>
-    </div>
+      </ButtonLink>
+    </Card>
   );
 }

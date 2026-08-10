@@ -1,4 +1,6 @@
 import { JarIcon, CalendarIcon, CartIcon, DiceIcon, type IconProps } from "@/components/icons";
+import { GreetingHeader } from "@/components/home/GreetingHeader";
+import { HeroBanner } from "@/components/home/HeroBanner";
 import { ShortcutCard } from "@/components/home/ShortcutCard";
 import { RecommendedForYou } from "@/components/home/RecommendedForYou";
 import { DinnerPlanCard } from "@/components/home/DinnerPlanCard";
@@ -44,7 +46,11 @@ const SHORTCUTS: {
 export default function HomePage() {
   return (
     <div className="space-y-8">
-      <section aria-label="Shortcuts" className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <GreetingHeader />
+
+      <HeroBanner />
+
+      <section aria-label="Shortcuts" className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
         {SHORTCUTS.map((shortcut) => (
           <ShortcutCard key={shortcut.href} {...shortcut} />
         ))}

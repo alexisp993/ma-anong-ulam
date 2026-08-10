@@ -3,6 +3,7 @@ import { prisma } from "@/lib/prisma";
 export interface IngredientOption {
   id: string;
   name: string;
+  category: string;
 }
 
 // Backs the Pantry "ingredient selector" (FRONTEND_SPEC.md §11.4). Not in
@@ -14,5 +15,9 @@ export async function searchIngredients(query?: string): Promise<IngredientOptio
     orderBy: { name: "asc" },
     take: 50,
   });
-  return ingredients.map((ingredient) => ({ id: ingredient.id, name: ingredient.name }));
+  return ingredients.map((ingredient) => ({
+    id: ingredient.id,
+    name: ingredient.name,
+    category: ingredient.category,
+  }));
 }

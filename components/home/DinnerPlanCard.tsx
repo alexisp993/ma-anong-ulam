@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useWeeklyPlanStatus } from "@/lib/hooks/useWeeklyPlanStatus";
+import { Card } from "@/components/ui/Card";
+import { ButtonLink } from "@/components/ui/ButtonLink";
 import { CalendarIcon } from "@/components/icons";
 
 const RADIUS = 32;
@@ -16,7 +17,7 @@ export function DinnerPlanCard() {
   const { hasPlan, status } = useWeeklyPlanStatus();
 
   return (
-    <div className="space-y-3 rounded-card border border-border bg-surface p-5 shadow-sm">
+    <Card className="space-y-3">
       <div className="flex items-center gap-2 text-text">
         <CalendarIcon size={18} />
         <h2 className="font-bold">What&apos;s for Dinner?</h2>
@@ -36,7 +37,7 @@ export function DinnerPlanCard() {
                 fill="none"
                 strokeWidth={8}
                 strokeLinecap="round"
-                className="stroke-accent transition-all"
+                className="stroke-primary transition-[stroke-dashoffset] duration-300"
                 strokeDasharray={CIRCUMFERENCE}
                 strokeDashoffset={hasPlan ? 0 : CIRCUMFERENCE}
               />
@@ -45,14 +46,11 @@ export function DinnerPlanCard() {
           <p className="text-center text-sm text-text-muted">
             {hasPlan ? "Your week is planned." : "No plan yet for this week."}
           </p>
-          <Link
-            href="/weekly-planner"
-            className="block rounded-card bg-primary px-4 py-2 text-center text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
-          >
+          <ButtonLink href="/weekly-planner" className="w-full !px-4 !py-2 !text-sm">
             {hasPlan ? "Go to Planner" : "Plan your week"}
-          </Link>
+          </ButtonLink>
         </>
       )}
-    </div>
+    </Card>
   );
 }

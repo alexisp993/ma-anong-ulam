@@ -5,12 +5,23 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { Input } from "@/components/ui/Input";
-import { Select } from "@/components/ui/Select";
+import { FilterPills } from "@/components/ui/FilterPills";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { LoadingIndicator } from "@/components/ui/LoadingIndicator";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { RECIPE_CATEGORIES } from "@/lib/constants";
+import { CategoryIcon } from "@/components/icons/CategoryIcon";
 import { SearchIcon } from "@/components/icons";
+
+const CATEGORY_FILTERS = [
+  { value: "", label: "All" },
+  ...RECIPE_CATEGORIES.map((category) => ({
+    value: category,
+    label: category,
+    icon: (props: { size?: number }) => <CategoryIcon category={category} {...props} />,
+  })),
+];
 import type { RecipeSummary } from "@/lib/recipes";
 
 type Status = "loading" | "success" | "error";
@@ -61,9 +72,9 @@ function RecipesPageContent() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold text-text">Recipes</h1>
+      <SectionHeading as="h1" title="Recipes" />
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="space-y-3">
         <Input
           label="Search recipes"
           name="search"
@@ -71,14 +82,13 @@ function RecipesPageContent() {
           value={search}
           onChange={(event) => setSearch(event.target.value)}
           icon={<SearchIcon size={16} />}
+          className="!rounded-pill"
         />
-        <Select
-          label="Category"
-          name="category"
-          placeholder="All categories"
-          options={RECIPE_CATEGORIES.map((item) => ({ label: item, value: item }))}
+        <FilterPills
+          items={CATEGORY_FILTERS}
           value={category}
-          onChange={(event) => setCategory(event.target.value)}
+          onChange={setCategory}
+          ariaLabel="Filter recipes by category"
         />
       </div>
 
@@ -102,7 +112,7 @@ function RecipesPageContent() {
       )}
 
       {status === "success" && recipes.length > 0 && (
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {recipes.map((recipe) => (
             <RecipeCard key={recipe.id} recipe={recipe} />
           ))}

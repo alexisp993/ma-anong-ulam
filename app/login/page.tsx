@@ -43,7 +43,7 @@ export default function LoginPage() {
   return (
     <div className="mx-auto max-w-sm space-y-6 rounded-card border border-border bg-surface p-8 shadow-sm">
       <div className="space-y-2 text-center">
-        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-accent/15 text-accent-dark">
+        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-pill bg-primary-tint text-primary">
           <PersonIcon size={24} />
         </div>
         <h1 className="text-2xl font-bold text-text">Sign In</h1>
@@ -67,7 +67,7 @@ export default function LoginPage() {
           required
         />
         {error && (
-          <p role="alert" className="flex items-center gap-1.5 text-sm text-red-600">
+          <p role="alert" className="flex items-center gap-1.5 text-sm text-danger">
             <XCircleIcon size={16} />
             {error}
           </p>

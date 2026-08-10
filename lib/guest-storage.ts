@@ -51,6 +51,8 @@ export function toggleGuestFavorite(recipeId: string): boolean {
 export interface GuestPantryItem {
   ingredientId: string;
   name: string;
+  // Optional: entries saved before categories were tracked won't have it.
+  category?: string;
 }
 
 function readPantry(): GuestPantryItem[] {

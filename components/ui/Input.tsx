@@ -28,12 +28,12 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
           ref={ref}
           aria-invalid={error ? true : undefined}
           aria-describedby={error ? `${inputId}-error` : undefined}
-          className={`w-full rounded-card border border-border bg-surface py-2 text-text transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 ${icon ? "pl-10 pr-3" : "px-3"} ${className}`}
+          className={`w-full rounded-card border border-border bg-surface py-2 text-text transition-colors focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 ${icon ? "pl-10 pr-3" : "px-3"} ${className}`}
           {...props}
         />
       </div>
       {error && (
-        <p id={`${inputId}-error`} className="text-sm text-red-600">
+        <p id={`${inputId}-error`} className="text-sm text-danger">
           {error}
         </p>
       )}
